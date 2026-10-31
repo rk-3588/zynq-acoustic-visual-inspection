@@ -1,0 +1,31 @@
+{
+  "validation_scope": "framing_and_optional_type_id_deadline_only",
+  "host_idle_ms": 200,
+  "frames": [
+    {
+      "type": "26",
+      "task_id": 8,
+      "length": 130,
+      "delivery_ms": 141,
+      "payload_hex": "01ff0fdc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05"
+    }
+  ],
+  "matched_frames": [
+    {
+      "type": "26",
+      "task_id": 8,
+      "length": 130,
+      "delivery_ms": 141,
+      "payload_hex": "01ff0fdc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05"
+    }
+  ],
+  "ignored_frames": [],
+  "late_frames": [],
+  "summary": {
+    "frame_count": 1,
+    "rejected": 0,
+    "expired": 0,
+    "buffered_bytes": 0,
+    "clock_regressions": 0
+  }
+}

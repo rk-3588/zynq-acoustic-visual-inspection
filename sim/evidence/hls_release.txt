@@ -1,0 +1,7 @@
+Vitis HLS 2026.1; 2026-10-31. delay: reference assertions; color_mapping: single-input smoke only.
+PASS: dual-ring delay transactions=14360, all 16 lanes/addresses/weights, signed & wrap cases
+GEOMETRY: max_abs_q5=106 max_relative_q5=212 ROM_checked=1 grid=64x36 fs=46875 inner=25mm outer=50mm reverse-order
+INFO: [SIM 211-1] CSim done with 0 errors.
+color = 0x0047aa
+INFO: [SIM 211-1] CSim done with 0 errors.
+PASS_RELEASE_HLS_CSIM_DELAY_AND_COLOR_MAPPING

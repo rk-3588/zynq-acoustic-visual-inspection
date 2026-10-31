@@ -1,0 +1,58 @@
+#!/bin/sh
+DAEMON=/usr/bin/acoustic_display_control
+PIDFILE=/run/acoustic-display.pid
+LOGFILE=/run/acoustic-display.log
+case "$1" in
+  start|start-gate-only)
+    mode=$1
+    [ -x "$DAEMON" ] || exit 0
+    [ -r /etc/acoustic-display.conf ] || exit 0
+    # Run last, after the proven video init. No camera/VDMA/VTC writes here.
+    grep -q 'video: running rc=0' /run/video-pipeline.state 2>/dev/null || exit 0
+    if [ -r "$PIDFILE" ]; then
+      old=$(cat "$PIDFILE")
+      case "$old" in ''|*[!0-9]*) ;; *)
+        if [ "$(readlink /proc/"$old"/exe 2>/dev/null)" = "$DAEMON" ]; then
+          kill -0 "$old" 2>/dev/null && exit 0
+        fi
+        ;;
+      esac
+    fi
+    if [ "$mode" = start-gate-only ]; then
+      "$DAEMON" --gate-only >>"$LOGFILE" 2>&1 &
+    else
+      "$DAEMON" >>"$LOGFILE" 2>&1 &
+    fi
+    echo "$!" >"$PIDFILE"
+    sleep .2
+    new=$(cat "$PIDFILE")
+    if ! kill -0 "$new" 2>/dev/null; then
+      echo "acoustic-display-control failed; see $LOGFILE" >&2
+      rm -f "$PIDFILE"
+      exit 1
+    fi
+    ;;
+  stop)
+    if [ -r "$PIDFILE" ]; then
+      old=$(cat "$PIDFILE")
+      case "$old" in
+        ''|*[!0-9]*) exit 1 ;;
+        *)
+          [ "$(readlink /proc/"$old"/exe 2>/dev/null)" = "$DAEMON" ] && kill -TERM "$old" 2>/dev/null
+          i=0
+          while kill -0 "$old" 2>/dev/null && [ "$i" -lt 30 ]; do sleep .1; i=$((i+1)); done
+          ;;
+      esac
+      rm -f "$PIDFILE"
+    fi
+    ;;
+  reload)
+    [ -r "$PIDFILE" ] || exit 1
+    old=$(cat "$PIDFILE")
+    case "$old" in ''|*[!0-9]*) exit 1 ;; esac
+    [ "$(readlink /proc/"$old"/exe 2>/dev/null)" = "$DAEMON" ] || exit 1
+    kill -HUP "$old"
+    ;;
+  restart) "$0" stop && "$0" start ;;
+  *) echo "Usage: $0 {start|start-gate-only|stop|reload|restart}";exit 1 ;;
+esac

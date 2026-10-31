@@ -1,0 +1,8 @@
+Vivado/XSim 2026.1; 2026-10-31; selected original PASS output.
+PASS_HEATMAP_HFLIP pixels=921600 hotspot_frames=64 row_value_alarm_unchanged
+PASS capture: asynchronous clocks, signed24, 2048 consecutive samples, channels5/15/0, frozen reads, AXI stalls/AW-W order, invalid access, independent reset inputs
+PASS_VIDEO_TONE_EXHAUSTIVE_SIGNED_SATURATION_GAIN_INVERT_ROI_RAW_STATS_TAGS_RESET pixels=132352 checked=132864
+PASS: signed rounding remainder and half-tie boundaries
+PASS: HPF200 1600 vectors x16 bit-exact, latency6, bypass tracking, signed saturation, reset flush, overrun flag
+PASS: sensor-to-HPF chain 48 physical I2S frames x16, real-rate valid alignment, signed words and reset recovery
+PASS_RELEASE_RTL_TESTS

@@ -1,0 +1,147 @@
+#!/bin/sh
+### BEGIN INIT INFO
+# Provides:          video-status-panel
+# Required-Start:    $local_fs video-pipeline-init
+# Required-Stop:     $local_fs
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: Acoustic camera status and measurement overlay
+### END INIT INFO
+
+DAEMON=/usr/bin/video_status_panel
+PIDFILE=/run/video-status-panel.pid
+LOGFILE=/run/video-status-panel.log
+WATCHDOG=/usr/bin/video_ui_watchdog
+WATCH_PID=/run/video-status-panel-watchdog.pid
+
+running() {
+    prior=$(cat "$PIDFILE" 2>/dev/null || true)
+    case "$prior" in ''|*[!0-9]*) return 1;; esac
+    [ "$(readlink /proc/"$prior"/exe 2>/dev/null)" = "$DAEMON" ] && kill -0 "$prior" 2>/dev/null
+}
+
+case "$1" in
+  start|stop|restart|status|recover) ;;
+  *) echo "Usage: $0 {start|stop|restart|status}"; exit 2 ;;
+esac
+
+# This serializes service commands, not the hardware UI ownership lock.
+# The background process must close fd 9 so future stop/status do not block.
+exec 9>/run/video-status-panel-service.lock
+flock -n 9 || { echo "video-status-panel service command in progress" >&2; exit 1; }
+
+start_panel() {
+    if running; then echo "video-status-panel already running pid=$prior"; return 0; fi
+    [ -x "$DAEMON" ] || return 1
+    # Bounded readiness wait. Failed video boot must not be touched by the UI.
+    attempt=0
+    while ! "$DAEMON" --check >/dev/null 2>&1; do
+      attempt=$((attempt+1))
+      if [ "$attempt" -ge 50 ]; then
+        echo "video-status-panel: video/UIO/reserved-memory not ready" >&2
+        return 1
+      fi
+      sleep .1
+    done
+    nohup "$DAEMON" --run >"$LOGFILE" 2>&1 < /dev/null 9>&- &
+    child=$!
+    printf '%s\n' "$child" >"$PIDFILE.new"
+    mv "$PIDFILE.new" "$PIDFILE"
+    attempt=0
+    while [ "$attempt" -lt 30 ]; do
+      if ! kill -0 "$child" 2>/dev/null; then
+        echo "video-status-panel failed; see $LOGFILE" >&2
+        rm -f "$PIDFILE"
+        return 1
+      fi
+      if running && grep -q "PANEL_ACTIVE" "$LOGFILE" 2>/dev/null; then
+        echo "video-status-panel started pid=$child"
+        return 0
+      fi
+      sleep .1
+      attempt=$((attempt+1))
+    done
+    # Do not leave an unconfirmed process after a failed start command.
+    if running; then kill -TERM "$prior"; fi
+    echo "video-status-panel startup confirmation timed out; see $LOGFILE" >&2
+    return 1
+}
+
+stop_panel() {
+    if running; then
+      kill -TERM "$prior" || return 1
+      attempt=0
+      while kill -0 "$prior" 2>/dev/null && [ "$attempt" -lt 40 ]; do
+        sleep .1; attempt=$((attempt+1))
+      done
+      if kill -0 "$prior" 2>/dev/null; then
+        echo "video-status-panel did not stop; refusing forced kill/restart" >&2
+        return 1
+      fi
+      if ! grep -q 'PANEL_RESTORED' "$LOGFILE"; then
+        echo "video-status-panel exited without confirmed Mixer restore; see $LOGFILE" >&2
+        return 1
+      fi
+    fi
+    rm -f "$PIDFILE"
+    echo "video-status-panel stopped"
+}
+
+watch_running() {
+    watch_prior=$(cat "$WATCH_PID" 2>/dev/null || true)
+    case "$watch_prior" in ''|*[!0-9]*) return 1;; esac
+    [ "$(readlink /proc/"$watch_prior"/exe 2>/dev/null)" = "$WATCHDOG" ] && kill -0 "$watch_prior" 2>/dev/null
+}
+
+start_watch() {
+    if watch_running; then return 0; fi
+    [ -x "$WATCHDOG" ] && "$WATCHDOG" --check >/dev/null 2>&1 || return 1
+    nohup "$WATCHDOG" --run >/dev/null 2>&1 < /dev/null 9>&- &
+    watch_child=$!
+    printf '%s\n' "$watch_child" >"$WATCH_PID.new"
+    mv "$WATCH_PID.new" "$WATCH_PID"
+    sleep .1
+    watch_running
+}
+
+stop_watch() {
+    if watch_running; then
+        kill -TERM "$watch_prior" || return 1
+        watch_attempt=0
+        while kill -0 "$watch_prior" 2>/dev/null && [ "$watch_attempt" -lt 40 ]; do
+            sleep .1; watch_attempt=$((watch_attempt+1))
+        done
+        if kill -0 "$watch_prior" 2>/dev/null; then
+            echo "video-status-panel watchdog did not stop; no forced kill" >&2
+            return 1
+        fi
+    fi
+    rm -f "$WATCH_PID"
+}
+
+# Recovery is called only by the separate read-only monitor. Re-check both
+# process identities under the service lock: a late request cannot undo a
+# manual stop/restart or restart a different UI process. No fault log archive.
+recover_panel() {
+    [ "$#" -eq 2 ] || return 2
+    watch_running && [ "$watch_prior" = "$2" ] || return 1
+    running && [ "$prior" = "$1" ] || return 1
+    stop_panel && start_panel
+}
+
+# No fixed boot-time stop/start: the same conditional monitor handles both
+# startup and runtime failures. Both children close service-lock fd 9.
+case "$1" in
+  start) start_panel && start_watch ;;
+  stop) stop_watch && stop_panel ;;
+  restart) stop_watch && stop_panel && start_panel && start_watch ;;
+  recover) shift; recover_panel "$@" ;;
+  status)
+    if running; then
+        echo "video-status-panel running pid=$prior"
+        if watch_running; then echo "video-status-panel watchdog running pid=$watch_prior"; fi
+        exit 0
+    fi
+    echo "video-status-panel stopped"; exit 3
+    ;;
+esac

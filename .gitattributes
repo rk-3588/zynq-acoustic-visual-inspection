@@ -1,0 +1,15 @@
+* text=auto eol=lf
+*.sh text eol=lf
+*.py text eol=lf
+*.c text eol=lf
+*.h text eol=lf
+*.v text eol=lf
+*.sv text eol=lf
+*.xdc text eol=lf
+*.tcl text eol=lf
+*.bb text eol=lf
+*.in text eol=lf
+*.png binary
+*.zip binary
+# Preserve the byte-for-byte archived evidence and its recorded checksums.
+/skill/linux-uart-receive/references/evidence/* -text

@@ -1,0 +1,54 @@
+#!/bin/sh
+### BEGIN INIT INFO
+# Provides:          acoustic-frequency-feed
+# Required-Start:    $local_fs
+# Required-Stop:     $local_fs
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: Publish single-microphone FFT observations for UI
+### END INIT INFO
+DAEMON=/usr/bin/acoustic_frequency_feed
+PIDFILE=/run/acoustic-frequency-feed.pid
+LOGFILE=/run/acoustic-frequency-feed.log
+running() {
+    prior=$(cat "$PIDFILE" 2>/dev/null || true)
+    case "$prior" in ''|*[!0-9]*) return 1;; esac
+    [ "$(readlink /proc/"$prior"/exe 2>/dev/null)" = "$DAEMON" ] && kill -0 "$prior" 2>/dev/null
+}
+case "$1" in
+    restart) "$0" stop && "$0" start; exit $?;;
+    start|stop|status) ;;
+    *) echo "Usage: $0 {start|stop|restart|status}"; exit 2;;
+esac
+exec 9>/run/acoustic-frequency-feed-service.lock
+flock -n 9 || { echo "frequency feed service command in progress" >&2; exit 1; }
+case "$1" in
+    start)
+        if running; then echo "acoustic-frequency-feed already running pid=$prior"; exit 0; fi
+        [ -x "$DAEMON" ] || exit 1
+        [ "$(/usr/bin/acoustic_frequency --version)" = "20261013-acoustic-frequency-v2" ] || exit 1
+        nohup "$DAEMON" >"$LOGFILE" 2>&1 < /dev/null 9>&- &
+        child=$!
+        printf '%s\n' "$child" >"$PIDFILE.new"
+        mv "$PIDFILE.new" "$PIDFILE"
+        attempt=0
+        while [ "$attempt" -lt 30 ]; do
+            if ! kill -0 "$child" 2>/dev/null; then echo "frequency feed failed; see $LOGFILE" >&2; rm -f "$PIDFILE"; exit 1; fi
+            if running && grep -q FREQUENCY_FEED_ACTIVE "$LOGFILE"; then echo "acoustic-frequency-feed started pid=$child"; exit 0; fi
+            sleep .1; attempt=$((attempt+1))
+        done
+        if running; then kill -TERM "$prior"; fi
+        echo "frequency feed startup timed out" >&2; exit 1;;
+    stop)
+        if running; then
+            kill -TERM "$prior" || exit 1
+            attempt=0
+            while kill -0 "$prior" 2>/dev/null && [ "$attempt" -lt 50 ]; do sleep .1; attempt=$((attempt+1)); done
+            if kill -0 "$prior" 2>/dev/null; then echo "frequency feed still stopping; no forced kill" >&2; exit 1; fi
+        fi
+        rm -f "$PIDFILE"
+        echo "acoustic-frequency-feed stopped";;
+    status)
+        if running; then echo "acoustic-frequency-feed running pid=$prior"; exit 0; fi
+        echo "acoustic-frequency-feed stopped"; exit 3;;
+esac

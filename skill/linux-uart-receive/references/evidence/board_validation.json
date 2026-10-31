@@ -1,0 +1,137 @@
+{
+  "kind": "historical_selected_fields_and_lines",
+  "source": "diagnostics/20261024/arm_ui_v27/board.log",
+  "source_sha256": "bb4864549141e27b2b7703b2c86769b0bc3d35fabcd397b63907ee9ca17d90bb",
+  "line_number_basis": "split on LF; trailing CR stripped",
+  "raw_uart_bytes_included": false,
+  "records": [
+    {
+      "line": 2,
+      "selected_fields": {
+        "version": "20261024-robot-control-v5",
+        "monotonic_ms": 5931820,
+        "baudrate": 9600,
+        "rx_frames": 0,
+        "expired_frames": 5,
+        "rejected_frames": 0,
+        "ignored_frames": 0,
+        "track_mask": 0,
+        "cycle_known": 0,
+        "cycle_ready": 0,
+        "mode_error": 1,
+        "auto_mode": 0,
+        "tx_frames": 5
+      }
+    },
+    {
+      "line": 77,
+      "text": "UART1_TX_UNCHANGED=64"
+    },
+    {
+      "line": 78,
+      "selected_fields": {
+        "version": "20261024-robot-control-v6",
+        "monotonic_ms": 6091386,
+        "baudrate": 9600,
+        "rx_bytes": 0,
+        "rx_chunks": 0,
+        "rx_frames": 0,
+        "expired_frames": 0,
+        "rejected_frames": 0,
+        "ignored_frames": 0,
+        "rx_max_fragment_gap_ms": 0,
+        "host_rx_idle_ms": 200,
+        "track_mask": 0,
+        "cycle_known": 0,
+        "cycle_ready": 0,
+        "mode_error": 0,
+        "auto_mode": 0,
+        "tx_frames": 0
+      }
+    },
+    {
+      "line": 86,
+      "selected_fields": {
+        "version": "20261024-robot-control-v6",
+        "monotonic_ms": 6092867,
+        "baudrate": 9600,
+        "rx_bytes": 0,
+        "rx_chunks": 0,
+        "rx_frames": 0,
+        "expired_frames": 0,
+        "rejected_frames": 0,
+        "ignored_frames": 0,
+        "rx_max_fragment_gap_ms": 0,
+        "host_rx_idle_ms": 200,
+        "track_mask": 0,
+        "cycle_known": 0,
+        "cycle_ready": 0,
+        "mode_error": 0,
+        "auto_mode": 0,
+        "tx_frames": 0
+      }
+    },
+    {
+      "line": 100,
+      "text": "PASS_READ_ONLY_CONFIG_TWO_RESPONSES_NO_MOTION"
+    },
+    {
+      "line": 101,
+      "text": "CONFIG_PROBE_RC=0"
+    },
+    {
+      "line": 102,
+      "selected_fields": {
+        "version": "20261024-robot-control-v6",
+        "monotonic_ms": 6093971,
+        "baudrate": 9600,
+        "rx_bytes": 163,
+        "rx_chunks": 4,
+        "rx_frames": 2,
+        "expired_frames": 0,
+        "rejected_frames": 0,
+        "ignored_frames": 0,
+        "rx_max_fragment_gap_ms": 59,
+        "host_rx_idle_ms": 200,
+        "track_mask": 4095,
+        "cycle_known": 1,
+        "cycle_ready": 1,
+        "mode_error": 0,
+        "auto_mode": 0,
+        "tx_frames": 2
+      }
+    },
+    {
+      "line": 105,
+      "text": "ROBOT_CONFIG_TX type=34 id=8 expect=26 deadline_ms=650"
+    },
+    {
+      "line": 106,
+      "text": "ROBOT_CONFIG_RX_CHUNK bytes=56 gap_ms=0 buffered=0"
+    },
+    {
+      "line": 107,
+      "text": "ROBOT_CONFIG_RX_CHUNK bytes=56 gap_ms=59 buffered=56"
+    },
+    {
+      "line": 108,
+      "text": "ROBOT_CONFIG_RX_CHUNK bytes=18 gap_ms=22 buffered=112"
+    },
+    {
+      "line": 109,
+      "text": "ROBOT_CONFIG_VALID type=26 id=8 length=130"
+    },
+    {
+      "line": 111,
+      "text": "ROBOT_CONFIG_TX type=44 id=9 expect=28 deadline_ms=650"
+    },
+    {
+      "line": 112,
+      "text": "ROBOT_CONFIG_RX_CHUNK bytes=33 gap_ms=0 buffered=0"
+    },
+    {
+      "line": 113,
+      "text": "ROBOT_CONFIG_VALID type=28 id=9 length=33"
+    }
+  ]
+}

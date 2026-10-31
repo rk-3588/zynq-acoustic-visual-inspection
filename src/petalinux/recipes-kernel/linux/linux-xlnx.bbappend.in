@@ -1,0 +1,8 @@
+FILESEXTRAPATHS:prepend := "${THISDIR}/${PN}:"
+
+SRC_URI:append = " file://bsp.cfg"
+KERNEL_FEATURES:append = " bsp.cfg"
+SRC_URI += "file://user_2026-09-25-02-21-00.cfg \
+            file://user_2026-09-25-13-36-00.cfg \
+            file://uio-final.cfg \
+            "

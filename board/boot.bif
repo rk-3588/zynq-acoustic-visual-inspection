@@ -1,0 +1,7 @@
+the_ROM_image:
+{
+    [bootloader] release_assets/zynq_fsbl.elf
+    release_assets/system.bit
+    release_assets/u-boot.elf
+    [load=0x00100000] release_assets/system.dtb
+}

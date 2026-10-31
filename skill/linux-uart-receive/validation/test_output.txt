@@ -1,0 +1,35 @@
+test_bad_tail_is_rejected_then_valid_frame_recovers (test_uart_rx.FramingTests.test_bad_tail_is_rejected_then_valid_frame_recovers) ... ok
+test_concatenated_frames (test_uart_rx.FramingTests.test_concatenated_frames) ... ok
+test_embedded_valid_short_frame_is_only_payload (test_uart_rx.FramingTests.test_embedded_valid_short_frame_is_only_payload) ... ok
+test_fuzzed_input_keeps_buffer_bounded (test_uart_rx.FramingTests.test_fuzzed_input_keeps_buffer_bounded) ... ok
+test_noise_unknown_type_and_header_resynchronization (test_uart_rx.FramingTests.test_noise_unknown_type_and_header_resynchronization) ... ok
+test_payload_mutation_is_not_detectable_without_integrity_field (test_uart_rx.FramingTests.test_payload_mutation_is_not_detectable_without_integrity_field) ... ok
+test_random_partitioning_preserves_content (test_uart_rx.FramingTests.test_random_partitioning_preserves_content) ... ok
+test_split_header_and_single_byte_delivery (test_uart_rx.FramingTests.test_split_header_and_single_byte_delivery) ... ok
+test_truncation_is_not_a_packet (test_uart_rx.FramingTests.test_truncation_is_not_a_packet) ... ok
+test_archived_bug_reproduced_in_real_c_versions (test_uart_rx.FrozenCParityTests.test_archived_bug_reproduced_in_real_c_versions) ... ok
+test_clock_regression (test_uart_rx.FrozenCParityTests.test_clock_regression) ... ok
+test_corrupt_input_then_recovery (test_uart_rx.FrozenCParityTests.test_corrupt_input_then_recovery) ... ok
+test_deterministic_fragmentation_corpus (test_uart_rx.FrozenCParityTests.test_deterministic_fragmentation_corpus) ... ok
+test_idle_expiration_and_recovery (test_uart_rx.FrozenCParityTests.test_idle_expiration_and_recovery) ... ok
+test_valid_nested_markers_and_continuous_frames (test_uart_rx.FrozenCParityTests.test_valid_nested_markers_and_continuous_frames) ... ok
+test_cli_json_output_and_same_file_protection (test_uart_rx.InputTests.test_cli_json_output_and_same_file_protection) ... ok
+test_invalid_hex_and_type_lengths (test_uart_rx.InputTests.test_invalid_hex_and_type_lengths) ... ok
+test_invalid_serial_and_idle_values (test_uart_rx.InputTests.test_invalid_serial_and_idle_values) ... ok
+test_invalid_time_and_request_fields (test_uart_rx.InputTests.test_invalid_time_and_request_fields) ... ok
+test_schema_version_and_empty_events (test_uart_rx.InputTests.test_schema_version_and_empty_events) ... ok
+test_9600_8n1_fifo_estimate (test_uart_rx.TimingTests.test_9600_8n1_fifo_estimate) ... ok
+test_case_negative_control_and_repair (test_uart_rx.TimingTests.test_case_negative_control_and_repair) ... ok
+test_clock_regression_discards_partial_candidate (test_uart_rx.TimingTests.test_clock_regression_discards_partial_candidate) ... ok
+test_gap_equal_to_limit_is_retained (test_uart_rx.TimingTests.test_gap_equal_to_limit_is_retained) ... ok
+test_real_host_idle_expires_and_next_frame_recovers (test_uart_rx.TimingTests.test_real_host_idle_expires_and_next_frame_recovers) ... ok
+test_second_configuration_has_its_own_timing (test_uart_rx.TimingTests.test_second_configuration_has_its_own_timing) ... ok
+test_exact_deadline_is_accepted (test_uart_rx.TransactionTests.test_exact_deadline_is_accepted) ... ok
+test_response_before_request_is_ignored (test_uart_rx.TransactionTests.test_response_before_request_is_ignored) ... ok
+test_total_deadline_is_independent_of_host_idle (test_uart_rx.TransactionTests.test_total_deadline_is_independent_of_host_idle) ... ok
+test_wrong_id_and_type_are_not_matched (test_uart_rx.TransactionTests.test_wrong_id_and_type_are_not_matched) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 0.805s
+
+OK

@@ -1,0 +1,81 @@
+PASS_PS_BUILD 12 programs
+PASS_UI_WATCHDOG_3_INTERVALS_THRESHOLDS_COOLDOWN_NO_CAP_GUARDS_WRAP
+tone=800.0 estimate=799.912 rms=70754.2 prominence=137.1
+tone=2000.0 estimate=2000.307 rms=70733.4 prominence=131.3
+tone=3000.0 estimate=3000.132 rms=70691.4 prominence=140.4
+tone=3500.0 estimate=3499.849 rms=70721.1 prominence=135.9
+tone=997.3 estimate=997.077 rms=70653.0 prominence=134.4
+PASS FFT tones/DC/silence/weak/two-tone/clipping/invalid-input
+PASS: 2000 reset cases, unrelated pins/clock bits/lock preserved, safe failure paths
+PASS_MANUAL_MOVING_RAW_ALL_REGIONS_CONFIRM_USES_LATEST_QUIET_STALE_GUARDS_UNKNOWN_5S_GLYPHS
+PASS_REAL_UI_TICK_RAW_REGION_CHANGE_MODAL_SURVIVES_QUIET_REAPPEAR_CONFIRM_LATEST_EXPIRY
+20261031-ui-watchdog-v2 readonly-uio-check=pass
+PASS_MONITOR_FAKE_UIO_REAL_SAMPLING_ERROR_GUARD_RECOVERY_COOLDOWN_SINGLETON
+test_boot_only_one_start_and_start_is_idempotent (__main__.PanelService) ... ok
+test_manual_restart_replaces_both_and_rejects_old_watchdog (__main__.PanelService) ... ok
+test_manual_stop_cannot_be_undone_by_late_recovery (__main__.PanelService) ... ok
+test_no_forced_kill_on_stop_timeout (__main__.PanelService) ... ok
+test_no_recovery_count_limit (__main__.PanelService) ... ok
+test_recover_requires_live_matching_monitor (__main__.PanelService) ... ok
+test_recovery_only_cycles_ui_and_keeps_watchdog (__main__.PanelService) ... ok
+test_restore_unconfirmed_never_restarts_ui (__main__.PanelService) ... ok
+test_unready_never_starts_ui_or_watch (__main__.PanelService) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 14.015s
+
+OK
+test_boot_only_one_start_and_start_is_idempotent (__main__.PanelService) ... ok
+test_manual_restart_replaces_both_and_rejects_old_watchdog (__main__.PanelService) ... ok
+test_manual_stop_cannot_be_undone_by_late_recovery (__main__.PanelService) ... ok
+test_no_forced_kill_on_stop_timeout (__main__.PanelService) ... ok
+test_no_recovery_count_limit (__main__.PanelService) ... ok
+test_recover_requires_live_matching_monitor (__main__.PanelService) ... ok
+test_recovery_only_cycles_ui_and_keeps_watchdog (__main__.PanelService) ... ok
+test_restore_unconfirmed_never_restarts_ui (__main__.PanelService) ... ok
+test_unready_never_starts_ui_or_watch (__main__.PanelService) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 13.843s
+
+OK
+PASS_LIVE_SERVICE_MOVING_HINT_REPLACED_DUPLICATE_QUIET_STALE_TIMEOUT_LATE_REPLY_REBOOT_UNKNOWN_EXPIRY_NO_RESEND
+PASS_PTY_FIFO_CONFIG_59MS_BATCH_GAPS_COMPLETE_MASKS_NO_MOTION_NO_RETRY
+test_bad_tail_is_rejected_then_valid_frame_recovers (test_uart_rx.FramingTests) ... ok
+test_concatenated_frames (test_uart_rx.FramingTests) ... ok
+test_embedded_valid_short_frame_is_only_payload (test_uart_rx.FramingTests) ... ok
+test_fuzzed_input_keeps_buffer_bounded (test_uart_rx.FramingTests) ... ok
+test_noise_unknown_type_and_header_resynchronization (test_uart_rx.FramingTests) ... ok
+test_payload_mutation_is_not_detectable_without_integrity_field (test_uart_rx.FramingTests) ... ok
+test_random_partitioning_preserves_content (test_uart_rx.FramingTests) ... ok
+test_split_header_and_single_byte_delivery (test_uart_rx.FramingTests) ... ok
+test_truncation_is_not_a_packet (test_uart_rx.FramingTests) ... ok
+test_archived_bug_reproduced_in_real_c_versions (test_uart_rx.FrozenCParityTests) ... ok
+test_clock_regression (test_uart_rx.FrozenCParityTests) ... ok
+test_corrupt_input_then_recovery (test_uart_rx.FrozenCParityTests) ... ok
+test_deterministic_fragmentation_corpus (test_uart_rx.FrozenCParityTests) ... ok
+test_idle_expiration_and_recovery (test_uart_rx.FrozenCParityTests) ... ok
+test_valid_nested_markers_and_continuous_frames (test_uart_rx.FrozenCParityTests) ... ok
+test_cli_json_output_and_same_file_protection (test_uart_rx.InputTests) ... ok
+test_invalid_hex_and_type_lengths (test_uart_rx.InputTests) ... ok
+test_invalid_serial_and_idle_values (test_uart_rx.InputTests) ... ok
+test_invalid_time_and_request_fields (test_uart_rx.InputTests) ... ok
+test_schema_version_and_empty_events (test_uart_rx.InputTests) ... ok
+test_9600_8n1_fifo_estimate (test_uart_rx.TimingTests) ... ok
+test_case_negative_control_and_repair (test_uart_rx.TimingTests) ... ok
+test_clock_regression_discards_partial_candidate (test_uart_rx.TimingTests) ... ok
+test_gap_equal_to_limit_is_retained (test_uart_rx.TimingTests) ... ok
+test_real_host_idle_expires_and_next_frame_recovers (test_uart_rx.TimingTests) ... ok
+test_second_configuration_has_its_own_timing (test_uart_rx.TimingTests) ... ok
+test_exact_deadline_is_accepted (test_uart_rx.TransactionTests) ... ok
+test_response_before_request_is_ignored (test_uart_rx.TransactionTests) ... ok
+test_total_deadline_is_independent_of_host_idle (test_uart_rx.TransactionTests) ... ok
+test_wrong_id_and_type_are_not_matched (test_uart_rx.TransactionTests) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 0.253s
+
+OK
+UART_SKILL_VERIFICATION=pass tests=30 C=True
+PASS_ROM_2304_ACTIVE_9216_DEPTH_DUAL_RING_REFERENCE
+PASS_RELEASE_OFFLINE_SOFTWARE_TESTS

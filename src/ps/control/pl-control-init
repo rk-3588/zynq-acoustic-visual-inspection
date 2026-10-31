@@ -1,0 +1,45 @@
+#!/bin/sh
+
+DAEMON=/usr/bin/pl_control_daemon
+PIDFILE=/run/pl_control_daemon.pid
+
+case "$1" in
+  start)
+    [ -x "$DAEMON" ] || exit 0
+    # The daemon resolves UIO by name + address + size, with a bounded boot wait.
+    start-stop-daemon -S -b -m -p "$PIDFILE" -x "$DAEMON" -- -d
+    # Allow the petalinux UI account to query/control PL through the socket.
+    i=0
+    while [ ! -S /run/pl-control.sock ] && [ "$i" -lt 60 ]; do
+      sleep 0.1
+      i=$((i + 1))
+    done
+    if [ ! -S /run/pl-control.sock ] || [ ! -s "$PIDFILE" ] || ! kill -0 "$(cat "$PIDFILE")" 2>/dev/null; then
+      echo "pl-control-daemon failed to start (UIO identity/socket/PID)" >&2
+      exit 1
+    fi
+    chown root:input /run/pl-control.sock 2>/dev/null || true
+    ;;
+  stop)
+    prior=$(cat "$PIDFILE" 2>/dev/null || true)
+    start-stop-daemon -K -p "$PIDFILE" -x "$DAEMON" 2>/dev/null || true
+    i=0
+    while [ -n "$prior" ] && kill -0 "$prior" 2>/dev/null && [ "$i" -lt 30 ]; do
+      sleep 0.1
+      i=$((i + 1))
+    done
+    if [ -n "$prior" ] && kill -0 "$prior" 2>/dev/null; then
+      echo "pl-control-daemon did not stop; refusing restart" >&2
+      exit 1
+    fi
+    rm -f "$PIDFILE"
+    ;;
+  restart)
+    "$0" stop && "$0" start
+    ;;
+  *)
+    echo "Usage: $0 {start|stop|restart}"
+    exit 1
+    ;;
+esac
+exit 0

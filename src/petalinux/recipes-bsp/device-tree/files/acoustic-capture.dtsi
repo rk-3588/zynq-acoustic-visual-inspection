@@ -1,0 +1,9 @@
+/* Include AFTER the generated pl.dtsi from the 2026-10-13 capture XSA.
+ * Reuse its existing node: do not create a second mapping under &amba.
+ * Generated reg = <0x40030000 0x10000>; checked against the implemented design.
+ */
+&acoustic_capture_0 {
+    compatible = "generic-uio";
+    linux,uio-name = "acoustic_capture@40030000";
+    status = "okay";
+};

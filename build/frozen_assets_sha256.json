@@ -1,0 +1,75 @@
+{
+  "local_only": true,
+  "tracked_in_git": false,
+  "included_in_source_zip": false,
+  "original_input_hashes_verified": true,
+  "not_a_complete_sd_rootfs_image": true,
+  "files": [
+    {
+      "file": "release_assets/boot.bin",
+      "sha256": "afb669a767b0d34bc73041bbc7ad5298cbdf94be8ddc9a4786047caee5a94445",
+      "bytes": 5218132,
+      "origin": "diagnostics/20261030/heatmap_hflip/release/BOOT.BIN"
+    },
+    {
+      "file": "release_assets/system.bit",
+      "sha256": "6b95c6940c8e246e77e72fc2e6ff66b2e29e0de435d9ee15304e0bfb3b13bfd0",
+      "bytes": 4045769,
+      "origin": "diagnostics/20261030/heatmap_hflip/release/system.bit"
+    },
+    {
+      "file": "release_assets/system.dcp",
+      "sha256": "9f023c272d618e62adc916f44f87001f7e22a4bca25c7b8b189dea8cbf12b247",
+      "bytes": 28743077,
+      "origin": "diagnostics/20261030/heatmap_hflip/system_wrapper_heatmap_hflip.dcp"
+    },
+    {
+      "file": "release_assets/system.ltx",
+      "sha256": "e9381262e31b471c5d4f28f9498cb3501e17ff4901aacb9991346d519ce6c509",
+      "bytes": 74399,
+      "origin": "diagnostics/20261030/heatmap_hflip/system_wrapper_heatmap_hflip.ltx"
+    },
+    {
+      "file": "release_assets/zynq_fsbl.elf",
+      "sha256": "cc5f3b5817eed052c2b76b189cb96dc02f0ddf759ce0bfe75988872b7d8f6f61",
+      "bytes": 355408,
+      "origin": "diagnostics/20261016/touch_reboot/fsbl-release/zynq_fsbl.elf"
+    },
+    {
+      "file": "release_assets/u-boot.elf",
+      "sha256": "c05a8e44dd79e266751e1a32920a5cda2dd1b7ef5d32c7771b30e74aaac01fb2",
+      "bytes": 9002684,
+      "origin": "diagnostics/20261016/uart_release/release/u-boot.elf"
+    },
+    {
+      "file": "release_assets/system.dtb",
+      "sha256": "b95176eb0473e4f768d618387ffd8d8072125e8315079bb6f5f652f9ce1467e5",
+      "bytes": 24465,
+      "origin": "diagnostics/20261016/uart_release/release/system.dtb"
+    },
+    {
+      "file": "release_assets/video_pipeline_init.arm",
+      "sha256": "60577766db1820e6d69378b5b5a5fa7d526b0dd90c202ac4acb86021b18a1e57",
+      "bytes": 96140,
+      "origin": "diagnostics/20261030/camera_hflip/video_init_half_clock_hflip.arm"
+    },
+    {
+      "file": "release_assets/video_status_panel.arm",
+      "sha256": "209d9a1fb5e0e6537106afec7170bc02c3be8feceb6e3ae88575a5d4570b91a8",
+      "bytes": 1213804,
+      "origin": "diagnostics/20261031/arm_latest_region/video_status_panel.arm"
+    },
+    {
+      "file": "release_assets/robot_control_daemon.arm",
+      "sha256": "d6c8ffb9d60904c8aee90989480cd0917e7645e1e5300b8bdedc6d2990d0f5fe",
+      "bytes": 133172,
+      "origin": "diagnostics/20261031/arm_latest_region/robot_control_daemon.arm"
+    },
+    {
+      "file": "release_assets/video_ui_watchdog.arm",
+      "sha256": "1f6502ecd7747eb3e5efd3fcfc942b33ff210969a1ff2bdc07240207c5908259",
+      "bytes": 45028,
+      "origin": "diagnostics/20261031/ui_watchdog/video_ui_watchdog.arm"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+# Final application menu entries.
+CONFIG_video-pipeline-init
+CONFIG_acoustic-display-control
+CONFIG_pl-control-daemon
+CONFIG_pl-control-init
+CONFIG_acoustic-frequency
+CONFIG_video-preprocess-control

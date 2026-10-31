@@ -1,0 +1,32 @@
+{
+  "requirements_source": {
+    "name": "competition_requirements.pdf (local reference; not redistributed)",
+    "sha256": "4cb53e792eadd88df99caa0979b0555e2e98a2a38de16f41f3820fb03e8153e5",
+    "pages_read": 4,
+    "original_page_numbers": [
+      19,
+      20,
+      21,
+      22
+    ]
+  },
+  "freeze_date": "2026-10-31",
+  "license_original_contributions": "MIT",
+  "third_party_permissions": "pending",
+  "technical_evidence": "build/validation.json",
+  "remaining_before_final_submission": [
+    "Obtain and retain upstream/board-source redistribution permissions.",
+    "Add team information and final physical prototype photographs.",
+    "Complete quantitative performance benchmarks where required.",
+    "Typeset the final competition report using the required submission format."
+  ],
+  "unmeasured_metrics": [
+    "standardized physical localization error",
+    "calibrated SPL",
+    "unified camera sensor FPS",
+    "whole-system power",
+    "industrial abnormal-sound classification accuracy"
+  ],
+  "publication_status": "source repository; third-party clearance tracked separately",
+  "repository": "https://github.com/rk-3588/zynq-acoustic-visual-inspection"
+}

@@ -1,0 +1,3153 @@
+[
+  {
+    "source": "frozen_hardware/ov5640_hdmi.srcs/sources_1/imports/rgb2dvi/video_driver.v",
+    "destination": "src/rtl/video_driver.v",
+    "source_sha256": "b7fe3ed876bf94b97ed5fac0d5f310240dbd74b4f0c8d0ec993c8858e8b6c6c2",
+    "sha256": "9b794cb966d87f6fd75dc704376832e2203c90b2595b538727f51b3950128c05",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "frozen_hardware/ov5640_hdmi.srcs/sources_1/imports/src/vram_ctrl.v",
+    "destination": "src/rtl/vram_ctrl.v",
+    "source_sha256": "f6935a70e24c4d0c0969d77e5ce959a7a76ba5ce2621e8ba345e87a88913a4c7",
+    "sha256": "d26c066ecc5f58561dd200fda2c785321fef2ec88b7b20486604ceea6a76aae9",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "frozen_hardware/ov5640_hdmi.srcs/sources_1/imports/src/buffer_ctrl.v",
+    "destination": "src/rtl/buffer_ctrl.v",
+    "source_sha256": "fa6756d96934d655dcb4702e44e7b9f13b3e86325b2c22ee4d0c2c66df2061d2",
+    "sha256": "6e28e1f9620e811c8aeb3848700831033923994f9a050e9629adcabc1b9821f5",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "frozen_hardware/ov5640_hdmi.srcs/sources_1/imports/src/sensors.v",
+    "destination": "src/rtl/sensors.v",
+    "source_sha256": "9e6376a6685ee59a5a0abd7e4b68d54b4ed5c3e94b806190a5677fdc00c04a1c",
+    "sha256": "4514a3cdeb2fadff0d415018f9f755e4e21302ac1f31387bbc84b7e165e96562",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "frozen_hardware/ov5640_hdmi.srcs/sources_1/imports/src/acoustic_pixel_mapping.v",
+    "destination": "src/rtl/acoustic_pixel_mapping.v",
+    "source_sha256": "658d47791fb33f25de6909db67f788f980c4d1ecc6f55b42ef6a8e6382742af0",
+    "sha256": "9ebc9fc958803974eb4b2c776733a30a5d64f81c8ef15ba2f0c15fa8890d8e4a",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "frozen_hardware/ov5640_hdmi.srcs/sources_1/imports/src/acoustic_hpf_200.v",
+    "destination": "src/rtl/acoustic_hpf_200.v",
+    "source_sha256": "501c263d8b50b314f15eb243d697faf941ceaaed31d8a84a508b1f289148fdfd",
+    "sha256": "501c263d8b50b314f15eb243d697faf941ceaaed31d8a84a508b1f289148fdfd",
+    "modified_for_export": false
+  },
+  {
+    "source": "frozen_hardware/diagnostics/20261005/acoustic_sd_debug_pack.v",
+    "destination": "src/rtl/acoustic_sd_debug_pack.v",
+    "source_sha256": "1c96a41021b0e33cb4ef0801006327f7175e0aa0db5ec0aa7667f83400a1dcae",
+    "sha256": "1c96a41021b0e33cb4ef0801006327f7175e0aa0db5ec0aa7667f83400a1dcae",
+    "modified_for_export": false
+  },
+  {
+    "source": "frozen_hardware/pl_audio_capture/acoustic_capture.v",
+    "destination": "src/rtl/acoustic_capture.v",
+    "source_sha256": "b644a364c97df94d48c9b6ef90ec3f95d6fb8222ebbba53ec617bcc698ec274c",
+    "sha256": "b644a364c97df94d48c9b6ef90ec3f95d6fb8222ebbba53ec617bcc698ec274c",
+    "modified_for_export": false
+  },
+  {
+    "source": "frozen_hardware/pl_video_process/video_preprocess.v",
+    "destination": "src/rtl/video_preprocess.v",
+    "source_sha256": "b5bd9887d0eea40c9109d430376d54936668958c806f877ef61f558b48a0f8ac",
+    "sha256": "b5bd9887d0eea40c9109d430376d54936668958c806f877ef61f558b48a0f8ac",
+    "modified_for_export": false
+  },
+  {
+    "source": "external_input/acoustic_result_adapter.v",
+    "destination": "src/rtl/acoustic_result_adapter.v",
+    "source_sha256": "465762bda9d6ade00d1b1c043e8528aba07d537484b312faa6a3ae71e6f3ee6f",
+    "sha256": "15da54f9fe7b9900d2349a4d39b3363e097bd9cfaff6f3334df18f5fb2384bcd",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "frozen_hardware/ov5640_hdmi.srcs/constrs_1/new/ov5640_lcd.xdc",
+    "destination": "src/constraints/ov5640_lcd.xdc",
+    "source_sha256": "3de76f758c013ed15de2c962df6049eaa7211487a65a9ddb4def607fe314b728",
+    "sha256": "895e38daa9769161b373b6b0de823505861cb4f4dbea4c53f231baff0d3a233f",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "frozen_hardware/ov5640_hdmi.srcs/constrs_1/new/acoustic_cdc.xdc",
+    "destination": "src/constraints/acoustic_cdc.xdc",
+    "source_sha256": "f3509682add012c0064fc2fae9c347cc1dc477e96b53da587b0a3703488e46fe",
+    "sha256": "f3509682add012c0064fc2fae9c347cc1dc477e96b53da587b0a3703488e46fe",
+    "modified_for_export": false
+  },
+  {
+    "source": "frozen_hardware/pl_audio_capture/acoustic_capture_cdc.xdc",
+    "destination": "src/constraints/acoustic_capture_cdc.xdc",
+    "source_sha256": "3d9342cd3260aabcc79c6480d9f37f0ed5ae32b35bf5d490c6261152a5b546d7",
+    "sha256": "4462e8f880bbcb3e6a19915293dad137b53bec02b43b43ebc1f6a1e00e50f0e1",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "frozen_hardware/pl_audio_capture/check_capture_cdc.tcl",
+    "destination": "build/check_capture_cdc.tcl",
+    "source_sha256": "f076f2d7a405569437472e0544a7c2000bcdccb0972fe397e645bc041a4170da",
+    "sha256": "f076f2d7a405569437472e0544a7c2000bcdccb0972fe397e645bc041a4170da",
+    "modified_for_export": false
+  },
+  {
+    "source": "frozen_hardware/ov5640_hdmi.srcs/sources_1/bd/system/system.bd",
+    "destination": "src/vivado/system.bd",
+    "source_sha256": "84601ad839295fafcf5ed40294792ccd4b8b5498e268038e811f81c9e8a34ff4",
+    "sha256": "effa0fbfe701190cd56f752807d7d4a6fed1edd85efa3a6da20d5a4e8b9c7c73",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "frozen_hardware/ov5640_hdmi.srcs/sources_1/ip/vram_64x9216/vram_64x9216.xci",
+    "destination": "src/vivado/ip/vram_64x9216/vram_64x9216.xci",
+    "source_sha256": "2a2e2a8ff8b9244cf52734388335a9959125dfd4edf15acfdf560907feaae22d",
+    "sha256": "517220c5c461d65235623a93ded1df03eaf513a7d1fa718b877b698a9b91ff55",
+    "modified_for_export": true
+  },
+  {
+    "source": "frozen_hardware/ov5640_hdmi.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci",
+    "destination": "src/vivado/ip/blk_mem_gen_0/blk_mem_gen_0.xci",
+    "source_sha256": "798e6aff4240d52634a18c0c64deb6cee71250258d2d7a9fff06590d0fefe88b",
+    "sha256": "81efca83741bff306968003a7214bfdeab871864270cefe17d0cddd1ff5edf10",
+    "modified_for_export": true,
+    "export_note": "Reviewed release-only path/configuration or test harness normalization; frozen runtime is not redeployed."
+  },
+  {
+    "source": "frozen_hardware/ov5640_hdmi.srcs/sources_1/ip/vram_add_hls/vram_add_hls.xci",
+    "destination": "src/vivado/ip/vram_add_hls/vram_add_hls.xci",
+    "source_sha256": "f74cfde15cb4e942a30febfe5bc829db9c8ca132d6bc41376b1c95f1c0959f6f",
+    "sha256": "502bceba7f971de4ddb4ae3b04f965e1b05229cf6befca932279f084739686fc",
+    "modified_for_export": true
+  },
+  {
+    "source": "frozen_hardware/ov5640_hdmi.srcs/sources_1/ip/inter_hls/inter_hls.xci",
+    "destination": "src/vivado/ip/inter_hls/inter_hls.xci",
+    "source_sha256": "c607e0234a0e0f36817c4eabd9f9bacfff9536d2c1648471f14f4608b7884026",
+    "sha256": "eb0447d23ad30c53a681cfb7fe34b8449b696c3c3902a01c6c88cf14b7f0065f",
+    "modified_for_export": true,
+    "export_note": "Reviewed release-only path/configuration or test harness normalization; frozen runtime is not redeployed."
+  },
+  {
+    "source": "frozen_hardware/ov5640_hdmi.srcs/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1.xci",
+    "destination": "src/vivado/ip/blk_mem_gen_1/blk_mem_gen_1.xci",
+    "source_sha256": "95e4febc30b523654ed01ac703da778f214cb9e8d87021fe442fa96a957b69e2",
+    "sha256": "2f380b789bfa7b0531536816f913aaf17bcd5d7332ee0227d40cdc643776b3b8",
+    "modified_for_export": true,
+    "export_note": "Reviewed release-only path/configuration or test harness normalization; frozen runtime is not redeployed."
+  },
+  {
+    "source": "frozen_hardware/ov5640_hdmi.srcs/sources_1/ip/bram_24x4096/bram_24x4096.xci",
+    "destination": "src/vivado/ip/bram_24x4096/bram_24x4096.xci",
+    "source_sha256": "830551974dc4fc6f6bce2ac7925b4033939de73df3458312653964a785974ce3",
+    "sha256": "b69f0c2bab59a1abe9430c6f594d3964152ecc294114b00b186689d81325819b",
+    "modified_for_export": true,
+    "export_note": "Reviewed release-only path/configuration or test harness normalization; frozen runtime is not redeployed."
+  },
+  {
+    "source": "frozen_hardware/ov5640_hdmi.srcs/sources_1/ip/delay_hls/delay_hls.xci",
+    "destination": "src/vivado/ip/delay_hls/delay_hls.xci",
+    "source_sha256": "3277ef5ac92284e67926334f991dfd59ced3c2fe68eaa39c9dcba7e203704a6d",
+    "sha256": "88c7ffce7993c59d0eeabd253ae315e61245f7f272f6d992e62e94051f28202b",
+    "modified_for_export": true,
+    "export_note": "Reviewed release-only path/configuration or test harness normalization; frozen runtime is not redeployed."
+  },
+  {
+    "source": "frozen_hardware/ov5640_hdmi.srcs/sources_1/ip/blk_mem_gen_2/blk_mem_gen_2.xci",
+    "destination": "src/vivado/ip/blk_mem_gen_2/blk_mem_gen_2.xci",
+    "source_sha256": "6faa4dea21dcef15dbcb980b88ca971ed12d27335947bb729a4b8a523d4384b8",
+    "sha256": "8d74e6c55478770d9dcac4b6b826fc55a76551b7a1fb7b2fac6e9d095f22eb57",
+    "modified_for_export": true,
+    "export_note": "Reviewed release-only path/configuration or test harness normalization; frozen runtime is not redeployed."
+  },
+  {
+    "source": "frozen_hardware/ov5640_hdmi.srcs/sources_1/ip/blk_mem_gen_2/delay_rom.coe",
+    "destination": "data/delay_rom.coe",
+    "source_sha256": "72671c8e819d431dbe5a67d0afe0f2c81d4f71e86fe6fbcbb94638d047adcafd",
+    "sha256": "fb312622ea26e86207b7e91c9ee3335398ff8780f89fab4f31d06807cef0bd38",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "frozen_hardware/ov5640_hdmi.srcs/sources_1/ip/blk_mem_gen_2/delay_rom.coe",
+    "destination": "src/vivado/ip/blk_mem_gen_2/delay_rom.coe",
+    "source_sha256": "72671c8e819d431dbe5a67d0afe0f2c81d4f71e86fe6fbcbb94638d047adcafd",
+    "sha256": "fb312622ea26e86207b7e91c9ee3335398ff8780f89fab4f31d06807cef0bd38",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/hdl/verilog/add_image_Loop_loop_height_proc3.v",
+    "destination": "src/vivado/ip_catalog/add_image/hdl/verilog/add_image_loop_loop_height_proc3.v",
+    "source_sha256": "9f6c1304dce35c81d1128040a81955938b26cd9f2d824f312dc9ed435e592f15",
+    "sha256": "51effc3e6ee0b8d6a471064996e5c800190f743b3d0584a8adadff4aff183d67",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/drivers/add_image_v1_0/src/xadd_image_hw.h",
+    "destination": "src/vivado/ip_catalog/add_image/drivers/add_image_v1_0/src/xadd_image_hw.h",
+    "source_sha256": "08777f3d890eff998ac29364759fff3b6a9dbac4e30bc6f6c76bb5f612c338ee",
+    "sha256": "51a63bc05d6f548532255126c12169179a697460a1d39c277485cd211327ee83",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/hdl/vhdl/add_image_fifo_w32_d3_S.vhd",
+    "destination": "src/vivado/ip_catalog/add_image/hdl/vhdl/add_image_fifo_w32_d3_s.vhd",
+    "source_sha256": "d0c7b0d86ede8a3acd287f31ce0ee30e93b9df5ef2a70f65f46b960b6685e240",
+    "sha256": "331bc1c3ecfdaa902e92e0527248859d39b362317d390f7aefb40c850e859dae",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/hdl/verilog/add_image_Loop_loop_height_proc14.v",
+    "destination": "src/vivado/ip_catalog/add_image/hdl/verilog/add_image_loop_loop_height_proc14.v",
+    "source_sha256": "4d57d84ccdd125d6ca8428a04b84b8ef01fd027362a42b9eb63e124cdf029aa2",
+    "sha256": "38e8a0d8e3344565a6c870461c000c06ff3c4762b2500922f963b2126bef83be",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/hdl/verilog/add_image_Loop_loop_height_proc3_Pipeline_loop_width.v",
+    "destination": "src/vivado/ip_catalog/add_image/hdl/verilog/add_image_loop_loop_height_proc3_pipeline_loop_width.v",
+    "source_sha256": "6766cf8097592c2135f7b99f0c0bb182992830abd7c44aec24d8f65772da41f5",
+    "sha256": "895f806a4c993b496103df40cbbf42a72fb539e6797931d43f00e7bb5b0e16eb",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/hdl/verilog/add_image.v",
+    "destination": "src/vivado/ip_catalog/add_image/hdl/verilog/add_image.v",
+    "source_sha256": "10c6fca9306e38acc31af89f52b9d70e077d4003ee0e73c9ac3677b1b4826271",
+    "sha256": "f4700abc8484870fff3890fc49c1bd3ed83be54fc3417fd0f61cd950d1cef6e1",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/hdl/vhdl/add_image_entry_proc.vhd",
+    "destination": "src/vivado/ip_catalog/add_image/hdl/vhdl/add_image_entry_proc.vhd",
+    "source_sha256": "271ccc57d2d9175c76f031f0d462e56ba9c5163d09ac0f296ed51631ca296ed2",
+    "sha256": "4031573b9fffe9f32b0786a568a104da0fe5a73d3d70ea556d123062a80bf889",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/constraints/add_image_ooc.xdc",
+    "destination": "src/vivado/ip_catalog/add_image/constraints/add_image_ooc.xdc",
+    "source_sha256": "ec56507838dbbf5fe8cc2995bec88145ee40ca90cb87e804e9ce1bc13536573a",
+    "sha256": "740969eebf728f1ec86c74a141b6f112e0576bc447bf58a42ea7347df97b8078",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/hdl/vhdl/add_image_Loop_loop_height_proc14_Pipeline_loop_width.vhd",
+    "destination": "src/vivado/ip_catalog/add_image/hdl/vhdl/add_image_loop_loop_height_proc14_pipeline_loop_width.vhd",
+    "source_sha256": "f04e0690af0f59ff7871d6a73a9de3fc78c250bb1b870bb767b4def800aeef89",
+    "sha256": "fff34ce984058e0053a2a9090a7f8c07ce50da1dc8d45f520caedd8b2b381cbb",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/hdl/vhdl/add_image_Loop_loop_height_proc3_Pipeline_loop_width.vhd",
+    "destination": "src/vivado/ip_catalog/add_image/hdl/vhdl/add_image_loop_loop_height_proc3_pipeline_loop_width.vhd",
+    "source_sha256": "d224221f5c310283f90f57814414d384b56a4f8a000fc53794f2868f38540e75",
+    "sha256": "c93a87033dfc21d62b088d6d0bc9d8368969dae66ca06ee60ae00b9cae33cc6c",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/drivers/add_image_v1_0/src/CMakeLists.txt",
+    "destination": "src/vivado/ip_catalog/add_image/drivers/add_image_v1_0/src/cmakelists.txt",
+    "source_sha256": "8bb0792f2080a628182208f682b5a9380eb7514e289552c671e4182c7d936e46",
+    "sha256": "3aac24acadd851280d657530e68d7f5a4b14aa5da867976a6a906fc00e05b1b6",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/hdl/vhdl/add_image_Loop_loop_height_proc25.vhd",
+    "destination": "src/vivado/ip_catalog/add_image/hdl/vhdl/add_image_loop_loop_height_proc25.vhd",
+    "source_sha256": "0312d2cbfa73d453822c86ea2a9a10df309a97c73dc3a2e11a734e21d7dca3d9",
+    "sha256": "659336f1b1611e1c0e24406786bd3e3b8520b191830a27c325afd9d651214980",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/doc/ReleaseNotes.txt",
+    "destination": "src/vivado/ip_catalog/add_image/doc/releasenotes.txt",
+    "source_sha256": "9b2fe0bd0949269b31da6322462ed60106a0d4b27b665ddcb89cccbaa492cb0b",
+    "sha256": "1426374c53622cf2bb79c2e367eb6fbfc1be5a97f306d6357d6d0dc734ad9aac",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/drivers/add_image_v1_0/data/add_image.yaml",
+    "destination": "src/vivado/ip_catalog/add_image/drivers/add_image_v1_0/data/add_image.yaml",
+    "source_sha256": "120d990de18af3021d17beb8c588f3045948b5fb9f750b0ada7e0cc59bb757e8",
+    "sha256": "86becfe50b5f5f3ff7ee223a981547aa0d34d119b49b12fb2992222237b9a63f",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/hdl/verilog/add_image_Loop_loop_height_proc14_Pipeline_loop_width.v",
+    "destination": "src/vivado/ip_catalog/add_image/hdl/verilog/add_image_loop_loop_height_proc14_pipeline_loop_width.v",
+    "source_sha256": "b764129a9f263b5beaa73babb8f46ef0ddf80732c5b95aae48c2ccb17f7b2917",
+    "sha256": "1303eafaa3b99449181a948fd9d6a6fc39707e85c9ef7296614524b176befbf3",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/hdl/verilog/add_image_hls_deadlock_detector.vh",
+    "destination": "src/vivado/ip_catalog/add_image/hdl/verilog/add_image_hls_deadlock_detector.vh",
+    "source_sha256": "ce84257a82d90d4ca54e4267d040d56b7c6c833d626b5bb6577d14d39a6a0108",
+    "sha256": "46bfcc1c5cd35be648abf7d8acc2da466e5b2dcaa61404e3e70cea1a3a87815b",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/drivers/add_image_v1_0/src/xadd_image.c",
+    "destination": "src/vivado/ip_catalog/add_image/drivers/add_image_v1_0/src/xadd_image.c",
+    "source_sha256": "296e23acabc2ee603fc86d87d4d172251deeb5aa2404813e74aae47bac845265",
+    "sha256": "36c10636b504f8c11f6ce4664d83c77adedbe27f39d13d4d653dbf1f66660f4c",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/hdl/vhdl/add_image_control_s_axi.vhd",
+    "destination": "src/vivado/ip_catalog/add_image/hdl/vhdl/add_image_control_s_axi.vhd",
+    "source_sha256": "b10cc721861fd9ec2f359c19340c1e8831289291b74b99f0be39ecf9227b2337",
+    "sha256": "a1e99b020212ed73ad6fd3ffb98f399ee4e794b8a21e307f69883b564c4ff3b2",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/hdl/verilog/add_image_Loop_loop_height_proc14_Pipeline_loop_wait_for_eol.v",
+    "destination": "src/vivado/ip_catalog/add_image/hdl/verilog/add_image_loop_loop_height_proc14_pipeline_loop_wait_for_eol.v",
+    "source_sha256": "6c693344ae902227169db016646746d2a5c74061ee810f2a89bdea252445e82f",
+    "sha256": "1cd0ff8c1fa30b1b4bee090af0538ca266979033ba106ed7ba99bdc0ef63c0ed",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/hdl/vhdl/add_image_alpha_add_720_1280_s.vhd",
+    "destination": "src/vivado/ip_catalog/add_image/hdl/vhdl/add_image_alpha_add_720_1280_s.vhd",
+    "source_sha256": "5351dd690a6e243012929af04d90471d69954f7f5a853a0e04f62b682ce9866f",
+    "sha256": "43eac7ff2c919dad8ae5e672e5342883177832f41156c592ce80332c3e9b2136",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/hdl/verilog/add_image_hls_deadlock_detection_unit.v",
+    "destination": "src/vivado/ip_catalog/add_image/hdl/verilog/add_image_hls_deadlock_detection_unit.v",
+    "source_sha256": "7a448169a348cf2a199e5d681679ceba4f4cd26f27a4ca5449717dc6d20da7b3",
+    "sha256": "50bf1d01797267fa10e9b488daf63677fabfcd72aaf35c8fd730899d3d46df69",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/hdl/verilog/add_image_alpha_add_720_1280_Pipeline_VITIS_LOOP_45_1_VITIS_LOOP_47_2.v",
+    "destination": "src/vivado/ip_catalog/add_image/hdl/verilog/add_image_alpha_add_720_1280_pipeline_vitis_loop_45_1_vitis_loop_47_2.v",
+    "source_sha256": "40b5dc06732bb324a123b2c29cb8f1a2b8597dd9307f1a827b8274b4db6937e6",
+    "sha256": "0ab2d6590d477f90d057e8bd7a98a72841dbfb3d3e42fe754cd616562a47d4c5",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/hdl/vhdl/add_image_Loop_loop_height_proc14_Pipeline_loop_wait_for_eol.vhd",
+    "destination": "src/vivado/ip_catalog/add_image/hdl/vhdl/add_image_loop_loop_height_proc14_pipeline_loop_wait_for_eol.vhd",
+    "source_sha256": "b5db8eee803e827ccd1f929902a96c6cf514be4a0ebe420213a61794afca5c8f",
+    "sha256": "302a0aaf797b038cb84bd9fd35830c32288c24c3ce9d371a0a8c364e75348535",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/misc/logo.png",
+    "destination": "src/vivado/ip_catalog/add_image/misc/logo.png",
+    "source_sha256": "4d978370b877dccf3f3bfaf7a8fdb3554e936ee2d2d3356bdaa64c0c4e30c9af",
+    "sha256": "4d978370b877dccf3f3bfaf7a8fdb3554e936ee2d2d3356bdaa64c0c4e30c9af",
+    "modified_for_export": false
+  },
+  {
+    "source": "ip_repo/add_image/hdl/verilog/add_image_alpha_add_720_1280_s.v",
+    "destination": "src/vivado/ip_catalog/add_image/hdl/verilog/add_image_alpha_add_720_1280_s.v",
+    "source_sha256": "4c54309d76e381106172fc03cdd31c77bef8ce44085f1d78e1b86b22d5b85251",
+    "sha256": "489b0cc74c711819c29487a0f5dc00f9823046b4779c0489486c37c8ae3ea1c4",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/hdl/verilog/add_image_regslice_both.v",
+    "destination": "src/vivado/ip_catalog/add_image/hdl/verilog/add_image_regslice_both.v",
+    "source_sha256": "ab83e81514615780f94a9a77f8a475010ece6b76897027db49c526cb5c46b6eb",
+    "sha256": "1e6169081c73508fd9ee2a9bdec3a56011206e7f5b2dcb81f562b76e1459209d",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/hdl/verilog/add_image_fifo_w24_d2_S.v",
+    "destination": "src/vivado/ip_catalog/add_image/hdl/verilog/add_image_fifo_w24_d2_s.v",
+    "source_sha256": "7587a327db4c765b88b35ab42d2a46a03c4543df3dcb4a84cb347c96e45892ce",
+    "sha256": "d2af70906a85dc00bc0c298240d6d294f8507882e57107e3a940651d59d22bcc",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/hdl/verilog/add_image_hls_deadlock_idx4_monitor.v",
+    "destination": "src/vivado/ip_catalog/add_image/hdl/verilog/add_image_hls_deadlock_idx4_monitor.v",
+    "source_sha256": "69f9c4eef0cef8ba5c64fedd0b9ac95ebe9a0cb0582bec13da94b904b380b668",
+    "sha256": "1ed1130b20130631971777864df94133d51a525238515e9df65d0dc2ae6ce50f",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/hdl/verilog/add_image_hls_deadlock_kernel_monitor_top.vh",
+    "destination": "src/vivado/ip_catalog/add_image/hdl/verilog/add_image_hls_deadlock_kernel_monitor_top.vh",
+    "source_sha256": "05c2834ed5dd7acf3eff6c2819a3acf038d86e60c166f57aab98fdc8b5d14daf",
+    "sha256": "175df04600dfe08713fb04d12095c866916b5b436eb1ad9d672d8a31eb4219f7",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/drivers/add_image_v1_0/src/xadd_image_linux.c",
+    "destination": "src/vivado/ip_catalog/add_image/drivers/add_image_v1_0/src/xadd_image_linux.c",
+    "source_sha256": "789de82bb6733f021675c6c88a96488d489e586b94782d5b42e34aea9306df20",
+    "sha256": "07e8cfd2d19d35b6f63dafbfe651c4f358f73e1be627eada48447cf91472c814",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/hdl/vhdl/add_image_Loop_loop_height_proc14.vhd",
+    "destination": "src/vivado/ip_catalog/add_image/hdl/vhdl/add_image_loop_loop_height_proc14.vhd",
+    "source_sha256": "062c454430768deb6e4d61c46c5f48ffe631e71e6d6f9693c3f17f423b28ab03",
+    "sha256": "6786d46f31cf2563d71b2f899dc8db62444d0be782c4aa82d5dfbd1e28c189ef",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/hdl/verilog/add_image_Loop_loop_height_proc3_Pipeline_loop_wait_for_eol.v",
+    "destination": "src/vivado/ip_catalog/add_image/hdl/verilog/add_image_loop_loop_height_proc3_pipeline_loop_wait_for_eol.v",
+    "source_sha256": "652d47b903ca662ac6222279e7c5eafbf95149a33430499f1009d67ea915930a",
+    "sha256": "e541083aea1e2b04f5611c35341738814aa3144912c0d71cde3082f3e300bf0d",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/hdl/verilog/add_image_start_for_Loop_loop_height_proc25_U0.v",
+    "destination": "src/vivado/ip_catalog/add_image/hdl/verilog/add_image_start_for_loop_loop_height_proc25_u0.v",
+    "source_sha256": "5a0fda7853ce6a6b696603936c0bc66f4fdbe62f15044ba3983586b4dfdb7940",
+    "sha256": "4c7696a9223cb23f3a0795e5a1731866f686cd35da3203b23b43296fd6e26a61",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/hdl/verilog/add_image_mul_16s_8ns_16_1_1.v",
+    "destination": "src/vivado/ip_catalog/add_image/hdl/verilog/add_image_mul_16s_8ns_16_1_1.v",
+    "source_sha256": "4e91ec663ceac59cb8873c8b006d61868f156b2bc6ab3f999a4dcbb27a1af91a",
+    "sha256": "d2173ae500e9dc58d8fa2c5cab8000dedb9171809732fbb53bc9f2f4eeb38da9",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/drivers/add_image_v1_0/src/xadd_image_sinit.c",
+    "destination": "src/vivado/ip_catalog/add_image/drivers/add_image_v1_0/src/xadd_image_sinit.c",
+    "source_sha256": "421b229b140d0ca806941063d1e9af7f858d42bd495d872e2db8f7ce20ac6cea",
+    "sha256": "0b5f3750a5603f7bd5889e383589437b14618eb5ce67ca18776c17dab74ffaad",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/hdl/vhdl/add_image_alpha_add_720_1280_Pipeline_VITIS_LOOP_45_1_VITIS_LOOP_47_2.vhd",
+    "destination": "src/vivado/ip_catalog/add_image/hdl/vhdl/add_image_alpha_add_720_1280_pipeline_vitis_loop_45_1_vitis_loop_47_2.vhd",
+    "source_sha256": "79a3cf2be4f599274cc66eccaeea5e61f8c32ed3e61f5fdd7ba0c64e9421f5cc",
+    "sha256": "5d3e2ac23f87e46e866947f8dfff282c75312542234613b73c8892e25895bcc5",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/hdl/verilog/add_image_entry_proc.v",
+    "destination": "src/vivado/ip_catalog/add_image/hdl/verilog/add_image_entry_proc.v",
+    "source_sha256": "c3e1572e5be58fd0a46b0a4923bf87d8e44106331a781ac2982abe37a52c4fae",
+    "sha256": "2da7ab29eafefe61f1a928a28acc9cedeee17a806e4f9486ff53a5848aa2bcf5",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/hdl/vhdl/add_image.vhd",
+    "destination": "src/vivado/ip_catalog/add_image/hdl/vhdl/add_image.vhd",
+    "source_sha256": "996cc64e5fb8dbdbd1c5b1538ca53b3d3d700a95a967e62a693c300d3cc7f485",
+    "sha256": "047a7c2ed266548a0b56225ae93a068a2125fa1e14a720b890acd1f45e43bd01",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/hdl/vhdl/add_image_flow_control_loop_pipe_sequential_init.vhd",
+    "destination": "src/vivado/ip_catalog/add_image/hdl/vhdl/add_image_flow_control_loop_pipe_sequential_init.vhd",
+    "source_sha256": "d628789a7d2bd13a3bbf9b6d32d18a4ab5b67abd9d3966cb962e29cc058c086d",
+    "sha256": "587972164fc00ff8acd454ef85574eabfa06e1c18e3bb93848026d9f431c0e80",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/xgui/add_image_v1_0.tcl",
+    "destination": "src/vivado/ip_catalog/add_image/xgui/add_image_v1_0.tcl",
+    "source_sha256": "914ee6b5c1c8493bd7bf09cad466433f274d36366ae7f7548aab744b44837ce4",
+    "sha256": "4ee9a61eff598680d4bcd6efbb99fa4c204add1f87012b1011d8b6b63735c844",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/hdl/verilog/add_image_hls_deadlock_idx1_monitor.v",
+    "destination": "src/vivado/ip_catalog/add_image/hdl/verilog/add_image_hls_deadlock_idx1_monitor.v",
+    "source_sha256": "1ff096d5c907b290bdbf8545a4b67eeb09fb3e5ac80a0ad3602c7956a0ea0905",
+    "sha256": "1b2cdc7eab92bb88f0e785e61df1f11eee81045e05df8ee70e03271014e41ab8",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/hdl/verilog/add_image_flow_control_loop_pipe_sequential_init.v",
+    "destination": "src/vivado/ip_catalog/add_image/hdl/verilog/add_image_flow_control_loop_pipe_sequential_init.v",
+    "source_sha256": "0211995f15584a860a60c0db5ebddfbc7ce559daec63a2171fa6d6d71ae890aa",
+    "sha256": "ef0eab3d57d287c1ee1656d35cf288b53a5a60a47b4ca984190aafbdb242cf39",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/hdl/verilog/add_image_mac_muladd_16s_8ns_16ns_16_4_1.v",
+    "destination": "src/vivado/ip_catalog/add_image/hdl/verilog/add_image_mac_muladd_16s_8ns_16ns_16_4_1.v",
+    "source_sha256": "6cbd7e492c234f34b30d0b6ecd7e84b15ef9105068a53f47217109f0679d3166",
+    "sha256": "094184ef0387ca18663b0d99d9d4411b10b42cf10b9ff67d6f7f002117996db0",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/hdl/vhdl/add_image_start_for_Loop_loop_height_proc25_U0.vhd",
+    "destination": "src/vivado/ip_catalog/add_image/hdl/vhdl/add_image_start_for_loop_loop_height_proc25_u0.vhd",
+    "source_sha256": "92d1264c86865998475bd3a5544fe5d594963c5f39fed5dfac675bdd57f42ee7",
+    "sha256": "5897d9f552e64ef83b3839da85607a48e03253b192ced42304a5e249dd63cce9",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/drivers/add_image_v1_0/data/add_image.mdd",
+    "destination": "src/vivado/ip_catalog/add_image/drivers/add_image_v1_0/data/add_image.mdd",
+    "source_sha256": "ed3ed38b61564d9379a31ee8a3fbc0c3bda68a71caa2dad00c23cecb968e38de",
+    "sha256": "9a653e9f58d50bea1b4435e1256faad8e911b04a593b88bddc6bd264c505b0a8",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/hdl/vhdl/add_image_mul_16s_8ns_16_1_1.vhd",
+    "destination": "src/vivado/ip_catalog/add_image/hdl/vhdl/add_image_mul_16s_8ns_16_1_1.vhd",
+    "source_sha256": "e7e281363ddb2c1c29d952f5eaf1b866d4d2486c20aeae49ad2e74e812d1bb49",
+    "sha256": "6a68eff126057b6ba84e54a083bad0e06ec5094daf24a4b32d5fd503e137fa37",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/drivers/add_image_v1_0/data/add_image.tcl",
+    "destination": "src/vivado/ip_catalog/add_image/drivers/add_image_v1_0/data/add_image.tcl",
+    "source_sha256": "7a48e58e53a5875bfee1589d55c2de9bf4433c57bd7a718ef3d1206d5024c3a1",
+    "sha256": "30bee01a39d8f191c7895dc8199c2285ecc2e9bc50aeef8cad141ecfa8883518",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/hdl/verilog/add_image_Loop_loop_height_proc25_Pipeline_loop_width.v",
+    "destination": "src/vivado/ip_catalog/add_image/hdl/verilog/add_image_loop_loop_height_proc25_pipeline_loop_width.v",
+    "source_sha256": "6dd55b23bad1ece661604ecee1648a79f04474535e4fbd5d53ef60d6461e8de4",
+    "sha256": "94d8508b471622ac8e1184df819c17be23451fd15d6059459476333e6cd2dad5",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/drivers/add_image_v1_0/src/Makefile",
+    "destination": "src/vivado/ip_catalog/add_image/drivers/add_image_v1_0/src/makefile",
+    "source_sha256": "a15c308f05723ea8353807a42dc59f22b53908990a12ba717e3632a863c04622",
+    "sha256": "28a90d7f03cc0523ff7f7c82a4a1c1995aec23cae4e77187bb07a50e8a312c5d",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/drivers/add_image_v1_0/src/xadd_image.h",
+    "destination": "src/vivado/ip_catalog/add_image/drivers/add_image_v1_0/src/xadd_image.h",
+    "source_sha256": "f1d49fc75fca539e1ec41ec7a87b1a8624b15117478dadb2880deea3f3c7e507",
+    "sha256": "80383ca65f8fcfbb61c6a9d46df9ba5c1329ad2e6837804076dc1f23d13a6b9e",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/hdl/vhdl/add_image_start_for_alpha_add_720_1280_U0.vhd",
+    "destination": "src/vivado/ip_catalog/add_image/hdl/vhdl/add_image_start_for_alpha_add_720_1280_u0.vhd",
+    "source_sha256": "a14661be477e3352408f357ee6b2e3bdbc001364317382c4d2b981c6fe12f419",
+    "sha256": "2982b50a75f23f093ed4b48fcc66ffa99276e91673f97581de0c0dd46c003443",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/hdl/verilog/add_image_Loop_loop_height_proc25.v",
+    "destination": "src/vivado/ip_catalog/add_image/hdl/verilog/add_image_loop_loop_height_proc25.v",
+    "source_sha256": "20c3c6db9f354233f1acfadc32ded818ac3de037d264dbde9d09820151df9c66",
+    "sha256": "54a4e545ce201293af8d88cf3357696ca2f85e35c117cda71edd8b4a3eb90a6b",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/hdl/verilog/add_image_start_for_alpha_add_720_1280_U0.v",
+    "destination": "src/vivado/ip_catalog/add_image/hdl/verilog/add_image_start_for_alpha_add_720_1280_u0.v",
+    "source_sha256": "7a3f68307a458b95f0eed54ff1075416797dba23d94008ba60d67c3bd40baa6f",
+    "sha256": "fd3535544c82e6248a806f129f13152659a9ce5f48083086c4fd200cc212d2cb",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/hdl/verilog/add_image_control_s_axi.v",
+    "destination": "src/vivado/ip_catalog/add_image/hdl/verilog/add_image_control_s_axi.v",
+    "source_sha256": "6c99ed1e4ba05f6ee6ce066d2d7658b90531aef26302eaf5fdf3647fe06253b9",
+    "sha256": "12a57ede0eaab28f5b7da51e0d9ce08f978e42064110e3375b5865ae2045b80b",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/hdl/verilog/add_image_hls_deadlock_idx0_monitor.v",
+    "destination": "src/vivado/ip_catalog/add_image/hdl/verilog/add_image_hls_deadlock_idx0_monitor.v",
+    "source_sha256": "7679b409b84f3d54946fd5b44e6859e5422969f0cf2aebe5de9373decb12516a",
+    "sha256": "3a1040d8c8e53e0bca34c783aab615ae3e9164e70cb769abd61c128a0e455813",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/hdl/vhdl/add_image_regslice_both.vhd",
+    "destination": "src/vivado/ip_catalog/add_image/hdl/vhdl/add_image_regslice_both.vhd",
+    "source_sha256": "a65e3fab589952f9390872607c68b955d1c24275a110b991e9e55fea1570891d",
+    "sha256": "e913cf6a5a5298cbb5480e2662b7de8d0ce20a203456a9e1d8e0a5f7f5b63677",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/hdl/verilog/add_image_fifo_w32_d3_S.v",
+    "destination": "src/vivado/ip_catalog/add_image/hdl/verilog/add_image_fifo_w32_d3_s.v",
+    "source_sha256": "e499e8f8686ff1628a932fd507d56168dc1ecfa1bb25028e7b6a60a86eefe7c4",
+    "sha256": "5f2c6793cac76d3a597b9b4b4a428e10ae020ab5c37569e47b932d060f584104",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/hdl/verilog/add_image_hls_deadlock_report_unit.vh",
+    "destination": "src/vivado/ip_catalog/add_image/hdl/verilog/add_image_hls_deadlock_report_unit.vh",
+    "source_sha256": "0fa6236648bb46923faded88a4c0106c471b5228b0a5e31aa8e36727f6e8b3b6",
+    "sha256": "0a254c4d5cdd8273db860164f036654affe61092a64b1bf206d7230f5faa23ae",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/hdl/vhdl/add_image_mac_muladd_16s_8ns_16ns_16_4_1.vhd",
+    "destination": "src/vivado/ip_catalog/add_image/hdl/vhdl/add_image_mac_muladd_16s_8ns_16ns_16_4_1.vhd",
+    "source_sha256": "8b345b66ddd140abc445445b664eee4fc524427e5cfc945d437efdd4db9b195d",
+    "sha256": "bc6c1a695943773f5dddc7b78e1033f51dfa1919157ea6f55b352375e5c65cca",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/hdl/vhdl/add_image_Loop_loop_height_proc3_Pipeline_loop_wait_for_eol.vhd",
+    "destination": "src/vivado/ip_catalog/add_image/hdl/vhdl/add_image_loop_loop_height_proc3_pipeline_loop_wait_for_eol.vhd",
+    "source_sha256": "4f9482120081cb6d4087ce6bd9ed5d61305c7bfd5f9dc011841ee4af56137668",
+    "sha256": "422ee14a62465bec5e89e547c74a153df2571e71d692ba300861b3ba781ebd8f",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/hdl/vhdl/add_image_Loop_loop_height_proc3.vhd",
+    "destination": "src/vivado/ip_catalog/add_image/hdl/vhdl/add_image_loop_loop_height_proc3.vhd",
+    "source_sha256": "83022ee55b9c85935b7245eb3afbc335bf6f8595afa15289a2e0af1d157c1441",
+    "sha256": "45438a796a91a71b8d16a878196b28179e1c751c2954f0205309deeae8ef7b1c",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/hdl/vhdl/add_image_fifo_w24_d2_S.vhd",
+    "destination": "src/vivado/ip_catalog/add_image/hdl/vhdl/add_image_fifo_w24_d2_s.vhd",
+    "source_sha256": "74c4c9b89d0c0aba4571d9e6da0942ebd1214648dd2dd573eee6b0b300fd00fd",
+    "sha256": "7fd1f2ec16c7ca1f89e31efb41839a794ffe474590fedbadde3784ae24613096",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/hdl/vhdl/add_image_Loop_loop_height_proc25_Pipeline_loop_width.vhd",
+    "destination": "src/vivado/ip_catalog/add_image/hdl/vhdl/add_image_loop_loop_height_proc25_pipeline_loop_width.vhd",
+    "source_sha256": "a3449b9f3fc8a3a027c234e2d4ce5f121fe1e534bfbb1e374ad92e430df8ed90",
+    "sha256": "03df90cc4c8087607722c9a2033499fcaf7a3a64cbb76cf7e19ff093871aa1ab",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/add_image/component.xml",
+    "destination": "src/vivado/ip_catalog/add_image/component.xml",
+    "source_sha256": "3b6e3668d3bc249a721d3928f4461b21463bd1f5b4f13806f96fc9e93a192086",
+    "sha256": "a012ea78761a356354628f9a2e4b7b6f147aceb6fdfd8b6e9aa66d5cfd5d00b0",
+    "modified_for_export": true,
+    "export_note": "Reviewed release-only path/configuration or test harness normalization; frozen runtime is not redeployed."
+  },
+  {
+    "source": "ip_repo/color_mapping/hdl/verilog/color_mapping_log_generic_float_s_log0_lut_table_ap_fixed_float_0_5_64_array_ROM_AUTO_1R.dat",
+    "destination": "src/vivado/ip_catalog/color_mapping/hdl/verilog/color_mapping_log_generic_float_s_log0_lut_table_ap_fixed_float_0_5_64_array_rom_auto_1r.dat",
+    "source_sha256": "6afd36f1e40fde15d92772da94c1fc7f5844128e2d138f5a58914cf2eea7a17a",
+    "sha256": "400899dd8f7aef113f771bf8d66d08a7db6ceb761869513d64988e23576a0a8c",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/color_mapping/hdl/verilog/color_mapping_partselect_23ns_81ns_6ns_23_1_0.v",
+    "destination": "src/vivado/ip_catalog/color_mapping/hdl/verilog/color_mapping_partselect_23ns_81ns_6ns_23_1_0.v",
+    "source_sha256": "95d1f47dbbe5d011b037de4f203d19a04d86b709d51a3b1ea6bc940c1e0e80e9",
+    "sha256": "93d89494280e2e02c1f28f4c2c51d910e14f800b47abdb7909d5499ff18b3a0a",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/color_mapping/drivers/color_mapping_v1_0/src/Makefile",
+    "destination": "src/vivado/ip_catalog/color_mapping/drivers/color_mapping_v1_0/src/makefile",
+    "source_sha256": "94f9cfa830a3bee9d29cd7030e93d32771506f75ec47cd7ef07d2aa8029a5a6d",
+    "sha256": "d4d4b202d0d27d42a1c91835d1ffb6067362b46ec5ee39e156c522f2eb79bd32",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/color_mapping/hdl/vhdl/color_mapping_log_generic_float_s.vhd",
+    "destination": "src/vivado/ip_catalog/color_mapping/hdl/vhdl/color_mapping_log_generic_float_s.vhd",
+    "source_sha256": "ba18478e0ced097fac6cdd9a9458eadd686d480445f438a15c82fc7087915fd3",
+    "sha256": "79f705857da2410b74dd9fdd964594bb4832c7da033840c885a0713701c835ef",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/color_mapping/hdl/ip/color_mapping_fmul_32ns_32ns_32_3_max_dsp_1_ip/color_mapping_fmul_32ns_32ns_32_3_max_dsp_1_ip.xci",
+    "destination": "src/vivado/ip_catalog/color_mapping/hdl/ip/color_mapping_fmul_32ns_32ns_32_3_max_dsp_1_ip/color_mapping_fmul_32ns_32ns_32_3_max_dsp_1_ip.xci",
+    "source_sha256": "5260dc8e6195a2be07d93a06e408e39c1bb5e2811ab374d34eb308bf8fa8e0e0",
+    "sha256": "5260dc8e6195a2be07d93a06e408e39c1bb5e2811ab374d34eb308bf8fa8e0e0",
+    "modified_for_export": false
+  },
+  {
+    "source": "ip_repo/color_mapping/hdl/verilog/color_mapping_log_generic_float_s_log_lut_table_ap_fixed_58_9_ap_q_mode_5_ap_o_mode_3_0_4_4bkb.dat",
+    "destination": "src/vivado/ip_catalog/color_mapping/hdl/verilog/color_mapping_log_generic_float_s_log_lut_table_ap_fixed_58_9_ap_q_mode_5_ap_o_mode_3_0_4_4bkb.dat",
+    "source_sha256": "d6a921822e23bc128d5473d8fe5e2f8e69bceacc7fb5c4ff10a75606c75d04f0",
+    "sha256": "9a29fcc283f84a01fb041a17d6ccacc3e49b081315449d26c9b9dda42095a5e2",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/color_mapping/hdl/verilog/color_mapping_mul_9s_42ns_50_1_0.v",
+    "destination": "src/vivado/ip_catalog/color_mapping/hdl/verilog/color_mapping_mul_9s_42ns_50_1_0.v",
+    "source_sha256": "11f942324b7437281b50d6c8ae056f3f9a9d7878ed8a8f9f5a236462fa1f882d",
+    "sha256": "cac5fb782bd54df25eca0d2e4357ed3a8706f1f466b79233731a0cbb9c1f92d4",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/color_mapping/hdl/vhdl/color_mapping_log_generic_float_s_log0_lut_table_ap_fixed_float_0_5_64_array_ROM_AUTO_1R.vhd",
+    "destination": "src/vivado/ip_catalog/color_mapping/hdl/vhdl/color_mapping_log_generic_float_s_log0_lut_table_ap_fixed_float_0_5_64_array_rom_auto_1r.vhd",
+    "source_sha256": "90db76c95ada21edf2e67ad9cda3d64e3d2b5ce21d6c6e499749ad3e8dfe2941",
+    "sha256": "68a31eb2472ef3bbb291d4d56a4b9afff16407ab2ee920a324e514c48729a1a4",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/color_mapping/hdl/vhdl/color_mapping_mul_9s_42ns_50_1_0.vhd",
+    "destination": "src/vivado/ip_catalog/color_mapping/hdl/vhdl/color_mapping_mul_9s_42ns_50_1_0.vhd",
+    "source_sha256": "71d3425d32ca1b81ddd19a66cfab89ee903d7160039e5aa115f2547f417930ec",
+    "sha256": "4a8685805e130853a33fda30d8468ba5005a30ded19e37c3745b428137f908dd",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/color_mapping/hdl/vhdl/color_mapping_log_generic_float_s_log_lut_table_ap_fixed_58_9_ap_q_mode_5_ap_o_mode_3_0_12_dEe.vhd",
+    "destination": "src/vivado/ip_catalog/color_mapping/hdl/vhdl/color_mapping_log_generic_float_s_log_lut_table_ap_fixed_58_9_ap_q_mode_5_ap_o_mode_3_0_12_dee.vhd",
+    "source_sha256": "d1aab275d340e8a57c5ecbbf233ca5f0771fc29dad2f0b7f74910e7f7bfda1b6",
+    "sha256": "2c61a4e360d41a7d37b88a516f0c07d8cfa0f4c972187297ffae2a0e4e8b9d50",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/color_mapping/hdl/verilog/color_mapping_log_generic_float_s_log_lut_table_ap_fixed_58_9_ap_q_mode_5_ap_o_mode_3_0_7_6cud.v",
+    "destination": "src/vivado/ip_catalog/color_mapping/hdl/verilog/color_mapping_log_generic_float_s_log_lut_table_ap_fixed_58_9_ap_q_mode_5_ap_o_mode_3_0_7_6cud.v",
+    "source_sha256": "d1833c5cc93e3ff413815d2e2917ad60e768e89c39188fc4778ff251caa8010d",
+    "sha256": "ac3ab3b0c8e4effd36c35a88d20ba27c7e117dbe95c989792bdf3e9cac8230a0",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/color_mapping/drivers/color_mapping_v1_0/data/color_mapping.yaml",
+    "destination": "src/vivado/ip_catalog/color_mapping/drivers/color_mapping_v1_0/data/color_mapping.yaml",
+    "source_sha256": "aac4773cf4391cf003e6031aba458e7827cf4e61b2041b91a58305def034da08",
+    "sha256": "5ea9ef26cb2e25682fed65e9a16a1c45e8f801356ba63720bbbe9e6ed497d152",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/color_mapping/doc/ReleaseNotes.txt",
+    "destination": "src/vivado/ip_catalog/color_mapping/doc/releasenotes.txt",
+    "source_sha256": "9b2fe0bd0949269b31da6322462ed60106a0d4b27b665ddcb89cccbaa492cb0b",
+    "sha256": "1426374c53622cf2bb79c2e367eb6fbfc1be5a97f306d6357d6d0dc734ad9aac",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/color_mapping/hdl/vhdl/color_mapping_log_generic_float_s_log_lut_table_ap_fixed_58_9_ap_q_mode_5_ap_o_mode_3_0_4_4bkb.vhd",
+    "destination": "src/vivado/ip_catalog/color_mapping/hdl/vhdl/color_mapping_log_generic_float_s_log_lut_table_ap_fixed_58_9_ap_q_mode_5_ap_o_mode_3_0_4_4bkb.vhd",
+    "source_sha256": "5cf09329a20dd54eaf0aa9a6ab0cfa730c897ada7b1cb23fe4fd8c78ab806053",
+    "sha256": "3b4c314fe8ca75acc9fabd5cc9ba1da79d9050b60f18a2c280422298f8e716b0",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/color_mapping/hdl/vhdl/color_mapping_mul_38ns_6ns_44_1_0.vhd",
+    "destination": "src/vivado/ip_catalog/color_mapping/hdl/vhdl/color_mapping_mul_38ns_6ns_44_1_0.vhd",
+    "source_sha256": "b0634b61bc7125a291d5e85fbe0e53614193a69379fd52a989f6d6846ccf016e",
+    "sha256": "4c63ace8366ce86bb4c56e88e41799ef2d31eec20498a767bb2cd3ad9d299cca",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/color_mapping/drivers/color_mapping_v1_0/data/color_mapping.mdd",
+    "destination": "src/vivado/ip_catalog/color_mapping/drivers/color_mapping_v1_0/data/color_mapping.mdd",
+    "source_sha256": "ce51d3a2edb781a30fe9d460074254548d7c3e8e165a29b4a24d34c06c52749b",
+    "sha256": "6b27c72231018132b61cef2d517d24d24ca414e941df4664e261784ff5dd989e",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/color_mapping/drivers/color_mapping_v1_0/src/CMakeLists.txt",
+    "destination": "src/vivado/ip_catalog/color_mapping/drivers/color_mapping_v1_0/src/cmakelists.txt",
+    "source_sha256": "1c46ff7f761c281123090669f79bd6039d4e81cf2413e54dd34b412584bebd25",
+    "sha256": "5ae54c536872cc8dc40b90f778979d929f800de318dce3e2ccac2e977dc51c04",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/color_mapping/drivers/color_mapping_v1_0/src/xcolor_mapping_sinit.c",
+    "destination": "src/vivado/ip_catalog/color_mapping/drivers/color_mapping_v1_0/src/xcolor_mapping_sinit.c",
+    "source_sha256": "88f26434cf1c22011a24678d96f3e0a7f97ab556bc943922ffe85a52cf489a57",
+    "sha256": "e429d27d885f0e382426851e0ccb0724bb091e78a983dd19185de03cd95696a9",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/color_mapping/hdl/verilog/color_mapping_sparsemux_11_4_24_1_1.v",
+    "destination": "src/vivado/ip_catalog/color_mapping/hdl/verilog/color_mapping_sparsemux_11_4_24_1_1.v",
+    "source_sha256": "1c126b28b4bf4d5a86020714862c92c989992fb3bd3bed14cf9cec31a5fb4e7e",
+    "sha256": "09eb846b10745b66899862cace9371a2641c4b2b58dd564b017b45f9be2df08a",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/color_mapping/hdl/verilog/color_mapping_log_generic_float_s_log_lut_table_ap_fixed_58_9_ap_q_mode_5_ap_o_mode_3_0_7_6cud.dat",
+    "destination": "src/vivado/ip_catalog/color_mapping/hdl/verilog/color_mapping_log_generic_float_s_log_lut_table_ap_fixed_58_9_ap_q_mode_5_ap_o_mode_3_0_7_6cud.dat",
+    "source_sha256": "129d1bd465abbe067d968aba0494c2362a1fc75ed2f6b6c225d602eb28814630",
+    "sha256": "f9d0ad5405a597967bd4b75b125f17ea5bd1ea5df65547a3721f0848ae7e5292",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/color_mapping/hdl/ip/color_mapping_fcmp_32ns_32ns_1_2_no_dsp_1_ip/color_mapping_fcmp_32ns_32ns_1_2_no_dsp_1_ip.xci",
+    "destination": "src/vivado/ip_catalog/color_mapping/hdl/ip/color_mapping_fcmp_32ns_32ns_1_2_no_dsp_1_ip/color_mapping_fcmp_32ns_32ns_1_2_no_dsp_1_ip.xci",
+    "source_sha256": "dcbafa4a927e4923569eeb5c665b1577af63b497bab31fe44a40d9688ea61717",
+    "sha256": "dcbafa4a927e4923569eeb5c665b1577af63b497bab31fe44a40d9688ea61717",
+    "modified_for_export": false
+  },
+  {
+    "source": "ip_repo/color_mapping/hdl/verilog/color_mapping_fmul_32ns_32ns_32_3_max_dsp_1.v",
+    "destination": "src/vivado/ip_catalog/color_mapping/hdl/verilog/color_mapping_fmul_32ns_32ns_32_3_max_dsp_1.v",
+    "source_sha256": "5fc07cdedd8367ed14d52001b842c1632eb275acd1d1e1f86bb6c93961971a5c",
+    "sha256": "c3af4e3c8c27b27d467356b1221436a15565b2988eb2b9abb8ff1bd5b04ae8ac",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/color_mapping/hdl/vhdl/color_mapping_log_generic_float_s_log_inverse_lut_table_0_5_64_array_ROM_AUTO_1R.vhd",
+    "destination": "src/vivado/ip_catalog/color_mapping/hdl/vhdl/color_mapping_log_generic_float_s_log_inverse_lut_table_0_5_64_array_rom_auto_1r.vhd",
+    "source_sha256": "703f12f6221386d5f310c8c15214afd0ec82e5230f728e78ccdf351ee319676b",
+    "sha256": "1a05cbea55486b054cf6135358346acfae4d9f3aa284a985f12d089a7d1c9d69",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/color_mapping/hdl/vhdl/color_mapping_mul_25ns_6ns_31_1_0.vhd",
+    "destination": "src/vivado/ip_catalog/color_mapping/hdl/vhdl/color_mapping_mul_25ns_6ns_31_1_0.vhd",
+    "source_sha256": "4ea45d5a1b794d20ba1c5781ae1dc911b3c150d35676bfcc85639b880f1d686c",
+    "sha256": "7922d4bf1b5c67e0732682fb1b9e6dccb6f99b5ea4fc3a2acbcd339c759a77ab",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/color_mapping/hdl/vhdl/color_mapping_mul_37ns_6ns_43_1_0.vhd",
+    "destination": "src/vivado/ip_catalog/color_mapping/hdl/vhdl/color_mapping_mul_37ns_6ns_43_1_0.vhd",
+    "source_sha256": "496a709c63caf3ebe97f50ceabd2e8a31f4105966a159d42e2928b5e0ab30086",
+    "sha256": "79c03dae70f957acc8bc9bbd92e7a9b3025d61810fcd1a837635bbee96a8fc47",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/color_mapping/drivers/color_mapping_v1_0/src/xcolor_mapping.h",
+    "destination": "src/vivado/ip_catalog/color_mapping/drivers/color_mapping_v1_0/src/xcolor_mapping.h",
+    "source_sha256": "d5748761d7d2b5d5ac579c8aa8f21776d901572767a2722701f38a34ff3926e1",
+    "sha256": "30697531080e51adbb59b8e3f6aad634bcc52156edfeda08be02ea78cdd01fe8",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/color_mapping/hdl/verilog/color_mapping_mul_25ns_6ns_31_1_0.v",
+    "destination": "src/vivado/ip_catalog/color_mapping/hdl/verilog/color_mapping_mul_25ns_6ns_31_1_0.v",
+    "source_sha256": "cb12a36a9ed0be1b5b516bad195af63f4cd16efa2d8e3fd1980eec5b1c897af3",
+    "sha256": "b2a0b6112c107845d36cdd4fe16b7bf3c67a9d9fa8404ea46d7522dad67782c5",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/color_mapping/misc/logo.png",
+    "destination": "src/vivado/ip_catalog/color_mapping/misc/logo.png",
+    "source_sha256": "4d978370b877dccf3f3bfaf7a8fdb3554e936ee2d2d3356bdaa64c0c4e30c9af",
+    "sha256": "4d978370b877dccf3f3bfaf7a8fdb3554e936ee2d2d3356bdaa64c0c4e30c9af",
+    "modified_for_export": false
+  },
+  {
+    "source": "ip_repo/color_mapping/hdl/vhdl/color_mapping_bitselect_1ns_81ns_7ns_1_1_0.vhd",
+    "destination": "src/vivado/ip_catalog/color_mapping/hdl/vhdl/color_mapping_bitselect_1ns_81ns_7ns_1_1_0.vhd",
+    "source_sha256": "50efc9fd4f0a78eb0e510495f3ca36b346516054441959f9f3c9dfccd1d3fb0a",
+    "sha256": "d44dec5088f6a2ae17892e8c2d154b3cd5041743d93a74ffc8cb331a31e6dbc4",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/color_mapping/constraints/color_mapping_ooc.xdc",
+    "destination": "src/vivado/ip_catalog/color_mapping/constraints/color_mapping_ooc.xdc",
+    "source_sha256": "ec56507838dbbf5fe8cc2995bec88145ee40ca90cb87e804e9ce1bc13536573a",
+    "sha256": "740969eebf728f1ec86c74a141b6f112e0576bc447bf58a42ea7347df97b8078",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/color_mapping/hdl/verilog/color_mapping_fcmp_32ns_32ns_1_2_no_dsp_1.v",
+    "destination": "src/vivado/ip_catalog/color_mapping/hdl/verilog/color_mapping_fcmp_32ns_32ns_1_2_no_dsp_1.v",
+    "source_sha256": "67b5a56ecdd3fac136842261f4d0c013852fe7d4f33411c88727bab624dbb142",
+    "sha256": "2620133d5d1f903ba45221dd18182da1e01d60da32a907d3891f739b67f7e7bd",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/color_mapping/hdl/verilog/color_mapping_log_generic_float_s_log_inverse_lut_table_0_5_64_array_ROM_AUTO_1R.dat",
+    "destination": "src/vivado/ip_catalog/color_mapping/hdl/verilog/color_mapping_log_generic_float_s_log_inverse_lut_table_0_5_64_array_rom_auto_1r.dat",
+    "source_sha256": "0fbc0f8f0b0ada9cc843cc0d7967e1883717516c6ae63bd3cf1b63994a7bb9a9",
+    "sha256": "21a482f6b619865d02c81e611eeac0c676873108c34cf30f3d926ce940ec8a1a",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/color_mapping/xgui/color_mapping_v1_0.tcl",
+    "destination": "src/vivado/ip_catalog/color_mapping/xgui/color_mapping_v1_0.tcl",
+    "source_sha256": "83ee71db6dd93b818270f9e868beef321352b75ac4e6a1871e2b94e1f74f08da",
+    "sha256": "7179ec8b34a8c5ce0ff9a4e859dd13cd9fc0422d1e65ddddf17816092d750bad",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/color_mapping/drivers/color_mapping_v1_0/data/color_mapping.tcl",
+    "destination": "src/vivado/ip_catalog/color_mapping/drivers/color_mapping_v1_0/data/color_mapping.tcl",
+    "source_sha256": "1b84d00b6637b71f2eb3fa7d032dfae2712ffb5b06de1e321df37848017fcc02",
+    "sha256": "d3b62cab1bc5e077ae8078dabcf871a7172d2473268059cad147f4e0ce15d4d6",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/color_mapping/hdl/verilog/color_mapping_mul_18ns_18ns_35_1_0.v",
+    "destination": "src/vivado/ip_catalog/color_mapping/hdl/verilog/color_mapping_mul_18ns_18ns_35_1_0.v",
+    "source_sha256": "da42a940919c309f7f8a6c20b86d07677c6eb804d5a3b01344f2d27e3eeabadf",
+    "sha256": "50f35777c9da5244ff6ac351b74a1db4a40004173f3fc557d85584d0c7682d47",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/color_mapping/hdl/verilog/color_mapping_bitselect_1ns_81ns_7ns_1_1_0.v",
+    "destination": "src/vivado/ip_catalog/color_mapping/hdl/verilog/color_mapping_bitselect_1ns_81ns_7ns_1_1_0.v",
+    "source_sha256": "52c5cb95831295c4725b70d284af9521261703e200774c2fe42505dce460a6e1",
+    "sha256": "7d11e99abc156f7958493404a1019bc965c6f97e10d9887abf937dc7be71ec09",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/color_mapping/hdl/verilog/color_mapping_log_generic_float_s_log_lut_table_ap_fixed_58_9_ap_q_mode_5_ap_o_mode_3_0_12_dEe.v",
+    "destination": "src/vivado/ip_catalog/color_mapping/hdl/verilog/color_mapping_log_generic_float_s_log_lut_table_ap_fixed_58_9_ap_q_mode_5_ap_o_mode_3_0_12_dee.v",
+    "source_sha256": "8a8ad66ea0ba1acce2fbf789e9f713c453de95d20b902d9eeeb81d267544d10b",
+    "sha256": "8faf3eafbfb01b71e7aa211a1012b4941536698526cbce317e90c4cc8b0da499",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/color_mapping/hdl/vhdl/color_mapping_mul_36ns_4ns_40_1_0.vhd",
+    "destination": "src/vivado/ip_catalog/color_mapping/hdl/vhdl/color_mapping_mul_36ns_4ns_40_1_0.vhd",
+    "source_sha256": "05d25c5a06e9c762f1c60059e421ba2ab60d9202581fe4cb24ca879f39b04768",
+    "sha256": "b1b8f50ca482535db3d2c73bcdf60bc682dbbe5040b4efeba05a80e2403f8fbc",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/color_mapping/hdl/verilog/color_mapping_mul_37ns_6ns_43_1_0.v",
+    "destination": "src/vivado/ip_catalog/color_mapping/hdl/verilog/color_mapping_mul_37ns_6ns_43_1_0.v",
+    "source_sha256": "e5a86c5c5c0875ef6ea7c042aada3e62d5507f7e0e0c2dd8877c4853fc6f20d9",
+    "sha256": "a4bb06bec0ff2fce6d941b74d1626c42057ab1730fab7923aefcf1f05b3e5aa8",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/color_mapping/hdl/vhdl/color_mapping_fcmp_32ns_32ns_1_2_no_dsp_1.vhd",
+    "destination": "src/vivado/ip_catalog/color_mapping/hdl/vhdl/color_mapping_fcmp_32ns_32ns_1_2_no_dsp_1.vhd",
+    "source_sha256": "381fe1b85ec0137bef8b2ba4fbf82bc5bc7f7e3c9ae2c3f1aad220a3542c7804",
+    "sha256": "2184893cd8d59e2ca414386c98a6c6ca8446185e277d40cfcd40628cd678e885",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/color_mapping/hdl/vhdl/color_mapping_log_generic_float_s_log_lut_table_ap_fixed_58_9_ap_q_mode_5_ap_o_mode_3_0_7_6cud.vhd",
+    "destination": "src/vivado/ip_catalog/color_mapping/hdl/vhdl/color_mapping_log_generic_float_s_log_lut_table_ap_fixed_58_9_ap_q_mode_5_ap_o_mode_3_0_7_6cud.vhd",
+    "source_sha256": "e4733ceac8093076490f174493c5bc51ecba9fa7de739d6f1208c906f13e3165",
+    "sha256": "9ae15c823384aa2be7a32c615aaf31719da3d30758778bcf36e4cf41785e71e4",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/color_mapping/hdl/vhdl/color_mapping_partselect_23ns_81ns_6ns_23_1_0.vhd",
+    "destination": "src/vivado/ip_catalog/color_mapping/hdl/vhdl/color_mapping_partselect_23ns_81ns_6ns_23_1_0.vhd",
+    "source_sha256": "9ab323f0fb41412d78bb72ebeea8e09f088179bfa06f1b3999b24b74cae85e8d",
+    "sha256": "aa64260872b1dc78c13c5783daf0dc28e09112456abd575f95d794dc0395fd2a",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/color_mapping/drivers/color_mapping_v1_0/src/xcolor_mapping_hw.h",
+    "destination": "src/vivado/ip_catalog/color_mapping/drivers/color_mapping_v1_0/src/xcolor_mapping_hw.h",
+    "source_sha256": "33fc2f9eba48eca52ca26d47ca7f1812f6c4f7116a16e0f3f28e259cadb2fd01",
+    "sha256": "c16f028b265fbd29eef063ed57cfa7e8589b819aa4ce6b3c9bd9dad56e64b558",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/color_mapping/hdl/verilog/color_mapping.v",
+    "destination": "src/vivado/ip_catalog/color_mapping/hdl/verilog/color_mapping.v",
+    "source_sha256": "6b0d5651e206690b2870a154c0108a8858f71fa258417456bb7d749c44bdd3bc",
+    "sha256": "b53085140fd432e8b719a8c14b0451f8d26b0e7d95c3af18954c987f224a2bf9",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/color_mapping/hdl/verilog/color_mapping_log_generic_float_s_log0_lut_table_ap_fixed_float_0_5_64_array_ROM_AUTO_1R.v",
+    "destination": "src/vivado/ip_catalog/color_mapping/hdl/verilog/color_mapping_log_generic_float_s_log0_lut_table_ap_fixed_float_0_5_64_array_rom_auto_1r.v",
+    "source_sha256": "baac3c178c3487a415a008443b98d30604f8c344f97d33dd92ef8cd2f55fcbaf",
+    "sha256": "89ae2a908d1cadc02af642eb61ff287174609d7612d7f05fcd4ad67d45d53455",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/color_mapping/hdl/ip/color_mapping_uitofp_32ns_32_4_no_dsp_1_ip/color_mapping_uitofp_32ns_32_4_no_dsp_1_ip.xci",
+    "destination": "src/vivado/ip_catalog/color_mapping/hdl/ip/color_mapping_uitofp_32ns_32_4_no_dsp_1_ip/color_mapping_uitofp_32ns_32_4_no_dsp_1_ip.xci",
+    "source_sha256": "e9f0583b640419838d873fca712981932a9cf2dd9ec4607bb2857d25128d52a6",
+    "sha256": "e9f0583b640419838d873fca712981932a9cf2dd9ec4607bb2857d25128d52a6",
+    "modified_for_export": false
+  },
+  {
+    "source": "ip_repo/color_mapping/hdl/vhdl/color_mapping_uitofp_32ns_32_4_no_dsp_1.vhd",
+    "destination": "src/vivado/ip_catalog/color_mapping/hdl/vhdl/color_mapping_uitofp_32ns_32_4_no_dsp_1.vhd",
+    "source_sha256": "732b837f2a41ce8ff161731c3f79ff675f494c5971ef1965da6d46c185e58cc8",
+    "sha256": "3d76fc8ec315659f556a19e978e1bb78d3aab2347e63f937e4a133d1d43f3922",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/color_mapping/hdl/verilog/color_mapping_log_generic_float_s.v",
+    "destination": "src/vivado/ip_catalog/color_mapping/hdl/verilog/color_mapping_log_generic_float_s.v",
+    "source_sha256": "51d4af3ee15d1b522c5c0ebee3b1379a2dcb18fd54e5eb43c4ab818bd41c8cf8",
+    "sha256": "60b99148d0aeba6d45968edcabfd4777e104ea4d156d7fad6b3414017fd6f177",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/color_mapping/hdl/verilog/color_mapping_log_generic_float_s_log_inverse_lut_table_0_5_64_array_ROM_AUTO_1R.v",
+    "destination": "src/vivado/ip_catalog/color_mapping/hdl/verilog/color_mapping_log_generic_float_s_log_inverse_lut_table_0_5_64_array_rom_auto_1r.v",
+    "source_sha256": "39f69a6d8a20e6b3d58a6559681eac19c9bd8377e4e1f0bb746b8b7a789d8da9",
+    "sha256": "1a846a8ef7c40d9140a9cdc97d90961e01b9480395a7691427ac9f87919cccbc",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/color_mapping/hdl/vhdl/color_mapping_mul_18ns_18ns_35_1_0.vhd",
+    "destination": "src/vivado/ip_catalog/color_mapping/hdl/vhdl/color_mapping_mul_18ns_18ns_35_1_0.vhd",
+    "source_sha256": "dd6ddeaa9f83a9a9e8bbb9f93f62ebf668c1600b799d80eb60d740be0e06d15d",
+    "sha256": "c213d3e1cfb0d35268ef31a7df32d3a1f8eeeb5cc25ebe8ecee9e08e1ab408d9",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/color_mapping/hdl/verilog/color_mapping_uitofp_32ns_32_4_no_dsp_1.v",
+    "destination": "src/vivado/ip_catalog/color_mapping/hdl/verilog/color_mapping_uitofp_32ns_32_4_no_dsp_1.v",
+    "source_sha256": "2032556663400c1583d48934de62c74a3babf7c2500a2acc26dc16a4161bc042",
+    "sha256": "812711e232120a0b683e220c0adc8b7ef07e8c42ed7a790c1a5c61d1bd593a10",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/color_mapping/hdl/verilog/color_mapping_mul_38ns_6ns_44_1_0.v",
+    "destination": "src/vivado/ip_catalog/color_mapping/hdl/verilog/color_mapping_mul_38ns_6ns_44_1_0.v",
+    "source_sha256": "3da1a49c1242fb9877a65cdaaca149f865f3c34bd09d253e526293b2df9db05f",
+    "sha256": "25dc084068af94d095129d8ca44ceb65d8f4863e32d99772e719b1cd4678fd92",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/color_mapping/hdl/verilog/color_mapping_log_generic_float_s_log_lut_table_ap_fixed_58_9_ap_q_mode_5_ap_o_mode_3_0_4_4bkb.v",
+    "destination": "src/vivado/ip_catalog/color_mapping/hdl/verilog/color_mapping_log_generic_float_s_log_lut_table_ap_fixed_58_9_ap_q_mode_5_ap_o_mode_3_0_4_4bkb.v",
+    "source_sha256": "b4b1edf25cd5c49c1fa26967233dcf1d03d236944aa692265b0af1e5117d4598",
+    "sha256": "20996780762e6e11e4246f6fa48907f801e26464702718f7c8cfb18ce9e42dc2",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/color_mapping/hdl/vhdl/color_mapping_fmul_32ns_32ns_32_3_max_dsp_1.vhd",
+    "destination": "src/vivado/ip_catalog/color_mapping/hdl/vhdl/color_mapping_fmul_32ns_32ns_32_3_max_dsp_1.vhd",
+    "source_sha256": "c2111120d74afb56cebf16f0bab728b18047bf8e0fa6bccbb80e756c672700f8",
+    "sha256": "9d85ae3fbc074ae468e6a8a29d56f465bf4537cd3a48a4f736a2f5e9b67de1d7",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/color_mapping/drivers/color_mapping_v1_0/src/xcolor_mapping.c",
+    "destination": "src/vivado/ip_catalog/color_mapping/drivers/color_mapping_v1_0/src/xcolor_mapping.c",
+    "source_sha256": "1dd506ff6ff2a9fb8cd642131aa8c512fbccb94f22b8f53901bce241b6faccd1",
+    "sha256": "19ed4c64a06127f1e20c0086515b44f44af5f69b6e4ec81785f131f35b0fb53c",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/color_mapping/drivers/color_mapping_v1_0/src/xcolor_mapping_linux.c",
+    "destination": "src/vivado/ip_catalog/color_mapping/drivers/color_mapping_v1_0/src/xcolor_mapping_linux.c",
+    "source_sha256": "9fd80d0c6d074d2f7c5cc92b8f4f365044b29732d2fd8a824e4298abf1ca8498",
+    "sha256": "a5bf60c4d04acf8948d58e3263c549643b7d2d8db45a779df406f597581cc3de",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/color_mapping/hdl/verilog/color_mapping_log_generic_float_s_log_lut_table_ap_fixed_58_9_ap_q_mode_5_ap_o_mode_3_0_12_dEe.dat",
+    "destination": "src/vivado/ip_catalog/color_mapping/hdl/verilog/color_mapping_log_generic_float_s_log_lut_table_ap_fixed_58_9_ap_q_mode_5_ap_o_mode_3_0_12_dee.dat",
+    "source_sha256": "f5a7991905986e975f9899f09fae212928038d464c5b839739db212a1095b89f",
+    "sha256": "2ffeed8a31580762538a6b6335cc58074feb109b27c8cf4a9e75f0a5c716af6b",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/color_mapping/hdl/vhdl/color_mapping_sparsemux_11_4_24_1_1.vhd",
+    "destination": "src/vivado/ip_catalog/color_mapping/hdl/vhdl/color_mapping_sparsemux_11_4_24_1_1.vhd",
+    "source_sha256": "1bfbb51bce74278f4d1496d28bd9830cabb989810b7a57bb3a90c25da97f50a6",
+    "sha256": "002d12930b5cd3de9116edfe2f20f2b1e8b6b02455c6c6f5c5ece723bccecc4b",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/color_mapping/hdl/vhdl/color_mapping_control_s_axi.vhd",
+    "destination": "src/vivado/ip_catalog/color_mapping/hdl/vhdl/color_mapping_control_s_axi.vhd",
+    "source_sha256": "f84e200285075fdddedd58e8a63f6b796557fe1e931ef51da5e3dd5b2744b03b",
+    "sha256": "7fcb3cd5a8a1d573f459bb2b35debe1eda8ab935796c2dc392798a0a2c08344c",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/color_mapping/hdl/verilog/color_mapping_mul_36ns_4ns_40_1_0.v",
+    "destination": "src/vivado/ip_catalog/color_mapping/hdl/verilog/color_mapping_mul_36ns_4ns_40_1_0.v",
+    "source_sha256": "90999927fa291236c95d281efc5ff923c814af9338cc5068bec7de818565f11b",
+    "sha256": "534c3df86551835822b2648c67e765ebfb05957588f04101201331463473e2d8",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/color_mapping/hdl/vhdl/color_mapping.vhd",
+    "destination": "src/vivado/ip_catalog/color_mapping/hdl/vhdl/color_mapping.vhd",
+    "source_sha256": "90a425253ee9ad87db4174e383f0cdbbd1568db9b0a5d336f7f8b8bfd2b2865f",
+    "sha256": "d13ac719c4509b57116ac56d8ca40a96361d8aa38eb385a7747ba2660053bb24",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/color_mapping/hdl/verilog/color_mapping_control_s_axi.v",
+    "destination": "src/vivado/ip_catalog/color_mapping/hdl/verilog/color_mapping_control_s_axi.v",
+    "source_sha256": "1492abca9e5b86becf5cd3f73c75d522fa232d6d578e26cd329d73c085ed2036",
+    "sha256": "51fdf0cdd294ad027347ee969c12716149b61a6b6ff47ddb18c8243c80ecbb55",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/color_mapping/component.xml",
+    "destination": "src/vivado/ip_catalog/color_mapping/component.xml",
+    "source_sha256": "3fe25f9165c2fedd8f2f08a74789b0129e4c2c4c8033fba4541252cce2589fa7",
+    "sha256": "efd85eaa0f93ad240d2e373244344d2a65a5201b971bf3ad2e120916a9dc7eed",
+    "modified_for_export": true
+  },
+  {
+    "source": "ip_repo/ExtremalSearcher_1_0/drivers/ExtremalSearcher_v1_0/src/ExtremalSearcher.h",
+    "destination": "src/vivado/ip_catalog/extremal_searcher/drivers/extremalsearcher_v1_0/src/extremalsearcher.h",
+    "source_sha256": "4c3f396153c08788d93cf137986adaf08f1a377a9e12daaa8d784e34e4a7a459",
+    "sha256": "4d94ab91921dee23bf6d2ca5dcfacd95535d781f96af0866f53029eb6cd84543",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/ExtremalSearcher_1_0/drivers/ExtremalSearcher_v1_0/data/ExtremalSearcher.mdd",
+    "destination": "src/vivado/ip_catalog/extremal_searcher/drivers/extremalsearcher_v1_0/data/extremalsearcher.mdd",
+    "source_sha256": "d20c734748609e6faef9fc87598cc535e6b173c211495eae359afbda666af028",
+    "sha256": "e8bd2d067e610e5e74cc1a4bc80787f0c3959cc73700671949fce24d0b136bcd",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/ExtremalSearcher_1_0/hdl/ExtremalSearcher_slave_lite_v1_0_Monitor.v",
+    "destination": "src/vivado/ip_catalog/extremal_searcher/hdl/extremalsearcher_slave_lite_v1_0_monitor.v",
+    "source_sha256": "ba471b080ccf4b6ea5fbe8b2eda65723b42bb2c9a3278e602a7731a0f500398b",
+    "sha256": "322b75c9c29e220265aeec9e3618f90e0540478b6c7ce0798e80dd15d5e1cba2",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/ExtremalSearcher_1_0/hdl/ExtremalSearcher.v",
+    "destination": "src/vivado/ip_catalog/extremal_searcher/hdl/extremalsearcher.v",
+    "source_sha256": "d97b755baa32e318abb922b3381dbeb9dd2a5edfe7d52af3643838a6025dbcac",
+    "sha256": "80f7e5a7fb940737f19b39faafcdc35b662109368127e26b888777cf2eb03d93",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/ExtremalSearcher_1_0/drivers/ExtremalSearcher_v1_0/src/ExtremalSearcher.c",
+    "destination": "src/vivado/ip_catalog/extremal_searcher/drivers/extremalsearcher_v1_0/src/extremalsearcher.c",
+    "source_sha256": "167fbb8fe676c2f097f9c353986b0ca2f21b83c3679969f0901a22377c0576b1",
+    "sha256": "43eb3fc45f398ffc21d04bf76bc8743f3403962a13552a9b7b171dbb5906a3e4",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/ExtremalSearcher_1_0/drivers/ExtremalSearcher_v1_0/src/Makefile",
+    "destination": "src/vivado/ip_catalog/extremal_searcher/drivers/extremalsearcher_v1_0/src/makefile",
+    "source_sha256": "a8ac2bae50fab40fc9ccfb3cddc24d97697a90e51a719658751bf05cf726fc41",
+    "sha256": "45c6e3b0d05c3ee2f84dffff39389f38e85fe882a46a6be53211b6a7913425b9",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/ExtremalSearcher_1_0/drivers/ExtremalSearcher_v1_0/data/ExtremalSearcher.tcl",
+    "destination": "src/vivado/ip_catalog/extremal_searcher/drivers/extremalsearcher_v1_0/data/extremalsearcher.tcl",
+    "source_sha256": "f95ae847027a2a9bcc876504c11f398a1a1f3c1c4495c8f440a406e4a54120d6",
+    "sha256": "a177453d34e9affcba374a92c878d7344ab628192ea145613427bfccbfee7224",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/ExtremalSearcher_1_0/drivers/ExtremalSearcher_v1_0/src/ExtremalSearcher_selftest.c",
+    "destination": "src/vivado/ip_catalog/extremal_searcher/drivers/extremalsearcher_v1_0/src/extremalsearcher_selftest.c",
+    "source_sha256": "2e2a01b3a167a1f712ac28e13ec412331cd01389aec3e1d3727f4b31430c55a4",
+    "sha256": "6b418c882d158b4b3e10ceba8950bf4993b40a5c2cd7336d3ffee67e25f6b244",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/ExtremalSearcher_1_0/xgui/ExtremalSearcher_v1_0.tcl",
+    "destination": "src/vivado/ip_catalog/extremal_searcher/xgui/extremalsearcher_v1_0.tcl",
+    "source_sha256": "dc83444cfb67557a0cccdc7b796bbfbe66fa9721a73e237f8251d30d6cb8f596",
+    "sha256": "0c60b7c79de6e61d9f9e21701e93908119fef8878145c1fc60898f61995ae147",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/ExtremalSearcher_1_0/bd/bd.tcl",
+    "destination": "src/vivado/ip_catalog/extremal_searcher/bd/bd.tcl",
+    "source_sha256": "1c84726f85b384b436e268025ceca83ffa845ba278ff1acf1650a58ebd373fc6",
+    "sha256": "0785e39e7b257a1bb4f844d0817fb39c1678988630d3c5d9b08ca8ff4dfafd64",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/ExtremalSearcher_1_0/component.xml",
+    "destination": "src/vivado/ip_catalog/extremal_searcher/component.xml",
+    "source_sha256": "8599d71a6ba237d50f1a32d5f500c5926fc8c8ef238577688183386913c8c01e",
+    "sha256": "11e5bf6087136a9bac135edd2887bf11876bd3317cfab25113c3712932a7455f",
+    "modified_for_export": true,
+    "export_note": "Reviewed release-only path/configuration or test harness normalization; frozen runtime is not redeployed."
+  },
+  {
+    "source": "ip_repo/DVI_TX/ip/src/asyn_rst_syn.v",
+    "destination": "src/vivado/ip_catalog/dvi_tx/src/asyn_rst_syn.v",
+    "source_sha256": "f74304d3e68c90add0dcfeb15d5d199d62258958932b41a1577b09d0be88b9cf",
+    "sha256": "7f2ac9686a8b525077b701ac84f909ebed1d6c5ba65bb29d1f220042f5eafb53",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/DVI_TX/ip/src/dvi_transmitter_top.v",
+    "destination": "src/vivado/ip_catalog/dvi_tx/src/dvi_transmitter_top.v",
+    "source_sha256": "3e027070d68e7b9b9947fd2e015a36e1ace9ae62185b37d375307b4cb8f0fb77",
+    "sha256": "73e5a69bf63b496031eb3ac1285bf7ce347e2a0a5bf24f0cc9f2720d91c825d3",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/DVI_TX/ip/src/dvi_encoder.v",
+    "destination": "src/vivado/ip_catalog/dvi_tx/src/dvi_encoder.v",
+    "source_sha256": "f62d91bec1741e8771fbbf6417b8ed7a7790e10c2dd6568b380165abfc8ba9b3",
+    "sha256": "8734138c12ecec60dd0a252a701fb5c7fd0b76e79b9d190d149ab6fa4cc50490",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/DVI_TX/ip/xgui/DVI_Transmitter_v1_0.tcl",
+    "destination": "src/vivado/ip_catalog/dvi_tx/xgui/dvi_transmitter_v1_0.tcl",
+    "source_sha256": "e0725b60cdc4cd625ee059e557ee3f5569fcd085edf601849e69e4d438080d96",
+    "sha256": "afd3e4fc7270a93d775a4de109d5ea7cbd830e7c5bc243e420e15ef9e5be4754",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/DVI_TX/ip/src/serializer_10_to_1.v",
+    "destination": "src/vivado/ip_catalog/dvi_tx/src/serializer_10_to_1.v",
+    "source_sha256": "8c6e40265f98d4da6a4441953b8c954f936b7ba92e438edbff4d7a53ea8d7046",
+    "sha256": "bb6b2a217a9061bb25a9f70e3f34d52dfe2d2855c1a8fcfb25f8a042868f63cd",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/DVI_TX/ip/component.xml",
+    "destination": "src/vivado/ip_catalog/dvi_tx/component.xml",
+    "source_sha256": "60441d53dff71c7b12a713506382a36d7e8252e1f2a3e1a17abe33c67a3ae2e3",
+    "sha256": "19324f226c722d4279bf4e8ce03b499351898817220e8671328f3331a71af1c1",
+    "modified_for_export": true,
+    "export_note": "Reviewed release-only path/configuration or test harness normalization; frozen runtime is not redeployed."
+  },
+  {
+    "source": "ip_repo/ov5640_cap_data/xgui/ov5640_capture_data_v1_0.tcl",
+    "destination": "src/vivado/ip_catalog/ov5640_capture/xgui/ov5640_capture_data_v1_0.tcl",
+    "source_sha256": "e0725b60cdc4cd625ee059e557ee3f5569fcd085edf601849e69e4d438080d96",
+    "sha256": "afd3e4fc7270a93d775a4de109d5ea7cbd830e7c5bc243e420e15ef9e5be4754",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/ov5640_cap_data/src/ov5640_capture_data.v",
+    "destination": "src/vivado/ip_catalog/ov5640_capture/src/ov5640_capture_data.v",
+    "source_sha256": "d1a89d8f151873b06332b62f18c01ad090ac3031cf912c6052c16f1c0a0162ae",
+    "sha256": "2e641e3ed04afb9bac898af50a986ac714110c87bd92eb2e9ee17a1781e28ffe",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "ip_repo/ov5640_cap_data/component.xml",
+    "destination": "src/vivado/ip_catalog/ov5640_capture/component.xml",
+    "source_sha256": "b35a238e68048e98097c072bd7ba38f7b376c4dca62c71722c836c7e0935df11",
+    "sha256": "b059222e2267face9fe08a3c170323a54347d57b3406dd5f5ba449be93f20157",
+    "modified_for_export": true,
+    "export_note": "Reviewed release-only path/configuration or test harness normalization; frozen runtime is not redeployed."
+  },
+  {
+    "source": "hls/calculate/hls_component/calculate/hls/impl/ip/hdl/vhdl/calculate_mac_muladd_9ns_9ns_28ns_28_4_1.vhd",
+    "destination": "src/vivado/ip_catalog/calculate/hdl/vhdl/calculate_mac_muladd_9ns_9ns_28ns_28_4_1.vhd",
+    "source_sha256": "0d1e7db40e220f182453a436ffc1287291d15974501bc5360aa27309b3c87ad0",
+    "sha256": "730f1bb974008bdd4bb0e8a42241a4c487b4235dd77712e0874fbacf095a20c7",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "hls/calculate/hls_component/calculate/hls/impl/ip/xgui/calculate_v1_0.tcl",
+    "destination": "src/vivado/ip_catalog/calculate/xgui/calculate_v1_0.tcl",
+    "source_sha256": "e0725b60cdc4cd625ee059e557ee3f5569fcd085edf601849e69e4d438080d96",
+    "sha256": "afd3e4fc7270a93d775a4de109d5ea7cbd830e7c5bc243e420e15ef9e5be4754",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "hls/calculate/hls_component/calculate/hls/impl/ip/hdl/vhdl/calculate_mul_9ns_9ns_18_5_1.vhd",
+    "destination": "src/vivado/ip_catalog/calculate/hdl/vhdl/calculate_mul_9ns_9ns_18_5_1.vhd",
+    "source_sha256": "438b1b0afc84cac345f33f18f1248254f8e0eb01284c0eb9b4b2eac2c20ace90",
+    "sha256": "77d70e051169056e9109167e2dd96961a3192d5e239c29e9657cfe4f76241a20",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "hls/calculate/hls_component/calculate/hls/impl/ip/hdl/verilog/calculate_sub_55ns_55ns_55_2_1.v",
+    "destination": "src/vivado/ip_catalog/calculate/hdl/verilog/calculate_sub_55ns_55ns_55_2_1.v",
+    "source_sha256": "3451645cc49a22ddbed7e2c7eef55ea8304120e0022c781be355b01e94c47214",
+    "sha256": "7a3abc337c27864a9561e65847e14d9a17a7947eba8be7c78038639b991c9818",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "hls/calculate/hls_component/calculate/hls/impl/ip/hdl/verilog/calculate_mul_9ns_9ns_18_5_1.v",
+    "destination": "src/vivado/ip_catalog/calculate/hdl/verilog/calculate_mul_9ns_9ns_18_5_1.v",
+    "source_sha256": "ca59b2086a8070cb9a6743bb25f1aabb34209a5fdbb90a7f333caba6d0c51163",
+    "sha256": "5bedda94182732a1f5d5a99f4b7bea9830ab5d427e7ca7fa9bbe679f994ce8b8",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "hls/calculate/hls_component/calculate/hls/impl/ip/hdl/verilog/calculate.v",
+    "destination": "src/vivado/ip_catalog/calculate/hdl/verilog/calculate.v",
+    "source_sha256": "15ac46d5973c99261a8869b52eb1b1044b8e512434c6fbbd74cc287be3828b51",
+    "sha256": "7deb0e776696b2d8366391f0414d1b306853625a2c572ba54b279d33f47860b0",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "hls/calculate/hls_component/calculate/hls/impl/ip/doc/ReleaseNotes.txt",
+    "destination": "src/vivado/ip_catalog/calculate/doc/releasenotes.txt",
+    "source_sha256": "5392eead8c2074b57f217eec913d96d8ebdeffa3553e5b72e65558ac0d42cc1f",
+    "sha256": "f1195d360d30e57eb94768718625b8c63c7083fe5df5cdf31d592fdaecb60f3d",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "hls/calculate/hls_component/calculate/hls/impl/ip/constraints/calculate_ooc.xdc",
+    "destination": "src/vivado/ip_catalog/calculate/constraints/calculate_ooc.xdc",
+    "source_sha256": "2810df8f1323c8361137420a05d83323f68013cf2d1b443bc920548c07bfd64b",
+    "sha256": "3f6be219022c481b4cbc4264731ff057e4c6dac597b6c9392c6d656274a2f87e",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "hls/calculate/hls_component/calculate/hls/impl/ip/hdl/verilog/calculate_mac_muladd_9ns_9ns_19ns_20_4_1.v",
+    "destination": "src/vivado/ip_catalog/calculate/hdl/verilog/calculate_mac_muladd_9ns_9ns_19ns_20_4_1.v",
+    "source_sha256": "b24060086de1f6e20b4552c2d5730f4d56754bdf601fe04b8f6b7c29b7b36fc4",
+    "sha256": "8c698efbf4bb5d68393f26bf044fab008f068d20ed5a219fd7c985b8c033b4dc",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "hls/calculate/hls_component/calculate/hls/impl/ip/misc/logo.png",
+    "destination": "src/vivado/ip_catalog/calculate/misc/logo.png",
+    "source_sha256": "4d978370b877dccf3f3bfaf7a8fdb3554e936ee2d2d3356bdaa64c0c4e30c9af",
+    "sha256": "4d978370b877dccf3f3bfaf7a8fdb3554e936ee2d2d3356bdaa64c0c4e30c9af",
+    "modified_for_export": false
+  },
+  {
+    "source": "hls/calculate/hls_component/calculate/hls/impl/ip/hdl/vhdl/calculate_add_54ns_54ns_54_2_1.vhd",
+    "destination": "src/vivado/ip_catalog/calculate/hdl/vhdl/calculate_add_54ns_54ns_54_2_1.vhd",
+    "source_sha256": "0dc23e9fc86325821ab5c700cc7d631131f645a1a12230e369ec7a4a061b4fce",
+    "sha256": "6d30270e9d76069ea8182eea5a8d08e68088ab7a3d67f492563494c7865410f1",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "hls/calculate/hls_component/calculate/hls/impl/ip/hdl/verilog/calculate_mac_muladd_9ns_9ns_28ns_28_4_1.v",
+    "destination": "src/vivado/ip_catalog/calculate/hdl/verilog/calculate_mac_muladd_9ns_9ns_28ns_28_4_1.v",
+    "source_sha256": "eb5a000db160295ea1dbb7c60473caab11ec32c2c986f06a0c24ce2c150f690d",
+    "sha256": "c32b92aec5e7ac68e56e4d43e8b205afbae4490730f6a6e85d5e4ca0ebb6bce6",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "hls/calculate/hls_component/calculate/hls/impl/ip/hdl/vhdl/calculate_mac_muladd_9ns_9ns_26ns_26_4_1.vhd",
+    "destination": "src/vivado/ip_catalog/calculate/hdl/vhdl/calculate_mac_muladd_9ns_9ns_26ns_26_4_1.vhd",
+    "source_sha256": "72a1912357158acf90e721acb085eec41d7a6035e02518ac7bc4ccc74d2eb46d",
+    "sha256": "86fa6bc21cac5a5abeca2a0be1d6a97d8c490e17683969d416d8dcb41ea3194f",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "hls/calculate/hls_component/calculate/hls/impl/ip/hdl/verilog/calculate_add_54ns_54ns_54_2_1.v",
+    "destination": "src/vivado/ip_catalog/calculate/hdl/verilog/calculate_add_54ns_54ns_54_2_1.v",
+    "source_sha256": "eeb44a75c1377b5ef9b33eab2b1cbdc4c06bf6f3dead2d2a9a4e1320e9155af1",
+    "sha256": "0d6874bcd00ca8eb7af9a765043a1d7678a1cf9d15a00127f43c49399917bb72",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "hls/calculate/hls_component/calculate/hls/impl/ip/hdl/vhdl/calculate_sub_55ns_55ns_55_2_1.vhd",
+    "destination": "src/vivado/ip_catalog/calculate/hdl/vhdl/calculate_sub_55ns_55ns_55_2_1.vhd",
+    "source_sha256": "397c2557a0b2413eb0f70d327bb630295a051c8bf6b7b6f71a4612736ee8b4ae",
+    "sha256": "6e6cc0c1cf473d92df5c8f81db7af6cb8bb907e46a2a32d41973334b4679046c",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "hls/calculate/hls_component/calculate/hls/impl/ip/hdl/verilog/calculate_add_38ns_38ns_38_2_1.v",
+    "destination": "src/vivado/ip_catalog/calculate/hdl/verilog/calculate_add_38ns_38ns_38_2_1.v",
+    "source_sha256": "50daba8a6f7b1017e64a5be81f3e23e0b85b0535163548d5dc31b61d5d895c12",
+    "sha256": "3d0f8a67eee3bb8c3c0d1de5f4adef63c28dff2bdba7eec369082cd8e42cf0d7",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "hls/calculate/hls_component/calculate/hls/impl/ip/hdl/vhdl/calculate_mac_muladd_9ns_9ns_19ns_20_4_1.vhd",
+    "destination": "src/vivado/ip_catalog/calculate/hdl/vhdl/calculate_mac_muladd_9ns_9ns_19ns_20_4_1.vhd",
+    "source_sha256": "e27e69f7faffe9ae29f2ac4ba2a74c4f01e7bfe9831e4345990479e09c43ba72",
+    "sha256": "2ea30d2ff742d2e77dba81865502a9b9c20a9b8233962c89fcbe7dcbe98e6a40",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "hls/calculate/hls_component/calculate/hls/impl/ip/hdl/vhdl/calculate_add_38ns_38ns_38_2_1.vhd",
+    "destination": "src/vivado/ip_catalog/calculate/hdl/vhdl/calculate_add_38ns_38ns_38_2_1.vhd",
+    "source_sha256": "0dd0f92402e0d2074635ad9f09f8f7b908d80cd47386013d704466dccaf86523",
+    "sha256": "994ff944944bf96f31de01b94c9920c80b5f17302a0cadf681ab84a6afca88eb",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "hls/calculate/hls_component/calculate/hls/impl/ip/hdl/verilog/calculate_mac_muladd_9ns_9ns_26ns_26_4_1.v",
+    "destination": "src/vivado/ip_catalog/calculate/hdl/verilog/calculate_mac_muladd_9ns_9ns_26ns_26_4_1.v",
+    "source_sha256": "fa084dd50b92adb68d2390c35f6574fd2f67379b4c651f2d459469e711a33f49",
+    "sha256": "daee4f28cebb95cc0f780e790009d65034aa3aacd863b81cb59ef4c6c53b3b26",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "hls/calculate/hls_component/calculate/hls/impl/ip/hdl/vhdl/calculate.vhd",
+    "destination": "src/vivado/ip_catalog/calculate/hdl/vhdl/calculate.vhd",
+    "source_sha256": "a2cb8d7f4e4fa2167b62d0387ed9e16feb149b44f9605b114273f9ce5153ca4f",
+    "sha256": "c5478b6fb82e5732f8181962119c52d2021ff43391cc10a2eefcf03386832e18",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "hls/calculate/hls_component/calculate/hls/impl/ip/component.xml",
+    "destination": "src/vivado/ip_catalog/calculate/component.xml",
+    "source_sha256": "27ec6b9a873be211beabc87aa3e9bc9cb4e97430271ac38ceec83794d1d21c74",
+    "sha256": "eec6b264009c4668d77de17d0310e34d548a4f00597efbaeec54f5378fe85637",
+    "modified_for_export": true,
+    "export_note": "Reviewed release-only path/configuration or test harness normalization; frozen runtime is not redeployed."
+  },
+  {
+    "source": "hls/delay/hls_component/delay/hls/impl/ip/misc/logo.png",
+    "destination": "src/vivado/ip_catalog/delay/misc/logo.png",
+    "source_sha256": "4d978370b877dccf3f3bfaf7a8fdb3554e936ee2d2d3356bdaa64c0c4e30c9af",
+    "sha256": "4d978370b877dccf3f3bfaf7a8fdb3554e936ee2d2d3356bdaa64c0c4e30c9af",
+    "modified_for_export": false
+  },
+  {
+    "source": "hls/delay/hls_component/delay/hls/impl/ip/constraints/delay_ooc.xdc",
+    "destination": "src/vivado/ip_catalog/delay/constraints/delay_ooc.xdc",
+    "source_sha256": "23b27a52c71702ed0dbd0b8fc4f81ec65b4244b3687c8f95518911b94ac67c70",
+    "sha256": "5ae8c1e1aa943dc54132aa688bec3c0bff62998de4b7aa2c11f812a1e2653e55",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "hls/delay/hls_component/delay/hls/impl/ip/hdl/vhdl/delay.vhd",
+    "destination": "src/vivado/ip_catalog/delay/hdl/vhdl/delay.vhd",
+    "source_sha256": "f4aab0faa3622bf130508036340b71a6075fd3469a064aab5390bef87674c9af",
+    "sha256": "7f63a3003d8c31734ba93a6f9a20e5dd12d9c7e29845b0aaba6ed7e6ae19f1e2",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "hls/delay/hls_component/delay/hls/impl/ip/xgui/delay_v1_0.tcl",
+    "destination": "src/vivado/ip_catalog/delay/xgui/delay_v1_0.tcl",
+    "source_sha256": "e0725b60cdc4cd625ee059e557ee3f5569fcd085edf601849e69e4d438080d96",
+    "sha256": "afd3e4fc7270a93d775a4de109d5ea7cbd830e7c5bc243e420e15ef9e5be4754",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "hls/delay/hls_component/delay/hls/impl/ip/doc/ReleaseNotes.txt",
+    "destination": "src/vivado/ip_catalog/delay/doc/releasenotes.txt",
+    "source_sha256": "c3254de01278269c5d9b9db74e5d328173e3884b79a41604442ee0a9b8a8e856",
+    "sha256": "24feb5dfba7c4f4e5c4a1c86dcfda6062bf77936a9af9e98e9f6276c52b07696",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "hls/delay/hls_component/delay/hls/impl/ip/hdl/verilog/delay.v",
+    "destination": "src/vivado/ip_catalog/delay/hdl/verilog/delay.v",
+    "source_sha256": "ebbae068dce8764833fa43f50de7121788d70d3897f14b5e668c07932dc63a88",
+    "sha256": "69a02305f5480905a052c70425caba83cca8f7a12f4825cb3f7b8823f75f43df",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "hls/delay/hls_component/delay/hls/impl/ip/component.xml",
+    "destination": "src/vivado/ip_catalog/delay/component.xml",
+    "source_sha256": "fb5c8434008c3dcb1488e124b63f40a61f3185411adc7593a4f7592a07d84600",
+    "sha256": "504dc013f98a0fdfb6371ad5bfb600595b1023160fee1d2b7b3549547c4144eb",
+    "modified_for_export": true
+  },
+  {
+    "source": "hls/inter/hls_component/hls_component/hls/impl/ip/hdl/vhdl/inter_round_fixed_29_24_s.vhd",
+    "destination": "src/vivado/ip_catalog/inter/hdl/vhdl/inter_round_fixed_29_24_s.vhd",
+    "source_sha256": "32b4c837a08add100f1b4d74ac0fd68b1c9ee1ec2b381487be644ef3b0efcb18",
+    "sha256": "368216dd630c10080e927f9a8b2c17df2904e0523fd1208b300cc853c765211f",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "hls/inter/hls_component/hls_component/hls/impl/ip/hdl/verilog/inter.v",
+    "destination": "src/vivado/ip_catalog/inter/hdl/verilog/inter.v",
+    "source_sha256": "e1c970a807b1944f46d71890fc5a48fbeda47ca72f4d76ab82b02018bbd865a2",
+    "sha256": "827a3d5724e7e841e500cb6fd6287e4011285c5fe3be72afd72cb0703d72bd78",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "hls/inter/hls_component/hls_component/hls/impl/ip/xgui/inter_v1_0.tcl",
+    "destination": "src/vivado/ip_catalog/inter/xgui/inter_v1_0.tcl",
+    "source_sha256": "e0725b60cdc4cd625ee059e557ee3f5569fcd085edf601849e69e4d438080d96",
+    "sha256": "afd3e4fc7270a93d775a4de109d5ea7cbd830e7c5bc243e420e15ef9e5be4754",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "hls/inter/hls_component/hls_component/hls/impl/ip/hdl/vhdl/inter.vhd",
+    "destination": "src/vivado/ip_catalog/inter/hdl/vhdl/inter.vhd",
+    "source_sha256": "7c0100fd0c20968f1d753c4912bde432ebaa30de1fa8d2fad2df4f35effc0be3",
+    "sha256": "a7391619f48692da15d5f3cc091dbe74d74f0b20b3f0201a9dd1b82bec6ed31f",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "hls/inter/hls_component/hls_component/hls/impl/ip/hdl/verilog/inter_mul_24s_6ns_29_5_1.v",
+    "destination": "src/vivado/ip_catalog/inter/hdl/verilog/inter_mul_24s_6ns_29_5_1.v",
+    "source_sha256": "d0a94b6327d2476ab439773a67c99dded2edfb061a054aa4acdc9a3bb1094721",
+    "sha256": "a5dfd78a91c48d87b9f0df2a4efcbd34fd58f45e99ed904ef9ea7d3f5f5e7586",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "hls/inter/hls_component/hls_component/hls/impl/ip/misc/logo.png",
+    "destination": "src/vivado/ip_catalog/inter/misc/logo.png",
+    "source_sha256": "4d978370b877dccf3f3bfaf7a8fdb3554e936ee2d2d3356bdaa64c0c4e30c9af",
+    "sha256": "4d978370b877dccf3f3bfaf7a8fdb3554e936ee2d2d3356bdaa64c0c4e30c9af",
+    "modified_for_export": false
+  },
+  {
+    "source": "hls/inter/hls_component/hls_component/hls/impl/ip/constraints/inter_ooc.xdc",
+    "destination": "src/vivado/ip_catalog/inter/constraints/inter_ooc.xdc",
+    "source_sha256": "7d7262690943a74aca70b6c1dacf7550bb96c039cb0ba4693334dfb81fc59982",
+    "sha256": "de45c1331685b27bb538f957fcff778085ec956ac75dfa6dc24bbc45d611a36c",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "hls/inter/hls_component/hls_component/hls/impl/ip/hdl/vhdl/inter_mul_24s_6ns_29_5_1.vhd",
+    "destination": "src/vivado/ip_catalog/inter/hdl/vhdl/inter_mul_24s_6ns_29_5_1.vhd",
+    "source_sha256": "e0c309b08a8d1f7f711065605e20a0bdfee04a904b5a2f9f6189c233dfc48009",
+    "sha256": "e42685d62ed1636e8d32b301fcc5ebf6223950f51b177b526493d17f73b64b12",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "hls/inter/hls_component/hls_component/hls/impl/ip/hdl/verilog/inter_mac_muladd_24s_5ns_29s_29_4_1.v",
+    "destination": "src/vivado/ip_catalog/inter/hdl/verilog/inter_mac_muladd_24s_5ns_29s_29_4_1.v",
+    "source_sha256": "3265bd083cd80fc72dda0d97a74692b584da4dc7567baca30751e6801f7f126b",
+    "sha256": "52fd599b8a2c1cc845d52a82d28d2ac448c54ee7d2443a856c9fffd73662ca2b",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "hls/inter/hls_component/hls_component/hls/impl/ip/hdl/vhdl/inter_mac_muladd_24s_5ns_29s_29_4_1.vhd",
+    "destination": "src/vivado/ip_catalog/inter/hdl/vhdl/inter_mac_muladd_24s_5ns_29s_29_4_1.vhd",
+    "source_sha256": "9ac00c02b0a7f001f48d1229fd07929bb681e5b82b6b1651cbaa1248a8cba667",
+    "sha256": "4bb458f09a5730a6aca109b1b27909dd1443637d0f477e28b587cd60e5c8a9f1",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "hls/inter/hls_component/hls_component/hls/impl/ip/doc/ReleaseNotes.txt",
+    "destination": "src/vivado/ip_catalog/inter/doc/releasenotes.txt",
+    "source_sha256": "4d793976b948498cd042a1cbfb0b840c261eb73f13ac321cc356207669e70e48",
+    "sha256": "c86b7dba59c6d2d04c607f807449445fa507c0632732b13134ed463764e69514",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "hls/inter/hls_component/hls_component/hls/impl/ip/hdl/verilog/inter_round_fixed_29_24_s.v",
+    "destination": "src/vivado/ip_catalog/inter/hdl/verilog/inter_round_fixed_29_24_s.v",
+    "source_sha256": "fe80a44114a592f9c17b8d9fcbcfa6d9f85413262797468bc033dbd60304cbad",
+    "sha256": "acc3e15f46beefdde5e17a6825fd23320a7324fbed0dee709f8f8515f3fa9749",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "hls/inter/hls_component/hls_component/hls/impl/ip/component.xml",
+    "destination": "src/vivado/ip_catalog/inter/component.xml",
+    "source_sha256": "5fd0002d9f84e1335598767d19a1414b7626056ebac0c9f2cc19525b7f6c8957",
+    "sha256": "fd0e8ee5054002b205fd3fc14d722f70e1f82d6ae961fae25d82f230317ca103",
+    "modified_for_export": true,
+    "export_note": "Reviewed release-only path/configuration or test harness normalization; frozen runtime is not redeployed."
+  },
+  {
+    "source": "hls/vram_add/hls_component/hls_component/hls/impl/ip/hdl/verilog/vram_add.v",
+    "destination": "src/vivado/ip_catalog/vram_add/hdl/verilog/vram_add.v",
+    "source_sha256": "6a44ad2187c3a3206b90d8c4c4266ea240e1550035297229e12530daabbb3030",
+    "sha256": "b25a3c50d47a3750e0f16300090e5aae41697c0c72ef0df4915ad21c4fb63c8c",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "hls/vram_add/hls_component/hls_component/hls/impl/ip/hdl/vhdl/vram_add_add_64s_64ns_64_3_1.vhd",
+    "destination": "src/vivado/ip_catalog/vram_add/hdl/vhdl/vram_add_add_64s_64ns_64_3_1.vhd",
+    "source_sha256": "1953fe925e740d207d10a232a437d2481cbc502302340ecadf49038bd89e39d2",
+    "sha256": "e48588528020274993d6d83f7f7e51604550ffce0da502ff54f8b039676f0f85",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "hls/vram_add/hls_component/hls_component/hls/impl/ip/hdl/vhdl/vram_add.vhd",
+    "destination": "src/vivado/ip_catalog/vram_add/hdl/vhdl/vram_add.vhd",
+    "source_sha256": "b51d2986c35d690886c4d8e3187e25cf6f51fddf1502cf8f459e7318bb11e4a4",
+    "sha256": "89fa92bf654069fd6be016b54b08fe0c5f0f7e899aadd8cab998cdc51029f7d6",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "hls/vram_add/hls_component/hls_component/hls/impl/ip/misc/logo.png",
+    "destination": "src/vivado/ip_catalog/vram_add/misc/logo.png",
+    "source_sha256": "4d978370b877dccf3f3bfaf7a8fdb3554e936ee2d2d3356bdaa64c0c4e30c9af",
+    "sha256": "4d978370b877dccf3f3bfaf7a8fdb3554e936ee2d2d3356bdaa64c0c4e30c9af",
+    "modified_for_export": false
+  },
+  {
+    "source": "hls/vram_add/hls_component/hls_component/hls/impl/ip/constraints/vram_add_ooc.xdc",
+    "destination": "src/vivado/ip_catalog/vram_add/constraints/vram_add_ooc.xdc",
+    "source_sha256": "23b27a52c71702ed0dbd0b8fc4f81ec65b4244b3687c8f95518911b94ac67c70",
+    "sha256": "5ae8c1e1aa943dc54132aa688bec3c0bff62998de4b7aa2c11f812a1e2653e55",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "hls/vram_add/hls_component/hls_component/hls/impl/ip/hdl/verilog/vram_add_add_64s_64ns_64_3_1.v",
+    "destination": "src/vivado/ip_catalog/vram_add/hdl/verilog/vram_add_add_64s_64ns_64_3_1.v",
+    "source_sha256": "0d9260a359f681c50c017547dcf7751ec2a4aec6ad8318de0e97e717d913ee73",
+    "sha256": "b7bf67bcacc59eecea5d6b809206c9ef7109792626f01d67c49cfb261d50dec0",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "hls/vram_add/hls_component/hls_component/hls/impl/ip/doc/ReleaseNotes.txt",
+    "destination": "src/vivado/ip_catalog/vram_add/doc/releasenotes.txt",
+    "source_sha256": "c3254de01278269c5d9b9db74e5d328173e3884b79a41604442ee0a9b8a8e856",
+    "sha256": "24feb5dfba7c4f4e5c4a1c86dcfda6062bf77936a9af9e98e9f6276c52b07696",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "hls/vram_add/hls_component/hls_component/hls/impl/ip/xgui/vram_add_v1_0.tcl",
+    "destination": "src/vivado/ip_catalog/vram_add/xgui/vram_add_v1_0.tcl",
+    "source_sha256": "e0725b60cdc4cd625ee059e557ee3f5569fcd085edf601849e69e4d438080d96",
+    "sha256": "afd3e4fc7270a93d775a4de109d5ea7cbd830e7c5bc243e420e15ef9e5be4754",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "hls/vram_add/hls_component/hls_component/hls/impl/ip/component.xml",
+    "destination": "src/vivado/ip_catalog/vram_add/component.xml",
+    "source_sha256": "4f48371fdea1bc18c7fa3511e79b594952af85b699efd32c2de2edcc40b2921a",
+    "sha256": "887a05985ac590ec7205bf090558c6efcaf214a603ffd3166772208b40d000fb",
+    "modified_for_export": true,
+    "export_note": "Reviewed release-only path/configuration or test harness normalization; frozen runtime is not redeployed."
+  },
+  {
+    "source": "external_input/acoustic_camera_ctrl_v1_0.tcl",
+    "destination": "src/vivado/ip_catalog/acoustic_ctrl/xgui/acoustic_camera_ctrl_v1_0.tcl",
+    "source_sha256": "d3bdad2581bf5be90effcaa8ec53fc77d58c47531b269aa830f46158abdc4866",
+    "sha256": "3c90cb88821f9186d0cb5b0782c26f19eb80e09e6970eaf99552df4a649a829d",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "external_input/acoustic_camera_ctrl.h",
+    "destination": "src/vivado/ip_catalog/acoustic_ctrl/drivers/acoustic_camera_ctrl_v1_0/src/acoustic_camera_ctrl.h",
+    "source_sha256": "b7ecee2cc6be1e3a22f1d6d6cd0a7341d51c49622646def8d13773216f6be002",
+    "sha256": "e9f3d6edd6600cbab57e252c1dfdb360f125004b96ee2b0c7d5e9f58d5b8384f",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "external_input/acoustic_camera_ctrl_slave_lite_v1_0_S00_AXI.v",
+    "destination": "src/vivado/ip_catalog/acoustic_ctrl/hdl/acoustic_camera_ctrl_slave_lite_v1_0_s00_axi.v",
+    "source_sha256": "fe20ad9cd1004074ac0732035e97b422b307bb74529b02d5f9d12579bc651f1e",
+    "sha256": "7282bb5f63ec20b97d4d51d1c9090e76ead4affc431c14d0c3b12400d322cde8",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "external_input/acoustic_camera_ctrl.tcl",
+    "destination": "src/vivado/ip_catalog/acoustic_ctrl/drivers/acoustic_camera_ctrl_v1_0/data/acoustic_camera_ctrl.tcl",
+    "source_sha256": "de0fa185d07e5b73164f5d171f1d43e450d98c57d2600c06546953a45caab72e",
+    "sha256": "1f370978c64bff257c70589804a6f93844636e9ec6006cabc5d7b50ed6817c78",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "external_input/acoustic_camera_ctrl_selftest.c",
+    "destination": "src/vivado/ip_catalog/acoustic_ctrl/drivers/acoustic_camera_ctrl_v1_0/src/acoustic_camera_ctrl_selftest.c",
+    "source_sha256": "8edad11ebd18f42ab9fe9a2e2552ea1595dc223b0201cb622771ffbc60159ad9",
+    "sha256": "1465f469ac7c29fc46bd4dfbbced96522c316b6cd5afab7580714369f7c3e231",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "external_input/acoustic_camera_ctrl.mdd",
+    "destination": "src/vivado/ip_catalog/acoustic_ctrl/drivers/acoustic_camera_ctrl_v1_0/data/acoustic_camera_ctrl.mdd",
+    "source_sha256": "f11838c4dcd6c18776c5629be596ee27b9c2e965a369fff1d53278aae2916290",
+    "sha256": "18cb485185ae08c59e1d4c8b954a2f51d25f028754ffa45b3fe0f75d02711835",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "external_input/acoustic_camera_ctrl.c",
+    "destination": "src/vivado/ip_catalog/acoustic_ctrl/drivers/acoustic_camera_ctrl_v1_0/src/acoustic_camera_ctrl.c",
+    "source_sha256": "350c9efcf2b2ecac21beb7f9d2ec5c6de7a1bae2319d9927526e0d633b51cddf",
+    "sha256": "2270f6b1ff11387da84f0eff579a50bd9387936f51c13f1a0f4919cd1886d9f3",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "external_input/Makefile",
+    "destination": "src/vivado/ip_catalog/acoustic_ctrl/drivers/acoustic_camera_ctrl_v1_0/src/makefile",
+    "source_sha256": "46c274b6818f3c8400b0a25f001340066551e9fa9e02ac14c39c595f2ddc11b2",
+    "sha256": "c4cc80c0444f92879bcf4191604aba63941f958580e3b76f9d16587e658aec94",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "external_input/acoustic_camera_ctrl.v",
+    "destination": "src/vivado/ip_catalog/acoustic_ctrl/hdl/acoustic_camera_ctrl.v",
+    "source_sha256": "4326ade123bfc199db76937ea8a9fe444bd626caebd6aebd7c503ff746eabc27",
+    "sha256": "6bf3562141539bc2b5ebcdcb09dc02d7288f65bf7e5d097afad285f4890e1a13",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "external_input/bd.tcl",
+    "destination": "src/vivado/ip_catalog/acoustic_ctrl/bd/bd.tcl",
+    "source_sha256": "1c84726f85b384b436e268025ceca83ffa845ba278ff1acf1650a58ebd373fc6",
+    "sha256": "0785e39e7b257a1bb4f844d0817fb39c1678988630d3c5d9b08ca8ff4dfafd64",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "external_input/component.xml",
+    "destination": "src/vivado/ip_catalog/acoustic_ctrl/component.xml",
+    "source_sha256": "355cea52d0ef70ab06d1fa2fa65bd33e1fbaf72aa6f53b9e9afe4745a0f8d302",
+    "sha256": "bfad72a7f12229dac0e45eac182d6083aa2680930700db98d1115ac7dd8c9e52",
+    "modified_for_export": true
+  },
+  {
+    "source": "external_input/acoustic_result_adapter_v1_0.tcl",
+    "destination": "src/vivado/ip_catalog/acoustic_result_adapter/xgui/acoustic_result_adapter_v1_0.tcl",
+    "source_sha256": "32d97f11e0e84a3339b41559522073a9565a6f1f902f2c1f4c55dcf1fb366928",
+    "sha256": "f4deb40a76d95898423374f932f1bef0c89b884971d461f4f5045995581614fd",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "external_input/acoustic_result_adapter.v",
+    "destination": "src/vivado/ip_catalog/acoustic_result_adapter/hdl/acoustic_result_adapter.v",
+    "source_sha256": "465762bda9d6ade00d1b1c043e8528aba07d537484b312faa6a3ae71e6f3ee6f",
+    "sha256": "15da54f9fe7b9900d2349a4d39b3363e097bd9cfaff6f3334df18f5fb2384bcd",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "external_input/component.xml",
+    "destination": "src/vivado/ip_catalog/acoustic_result_adapter/component.xml",
+    "source_sha256": "1cab0b6c1fb387070db1df986520544225585c1734298550629f522e776c3a1c",
+    "sha256": "1cab0b6c1fb387070db1df986520544225585c1734298550629f522e776c3a1c",
+    "modified_for_export": false
+  },
+  {
+    "source": "hls/calculate/src/calculate.cpp",
+    "destination": "src/hls/calculate/calculate.cpp",
+    "source_sha256": "fe44f7a478c53b35ad53e9d768a04d370d11c2473053ca1e9d64d37a80114e99",
+    "sha256": "bf56659f02a3bb93940e96574f61779156915f01c97834e40b30bfd684a9e2a9",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "hls/calculate/src/calculate.h",
+    "destination": "src/hls/calculate/calculate.h",
+    "source_sha256": "89d3b965ceb3b3e9d1e273322ccd40713ceaf9988121c92388eef2b33bef4e7d",
+    "sha256": "61f2933c67c74f1f43fea2d51a2cda1194657c76ddaf68dfcbb41967426b0edf",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "hls/calculate/src/tb_calculate.cpp",
+    "destination": "src/hls/calculate/tb_calculate.cpp",
+    "source_sha256": "148c93356deb4a948bc37f3a0e9a2b58995a4077aa47e3e928e3c773bd8146fb",
+    "sha256": "dfe00342ba507882fc1cf4054b6dcbe53541fe7c74f8fd9b8e6fc651963e7758",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "hls/delay/src/delay.cpp",
+    "destination": "src/hls/delay/delay.cpp",
+    "source_sha256": "794a394874e2ddf2b00b7a20f71485bc1de122f5ba96d8b5c36b736e206e93b9",
+    "sha256": "97df3c02bbdbed42f995cb98c3090d6b7c794a72b0ecaf0d9d6219f8bb776879",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "hls/delay/src/delay.h",
+    "destination": "src/hls/delay/delay.h",
+    "source_sha256": "02c544eeff306d768903d4c434632580500f889baa0ef562e7de65fac2faabef",
+    "sha256": "9f03fe64f048f366c8c1eb6602c9d763bad89e839a88476d05123ec3749d6858",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "hls/delay/src/tb_delay.cpp",
+    "destination": "src/hls/delay/tb_delay.cpp",
+    "source_sha256": "170da0a1e93b20c0ed6267c483fabd61abf01ad632abfeced458cc672268b2b1",
+    "sha256": "170da0a1e93b20c0ed6267c483fabd61abf01ad632abfeced458cc672268b2b1",
+    "modified_for_export": false
+  },
+  {
+    "source": "hls/inter/src/inter.cpp",
+    "destination": "src/hls/inter/inter.cpp",
+    "source_sha256": "f256ec0aeec925e9f847591d3d6b5c8244a23f05f548198c14fa05e31e51f14c",
+    "sha256": "ed6c8fa42464c34978505f7888e9d94a40a72865913b262606f3c94de2a670a2",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "hls/inter/src/inter.h",
+    "destination": "src/hls/inter/inter.h",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "modified_for_export": false
+  },
+  {
+    "source": "hls/inter/src/tb_inter.cpp",
+    "destination": "src/hls/inter/tb_inter.cpp",
+    "source_sha256": "63e0972985a09a3eadbc986a32773801e2bf56e84b5e20c732dc013dee27f223",
+    "sha256": "79ba486d90c5477c46cd5bc9f51c7c7ee29fd916cb815b651e6bd15b6d73678b",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "hls/vram_add/hls_component/tb_vram_add.cpp",
+    "destination": "src/hls/vram_add/tb_vram_add.cpp",
+    "source_sha256": "f450414a8f40e2128dda6ca3efb7d05c6e5d40db8b0ac2b01ba917c3f0ca8011",
+    "sha256": "9770da770c47098cec04657aa9b9fcb787dc2518b5dbc89e26df3b12854f2902",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "hls/vram_add/hls_component/vram_add.cpp",
+    "destination": "src/hls/vram_add/vram_add.cpp",
+    "source_sha256": "dfa04e50a5d1f06fb7f1bc86d4c95831815d70554640e87aa8b293e67b23cbbd",
+    "sha256": "f67b064119b01436219513a7937a30699ddaf74d7f31e77e4d6699e630c3fd00",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "color_mapping/hls/color_mapping.cpp",
+    "destination": "src/hls/color_mapping/color_mapping.cpp",
+    "source_sha256": "6de0ad83121b08fda111a01a7b283dd1a0a25587d6e6ec49292318284ddec798",
+    "sha256": "6de0ad83121b08fda111a01a7b283dd1a0a25587d6e6ec49292318284ddec798",
+    "modified_for_export": false
+  },
+  {
+    "source": "color_mapping/hls/color_mapping.h",
+    "destination": "src/hls/color_mapping/color_mapping.h",
+    "source_sha256": "d8c1287916d80d4b4690ac181ee28bee4e83217e6259ae2d8f90b84c7c133f62",
+    "sha256": "d8c1287916d80d4b4690ac181ee28bee4e83217e6259ae2d8f90b84c7c133f62",
+    "modified_for_export": false
+  },
+  {
+    "source": "color_mapping/hls/color_mapping_tb.cpp",
+    "destination": "src/hls/color_mapping/color_mapping_tb.cpp",
+    "source_sha256": "68ceb31018f744a65ebe75a3e89d690d70a6a01a67fa50a6ffff39491efb57f6",
+    "sha256": "68ceb31018f744a65ebe75a3e89d690d70a6a01a67fa50a6ffff39491efb57f6",
+    "modified_for_export": false
+  },
+  {
+    "source": "external_input/add_image.cpp",
+    "destination": "src/hls/add_image/add_image.cpp",
+    "source_sha256": "0b7640cc6b5424cecbc35051cafb1d087350f6168a327783e907433ee3188105",
+    "sha256": "48086bb800fb693c07d272dc8a823340545e37fff61d6a791506635d5bb0e4c6",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "external_input/add_image.h",
+    "destination": "src/hls/add_image/add_image.h",
+    "source_sha256": "e0eeb0824a6bcebee6d5441d882379abc7a7599b262eb180e763b8b7b1d41623",
+    "sha256": "4c4b9d4c21f3c8d36f836cc8a65c9320b76c7bdbf757175c27c836089579e213",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "petalinux-video/acoustic-display-control",
+    "destination": "src/ps/video/acoustic-display-control",
+    "source_sha256": "b5af996a07525fb533d30db1884858a11f464eca3b735fb3551fc878c32249a6",
+    "sha256": "b5af996a07525fb533d30db1884858a11f464eca3b735fb3551fc878c32249a6",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/acoustic-display.conf",
+    "destination": "src/ps/video/acoustic-display.conf",
+    "source_sha256": "f7c16ce72a2401612567c7c4fb4ab640e4692d85982d6284ed637b3aac653b81",
+    "sha256": "f7c16ce72a2401612567c7c4fb4ab640e4692d85982d6284ed637b3aac653b81",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/acoustic_display_control.c",
+    "destination": "src/ps/video/acoustic_display_control.c",
+    "source_sha256": "0fbcfcaff28c97954f43543b2ede3ab99896d7ac0320f6c6bf2867f11d07a43a",
+    "sha256": "0fbcfcaff28c97954f43543b2ede3ab99896d7ac0320f6c6bf2867f11d07a43a",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/acoustic_display_logic.h",
+    "destination": "src/ps/video/acoustic_display_logic.h",
+    "source_sha256": "4d37702474f5db60caf83b7f045b55820c3439cca14349d8992f62f4e13e42d4",
+    "sha256": "4d37702474f5db60caf83b7f045b55820c3439cca14349d8992f62f4e13e42d4",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/camera_album.c",
+    "destination": "src/ps/video/camera_album.c",
+    "source_sha256": "72cf30fe5f0fa3b28da1a96ba8d61e2009f756db2670f460ce02e57a1fb07bfa",
+    "sha256": "72cf30fe5f0fa3b28da1a96ba8d61e2009f756db2670f460ce02e57a1fb07bfa",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/camera_album_core.h",
+    "destination": "src/ps/video/camera_album_core.h",
+    "source_sha256": "209df61f8f610ff05dc0f19d7fb2e5e914a6a65664f367982cb1f68fcd92a4db",
+    "sha256": "209df61f8f610ff05dc0f19d7fb2e5e914a6a65664f367982cb1f68fcd92a4db",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/camera_snapshot.c",
+    "destination": "src/ps/video/camera_snapshot.c",
+    "source_sha256": "20de950e62f622a40f01fb7a53cca9c3d7f4dca22c2a2f8b2f4da4398220714c",
+    "sha256": "20de950e62f622a40f01fb7a53cca9c3d7f4dca22c2a2f8b2f4da4398220714c",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/camera_snapshot_core.h",
+    "destination": "src/ps/video/camera_snapshot_core.h",
+    "source_sha256": "4819a3691d572d609990b12f63c31b5639e5e07b80dd0909aaf6c8ea77d98bc1",
+    "sha256": "4819a3691d572d609990b12f63c31b5639e5e07b80dd0909aaf6c8ea77d98bc1",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/ov5640_720p_regs.h",
+    "destination": "src/ps/video/ov5640_720p_regs.h",
+    "source_sha256": "9104c9f96a6b05a236138f057f4b8e5a3002ace217648dc10e763756f0835e9a",
+    "sha256": "9104c9f96a6b05a236138f057f4b8e5a3002ace217648dc10e763756f0835e9a",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/robot-control",
+    "destination": "src/ps/video/robot-control",
+    "source_sha256": "d6b00ece983f683ecec9e2f9405df45ba9ada1dc5e4a89dedf2139074f79ad6b",
+    "sha256": "d6b00ece983f683ecec9e2f9405df45ba9ada1dc5e4a89dedf2139074f79ad6b",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/robot-regions.conf",
+    "destination": "src/ps/video/robot-regions.conf",
+    "source_sha256": "f015c606ccef0877b367ec59878e0d018ce9f3da922774ed53647870864cc57e",
+    "sha256": "f015c606ccef0877b367ec59878e0d018ce9f3da922774ed53647870864cc57e",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/robot-targets.conf",
+    "destination": "src/ps/video/robot-targets.conf",
+    "source_sha256": "19409d67b9bd5d57fc59e30e1f5acaab9108dfaa2d019ab49ba94e1552cb7434",
+    "sha256": "19409d67b9bd5d57fc59e30e1f5acaab9108dfaa2d019ab49ba94e1552cb7434",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/video-pipeline-init",
+    "destination": "src/ps/video/video-pipeline-init",
+    "source_sha256": "6cfb140876a6b435659d19cb21bd84d07a5895c84ca3070294a3835d33c610a8",
+    "sha256": "6cfb140876a6b435659d19cb21bd84d07a5895c84ca3070294a3835d33c610a8",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/video-status-panel",
+    "destination": "src/ps/video/video-status-panel",
+    "source_sha256": "baaf7f80511f8e4d8b5490d3c50d3cf5f5719bafed788fc51fbf7c38ac4bce0d",
+    "sha256": "baaf7f80511f8e4d8b5490d3c50d3cf5f5719bafed788fc51fbf7c38ac4bce0d",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/video-status-panel-touch.conf",
+    "destination": "src/ps/video/video-status-panel-touch.conf",
+    "source_sha256": "3de85b7e1c5408d9383bb792b71abbd0eda947ba803c9a5a3eef16eaa7a4f67a",
+    "sha256": "3de85b7e1c5408d9383bb792b71abbd0eda947ba803c9a5a3eef16eaa7a4f67a",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/video_display_diag.c",
+    "destination": "src/ps/video/video_display_diag.c",
+    "source_sha256": "19fa5d4ab55b00f79e2a4d43d20ff0de7bd0b06a5e37757b946797f9190c1df6",
+    "sha256": "19fa5d4ab55b00f79e2a4d43d20ff0de7bd0b06a5e37757b946797f9190c1df6",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/video_mixer.h",
+    "destination": "src/ps/video/video_mixer.h",
+    "source_sha256": "03a4699e8c26fa97e9b5c8cb5267f0603845637d08173dbff2fdaa7dce581d8d",
+    "sha256": "03a4699e8c26fa97e9b5c8cb5267f0603845637d08173dbff2fdaa7dce581d8d",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/video_mixer_ui.h",
+    "destination": "src/ps/video/video_mixer_ui.h",
+    "source_sha256": "45f039d45be1135b663271aea68b6ed74184fa1c0d908dc7fc9453e92d882aad",
+    "sha256": "45f039d45be1135b663271aea68b6ed74184fa1c0d908dc7fc9453e92d882aad",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/video_mixer_ui_test.c",
+    "destination": "src/ps/video/video_mixer_ui_test.c",
+    "source_sha256": "c7f425b86e1774ea78beccc475ee49ca94f268d975596b588d26152553a0e356",
+    "sha256": "c7f425b86e1774ea78beccc475ee49ca94f268d975596b588d26152553a0e356",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/video_observer.c",
+    "destination": "src/ps/video/video_observer.c",
+    "source_sha256": "974e77889a309da7fc3899d1bb8cf3d64c36dff7ddd1865bda9b328086f2f055",
+    "sha256": "974e77889a309da7fc3899d1bb8cf3d64c36dff7ddd1865bda9b328086f2f055",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/video_output_observe.h",
+    "destination": "src/ps/video/video_output_observe.h",
+    "source_sha256": "03c9fc12c5ad5a2b34067b8a1532b40252d48d0140ade34f2c2fe038e7c10651",
+    "sha256": "03c9fc12c5ad5a2b34067b8a1532b40252d48d0140ade34f2c2fe038e7c10651",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/video_pipeline_init.c",
+    "destination": "src/ps/video/video_pipeline_init.c",
+    "source_sha256": "b1d7f4620854c9af937d0d690b04d06e36a0f6b5c021bff2400716f55b83bae1",
+    "sha256": "b1d7f4620854c9af937d0d690b04d06e36a0f6b5c021bff2400716f55b83bae1",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/video_readonly_probe.h",
+    "destination": "src/ps/video/video_readonly_probe.h",
+    "source_sha256": "58fc022013688f285a28ea825e0a52f9eb82b71c47be135bcf5741354a026a41",
+    "sha256": "58fc022013688f285a28ea825e0a52f9eb82b71c47be135bcf5741354a026a41",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/video_robot_core.h",
+    "destination": "src/ps/video/video_robot_core.h",
+    "source_sha256": "0b05fd5cf47c45cd50669cbd614599b7392ad0939a47810491f7ae557e6fac09",
+    "sha256": "0b05fd5cf47c45cd50669cbd614599b7392ad0939a47810491f7ae557e6fac09",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/video_robot_modes.h",
+    "destination": "src/ps/video/video_robot_modes.h",
+    "source_sha256": "3883d8afc30e958b7dc88f309d4f3603defbfbb67af6597e622934a58736b6db",
+    "sha256": "3883d8afc30e958b7dc88f309d4f3603defbfbb67af6597e622934a58736b6db",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/video_robot_modes_core.h",
+    "destination": "src/ps/video/video_robot_modes_core.h",
+    "source_sha256": "db07d174d6d2886b495423a323462a3aaff32813736e97aace6e39255a5b53dc",
+    "sha256": "db07d174d6d2886b495423a323462a3aaff32813736e97aace6e39255a5b53dc",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/video_robot_protocol.h",
+    "destination": "src/ps/video/video_robot_protocol.h",
+    "source_sha256": "81cd33b6ee4163d022249c68c87936a0f7617db2e84c0da30b276fc332d734e0",
+    "sha256": "81cd33b6ee4163d022249c68c87936a0f7617db2e84c0da30b276fc332d734e0",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/video_robot_service.c",
+    "destination": "src/ps/video/video_robot_service.c",
+    "source_sha256": "6061a031726cd945dd20e3c1396ae90a20cdaf094869111ff50ede4399d257c3",
+    "sha256": "6061a031726cd945dd20e3c1396ae90a20cdaf094869111ff50ede4399d257c3",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/video_status_capture.h",
+    "destination": "src/ps/video/video_status_capture.h",
+    "source_sha256": "046e4af8c691423391cfadb555bf151833d3ea7104c7080ea4ed331503d5598c",
+    "sha256": "046e4af8c691423391cfadb555bf151833d3ea7104c7080ea4ed331503d5598c",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/video_status_follow.h",
+    "destination": "src/ps/video/video_status_follow.h",
+    "source_sha256": "fcf179e12f545a455f716d3517ccb8f6089a5c50aac9ab65b4db931fff48133c",
+    "sha256": "fcf179e12f545a455f716d3517ccb8f6089a5c50aac9ab65b4db931fff48133c",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/video_status_font.h",
+    "destination": "src/ps/video/video_status_font.h",
+    "source_sha256": "3610db0887b6cabba108221e8ad7901cded486eb3619c187ed54e62fb43cab86",
+    "sha256": "4c2bebbabd76c8fd31698258296db2a7bbadf3d9ebe6ca84a7beb60796d8b555",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "petalinux-video/video_status_frequency.h",
+    "destination": "src/ps/video/video_status_frequency.h",
+    "source_sha256": "41cda7de5b853dfa49147ef36af9577c9db50d288cc75c0d0d37d7a4285ef415",
+    "sha256": "41cda7de5b853dfa49147ef36af9577c9db50d288cc75c0d0d37d7a4285ef415",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/video_status_gallery.h",
+    "destination": "src/ps/video/video_status_gallery.h",
+    "source_sha256": "ad37d70193944bf490a638070bf0c74762d502685226cc9c08e943052beb181b",
+    "sha256": "ad37d70193944bf490a638070bf0c74762d502685226cc9c08e943052beb181b",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/video_status_gallery_render.h",
+    "destination": "src/ps/video/video_status_gallery_render.h",
+    "source_sha256": "e6625d2010e7f83439b67485445549b3be984d1588469c1a809a53a9f1ebcc4c",
+    "sha256": "e6625d2010e7f83439b67485445549b3be984d1588469c1a809a53a9f1ebcc4c",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/video_status_gallery_text.h",
+    "destination": "src/ps/video/video_status_gallery_text.h",
+    "source_sha256": "cd202c22c8a42b3b38d9a831d64253b5d25c45ea34dd2b4cf10e5a77f709b6cd",
+    "sha256": "cd202c22c8a42b3b38d9a831d64253b5d25c45ea34dd2b4cf10e5a77f709b6cd",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/video_status_image.h",
+    "destination": "src/ps/video/video_status_image.h",
+    "source_sha256": "a0a171ea8ccbc8dc0a9a1310f04cc25a02515f436bafbd467526160c60d22c07",
+    "sha256": "a0a171ea8ccbc8dc0a9a1310f04cc25a02515f436bafbd467526160c60d22c07",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/video_status_image_model.h",
+    "destination": "src/ps/video/video_status_image_model.h",
+    "source_sha256": "af86ec10fa3e2c37b233381f7837517d0f30bdc354bcfc43a9dde0aac0c37c3a",
+    "sha256": "af86ec10fa3e2c37b233381f7837517d0f30bdc354bcfc43a9dde0aac0c37c3a",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/video_status_image_render.h",
+    "destination": "src/ps/video/video_status_image_render.h",
+    "source_sha256": "20cc204381869282fae81daecddd681b1b14df734be2b2c474db6294721a418d",
+    "sha256": "20cc204381869282fae81daecddd681b1b14df734be2b2c474db6294721a418d",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/video_status_image_view.h",
+    "destination": "src/ps/video/video_status_image_view.h",
+    "source_sha256": "6c98d616ebbc8b3d521781923b321a6e9223954653268e14609f5cd17ec8699f",
+    "sha256": "6c98d616ebbc8b3d521781923b321a6e9223954653268e14609f5cd17ec8699f",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/video_status_panel.c",
+    "destination": "src/ps/video/video_status_panel.c",
+    "source_sha256": "fb758cb613b88ef37f862479e16f45ebba597eb39b55ffa587d9da9155e0819f",
+    "sha256": "fb758cb613b88ef37f862479e16f45ebba597eb39b55ffa587d9da9155e0819f",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/video_status_panel.h",
+    "destination": "src/ps/video/video_status_panel.h",
+    "source_sha256": "ed311c5943cd9be0f710992e1d00aba6870d58c7bc1a6bae786c4c493e12eb0e",
+    "sha256": "ed311c5943cd9be0f710992e1d00aba6870d58c7bc1a6bae786c4c493e12eb0e",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/video_status_perf.h",
+    "destination": "src/ps/video/video_status_perf.h",
+    "source_sha256": "6f7dae34e535d12bb1e1aab802361988872d58c7983a02d00279ff5f29001555",
+    "sha256": "6f7dae34e535d12bb1e1aab802361988872d58c7983a02d00279ff5f29001555",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/video_status_power.h",
+    "destination": "src/ps/video/video_status_power.h",
+    "source_sha256": "72720b3736012ba4ef22eabc161c114ef3c4b47e9e149ff17b0e1d7a5a1d7422",
+    "sha256": "72720b3736012ba4ef22eabc161c114ef3c4b47e9e149ff17b0e1d7a5a1d7422",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/video_status_power_model.h",
+    "destination": "src/ps/video/video_status_power_model.h",
+    "source_sha256": "429ef30967ec6bbad2bbddccbd27b390c37116b9b151128ddc7e25bc0abfdb09",
+    "sha256": "429ef30967ec6bbad2bbddccbd27b390c37116b9b151128ddc7e25bc0abfdb09",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/video_status_power_render.h",
+    "destination": "src/ps/video/video_status_power_render.h",
+    "source_sha256": "621bccf1129d1444294ac25f7b7412db86cdcb85ccf6bf693c31ee465afcb66c",
+    "sha256": "621bccf1129d1444294ac25f7b7412db86cdcb85ccf6bf693c31ee465afcb66c",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/video_status_render.h",
+    "destination": "src/ps/video/video_status_render.h",
+    "source_sha256": "a3ad6377edb51b2555b892f91760aa90ecf3130d889ab7dd32f6722f29e1ef8a",
+    "sha256": "a3ad6377edb51b2555b892f91760aa90ecf3130d889ab7dd32f6722f29e1ef8a",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/video_status_robot.h",
+    "destination": "src/ps/video/video_status_robot.h",
+    "source_sha256": "1728425f17e12480a2d7a50707839c69c53204588d5d9c083e110b86fc1a7a52",
+    "sha256": "1728425f17e12480a2d7a50707839c69c53204588d5d9c083e110b86fc1a7a52",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/video_status_robot_model.h",
+    "destination": "src/ps/video/video_status_robot_model.h",
+    "source_sha256": "f3e7c14ce12ea377c95393c6dc0fd86e51a6424da9105f817b7cde98439b6e8a",
+    "sha256": "f3e7c14ce12ea377c95393c6dc0fd86e51a6424da9105f817b7cde98439b6e8a",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/video_status_robot_render.h",
+    "destination": "src/ps/video/video_status_robot_render.h",
+    "source_sha256": "99ab8aeca723d9d4f34ef299a394027b1d1c3674c62ade81685cb20daba50292",
+    "sha256": "99ab8aeca723d9d4f34ef299a394027b1d1c3674c62ade81685cb20daba50292",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/video_status_temp.h",
+    "destination": "src/ps/video/video_status_temp.h",
+    "source_sha256": "d05f5f1f0740881a0c9d4689e4d62d4847e5f0792efe6252f49356e035130d70",
+    "sha256": "d05f5f1f0740881a0c9d4689e4d62d4847e5f0792efe6252f49356e035130d70",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/video_status_toolbar.h",
+    "destination": "src/ps/video/video_status_toolbar.h",
+    "source_sha256": "88d68c4559a44c5c0ea46ca8cc931d2e59633c6b42a213d4e3ee08ca22cfb1af",
+    "sha256": "88d68c4559a44c5c0ea46ca8cc931d2e59633c6b42a213d4e3ee08ca22cfb1af",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/video_status_touch.h",
+    "destination": "src/ps/video/video_status_touch.h",
+    "source_sha256": "08d94c2e04728e415334abd6944689ce3043404ec23f984042501abd8bfb2c1f",
+    "sha256": "08d94c2e04728e415334abd6944689ce3043404ec23f984042501abd8bfb2c1f",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/video_status_view.h",
+    "destination": "src/ps/video/video_status_view.h",
+    "source_sha256": "f0ecca603bd2de74af991e9a74c420d778e76e7b716453d574178f09f4a47ea8",
+    "sha256": "f0ecca603bd2de74af991e9a74c420d778e76e7b716453d574178f09f4a47ea8",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/video_ui_watchdog.c",
+    "destination": "src/ps/video/video_ui_watchdog.c",
+    "source_sha256": "ad1e136e9b6dd9fe2ad33b37ff3f8d25d445d233f2b24e631ac96a7502bb8fa9",
+    "sha256": "ad1e136e9b6dd9fe2ad33b37ff3f8d25d445d233f2b24e631ac96a7502bb8fa9",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/video_ui_watchdog_core.h",
+    "destination": "src/ps/video/video_ui_watchdog_core.h",
+    "source_sha256": "22542d3784c28a6e760cd76efc36ee702fa1b71d1676441ac9d73e9cda61d07d",
+    "sha256": "22542d3784c28a6e760cd76efc36ee702fa1b71d1676441ac9d73e9cda61d07d",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/video_vdma_status.h",
+    "destination": "src/ps/video/video_vdma_status.h",
+    "source_sha256": "4b1048be61276ee5435e4e98db93e089c18470d1b1fe909391f75bea1d8db91f",
+    "sha256": "4b1048be61276ee5435e4e98db93e089c18470d1b1fe909391f75bea1d8db91f",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/video-status-font-OFL.txt",
+    "destination": "src/ps/video/font_ofl.txt",
+    "source_sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+    "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/video-status-font-DejaVu.txt",
+    "destination": "src/ps/video/font_dejavu.txt",
+    "source_sha256": "7a083b136e64d064794c3419751e5c7dd10d2f64c108fe5ba161eae5e5958a93",
+    "sha256": "7a083b136e64d064794c3419751e5c7dd10d2f64c108fe5ba161eae5e5958a93",
+    "modified_for_export": false
+  },
+  {
+    "source": "pl_daemon_payload/pl-control-init",
+    "destination": "src/ps/control/pl-control-init",
+    "source_sha256": "0d9deec05db80b8b192d90fec040a210caa6f22e0a03a73863353e7b550bf4a4",
+    "sha256": "0d9deec05db80b8b192d90fec040a210caa6f22e0a03a73863353e7b550bf4a4",
+    "modified_for_export": false
+  },
+  {
+    "source": "pl_daemon_payload/pl_control_daemon.c",
+    "destination": "src/ps/control/pl_control_daemon.c",
+    "source_sha256": "253537a076a14dea543e1b482723ce64da3dcd66319590e59e51b6d09425b5a8",
+    "sha256": "253537a076a14dea543e1b482723ce64da3dcd66319590e59e51b6d09425b5a8",
+    "modified_for_export": false
+  },
+  {
+    "source": "pl_daemon_payload/pl_enable.h",
+    "destination": "src/ps/control/pl_enable.h",
+    "source_sha256": "a6b720a059bd2066909050ba472c304264de7034b40719d0a31d46971dc881ae",
+    "sha256": "a6b720a059bd2066909050ba472c304264de7034b40719d0a31d46971dc881ae",
+    "modified_for_export": false
+  },
+  {
+    "source": "pl_daemon_payload/pl_tracking.h",
+    "destination": "src/ps/control/pl_tracking.h",
+    "source_sha256": "d5cb1568e3727a8d0244d9946b8e7a779e0598d03ca2d36ab866dd0d95d46b35",
+    "sha256": "d5cb1568e3727a8d0244d9946b8e7a779e0598d03ca2d36ab866dd0d95d46b35",
+    "modified_for_export": false
+  },
+  {
+    "source": "pl_daemon_payload/pl_uio.h",
+    "destination": "src/ps/control/pl_uio.h",
+    "source_sha256": "daf40371a7085122ef31783ee349272551bdd8eadbac429cc523a1a02f12c2bd",
+    "sha256": "daf40371a7085122ef31783ee349272551bdd8eadbac429cc523a1a02f12c2bd",
+    "modified_for_export": false
+  },
+  {
+    "source": "pl_daemon_payload/pl_tracking.h",
+    "destination": "src/ps/video/pl_tracking.h",
+    "source_sha256": "d5cb1568e3727a8d0244d9946b8e7a779e0598d03ca2d36ab866dd0d95d46b35",
+    "sha256": "d5cb1568e3727a8d0244d9946b8e7a779e0598d03ca2d36ab866dd0d95d46b35",
+    "modified_for_export": false
+  },
+  {
+    "source": "pl_daemon_payload/pl_enable.h",
+    "destination": "src/ps/video/pl_enable.h",
+    "source_sha256": "a6b720a059bd2066909050ba472c304264de7034b40719d0a31d46971dc881ae",
+    "sha256": "a6b720a059bd2066909050ba472c304264de7034b40719d0a31d46971dc881ae",
+    "modified_for_export": false
+  },
+  {
+    "source": "pl_daemon_payload/pl_uio.h",
+    "destination": "src/ps/video/pl_uio.h",
+    "source_sha256": "daf40371a7085122ef31783ee349272551bdd8eadbac429cc523a1a02f12c2bd",
+    "sha256": "daf40371a7085122ef31783ee349272551bdd8eadbac429cc523a1a02f12c2bd",
+    "modified_for_export": false
+  },
+  {
+    "source": "pl_audio_capture/acoustic-frequency-feed",
+    "destination": "src/ps/frequency/acoustic-frequency-feed",
+    "source_sha256": "89bf1b7d04bf6b1534540bdf6dc28523abfe7e882e7b2a530706869ac69a4858",
+    "sha256": "89bf1b7d04bf6b1534540bdf6dc28523abfe7e882e7b2a530706869ac69a4858",
+    "modified_for_export": false
+  },
+  {
+    "source": "pl_audio_capture/acoustic_frequency.c",
+    "destination": "src/ps/frequency/acoustic_frequency.c",
+    "source_sha256": "950aae73fdec665eb5c0ac6fefc7a37f0c487d77da47e49df955d94af988345c",
+    "sha256": "950aae73fdec665eb5c0ac6fefc7a37f0c487d77da47e49df955d94af988345c",
+    "modified_for_export": false
+  },
+  {
+    "source": "pl_audio_capture/acoustic_frequency_feed.c",
+    "destination": "src/ps/frequency/acoustic_frequency_feed.c",
+    "source_sha256": "4bbcd01227fc8adb81e449ad4e5ed5450ad3bf097dbe4a0ecc906147b666ffb9",
+    "sha256": "4bbcd01227fc8adb81e449ad4e5ed5450ad3bf097dbe4a0ecc906147b666ffb9",
+    "modified_for_export": false
+  },
+  {
+    "source": "pl_audio_capture/audio_fft.h",
+    "destination": "src/ps/frequency/audio_fft.h",
+    "source_sha256": "60354fcb5081d4882356d43fba40ea38d09fc894bd432d64c9d0ab62e7bb497f",
+    "sha256": "60354fcb5081d4882356d43fba40ea38d09fc894bd432d64c9d0ab62e7bb497f",
+    "modified_for_export": false
+  },
+  {
+    "source": "pl_video_process/video_preprocess_control.c",
+    "destination": "src/ps/image/video_preprocess_control.c",
+    "source_sha256": "528a43eca350067513e1cb7f0e299b02a7d27ed2644079573069f6571383c325",
+    "sha256": "528a43eca350067513e1cb7f0e299b02a7d27ed2644079573069f6571383c325",
+    "modified_for_export": false
+  },
+  {
+    "source": "pl_video_process/vpp_control_logic.h",
+    "destination": "src/ps/image/vpp_control_logic.h",
+    "source_sha256": "f8de374d5351df7d0d2b64e0d6b0414de4491768b8b4fa1908d38b2148b1d8fa",
+    "sha256": "f8de374d5351df7d0d2b64e0d6b0414de4491768b8b4fa1908d38b2148b1d8fa",
+    "modified_for_export": false
+  },
+  {
+    "source": "pl_video_process/video_preprocess_regs.h",
+    "destination": "src/ps/image/video_preprocess_regs.h",
+    "source_sha256": "351d3180d474ed7a6d050069ef3cb6b54aab5e8eebc7d5c8912d89c3afc8f212",
+    "sha256": "351d3180d474ed7a6d050069ef3cb6b54aab5e8eebc7d5c8912d89c3afc8f212",
+    "modified_for_export": false
+  },
+  {
+    "source": "pl_video_process/video_preprocess_regs_v3.h",
+    "destination": "src/ps/image/video_preprocess_regs_v3.h",
+    "source_sha256": "6bceb428c709fffaf38c1657e029eaefbbe9b6683fbecaeb2e06de7490f25bf6",
+    "sha256": "6bceb428c709fffaf38c1657e029eaefbbe9b6683fbecaeb2e06de7490f25bf6",
+    "modified_for_export": false
+  },
+  {
+    "source": "diagnostics/20261030/camera_hflip/video_init_half_clock_hflip.c",
+    "destination": "src/ps/video/video_init_half_clock_hflip.c",
+    "source_sha256": "18db8e438dae2f9b4587cb89f1a177d47eb3a6be0ff1a20aee0dbcd8b943fee7",
+    "sha256": "18db8e438dae2f9b4587cb89f1a177d47eb3a6be0ff1a20aee0dbcd8b943fee7",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/video-pipeline-init.bb",
+    "destination": "src/petalinux/recipes/video-pipeline-init.bb",
+    "source_sha256": "4c1d3bb76bab36cfbd6b737d962aac39b1ec47f0528dd1678e7c78409b9a7749",
+    "sha256": "997076fba87d0fabacda5ef6884f270a6f84d001420efc4ca4063271c6765b4e",
+    "modified_for_export": true
+  },
+  {
+    "source": "petalinux-video/acoustic-display-control.bb",
+    "destination": "src/petalinux/recipes/acoustic-display-control.bb",
+    "source_sha256": "21fa5f31eb7d3894ce31c82109238f4a1a35f7881a2506c5eb68ea79de751cc0",
+    "sha256": "21fa5f31eb7d3894ce31c82109238f4a1a35f7881a2506c5eb68ea79de751cc0",
+    "modified_for_export": false
+  },
+  {
+    "source": "pl_daemon_payload/pl-control-daemon.bb",
+    "destination": "src/petalinux/recipes/pl-control-daemon.bb",
+    "source_sha256": "d45177bf188815ce2893f2dee907bbac74c38a8e6f5f0b2fe9f92e8a11cc5bf3",
+    "sha256": "d45177bf188815ce2893f2dee907bbac74c38a8e6f5f0b2fe9f92e8a11cc5bf3",
+    "modified_for_export": false
+  },
+  {
+    "source": "pl_daemon_payload/pl-control-init.bb",
+    "destination": "src/petalinux/recipes/pl-control-init.bb",
+    "source_sha256": "5fbc679b3df98688ebcc54f59de339a311202ec38424a1e5f7da221def96fdf4",
+    "sha256": "5fbc679b3df98688ebcc54f59de339a311202ec38424a1e5f7da221def96fdf4",
+    "modified_for_export": false
+  },
+  {
+    "source": "pl_audio_capture/acoustic-frequency.bb",
+    "destination": "src/petalinux/recipes/acoustic-frequency.bb",
+    "source_sha256": "35f8be1b7d8f2dda644e294e6b7eb5ffed3d1acecc47744fdf6af2c64ae140c4",
+    "sha256": "35f8be1b7d8f2dda644e294e6b7eb5ffed3d1acecc47744fdf6af2c64ae140c4",
+    "modified_for_export": false
+  },
+  {
+    "source": "pl_video_process/video-preprocess-control.bb",
+    "destination": "src/petalinux/recipes/video-preprocess-control.bb",
+    "source_sha256": "a6af85e36377c56cb1b4550db3c6afc417461ccd667946533c8bb0ade0c1d116",
+    "sha256": "a6af85e36377c56cb1b4550db3c6afc417461ccd667946533c8bb0ade0c1d116",
+    "modified_for_export": false
+  },
+  {
+    "source": "tmp/final_inventory/vm/configs/config",
+    "destination": "src/petalinux/config/project_config.in",
+    "source_sha256": "af2e568d0c419d1034be297d4d2108c8c64f30b20ba79e2005ede16417a4fac3",
+    "sha256": "af2e568d0c419d1034be297d4d2108c8c64f30b20ba79e2005ede16417a4fac3",
+    "modified_for_export": false
+  },
+  {
+    "source": "tmp/final_inventory/vm/configs/rootfs_config",
+    "destination": "src/petalinux/config/rootfs_config.in",
+    "source_sha256": "bc08c8f606768675a4117eb3ddbc35624c80d2582d42b0ee449d26402efea0c3",
+    "sha256": "d6232eb1ff8c28821e9734360cca28af393130edbb1ef369ef847e6863a441b8",
+    "modified_for_export": true,
+    "export_note": "Reviewed release-only path/configuration or test harness normalization; frozen runtime is not redeployed."
+  },
+  {
+    "source": "tmp/final_inventory/vm/meta-user/recipes-kernel/linux/linux-xlnx_%.bbappend",
+    "destination": "src/petalinux/recipes-kernel/linux/linux-xlnx.bbappend.in",
+    "source_sha256": "d10ea0dfe6e3d31dac03f307a9db67a297386547fe3fecec5d71bef55658cc56",
+    "sha256": "d10ea0dfe6e3d31dac03f307a9db67a297386547fe3fecec5d71bef55658cc56",
+    "modified_for_export": false
+  },
+  {
+    "source": "tmp/final_inventory/vm/meta-user/recipes-kernel/linux/linux-xlnx/bsp.cfg",
+    "destination": "src/petalinux/recipes-kernel/linux/linux-xlnx/bsp.cfg",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "modified_for_export": false
+  },
+  {
+    "source": "tmp/final_inventory/vm/meta-user/recipes-kernel/linux/linux-xlnx/uio-final.cfg",
+    "destination": "src/petalinux/recipes-kernel/linux/linux-xlnx/uio-final.cfg",
+    "source_sha256": "cfb592f965815b0464c9547fadb91d2ed3934f4aa81843b1faa7bfaa6fc06eff",
+    "sha256": "cfb592f965815b0464c9547fadb91d2ed3934f4aa81843b1faa7bfaa6fc06eff",
+    "modified_for_export": false
+  },
+  {
+    "source": "tmp/final_inventory/vm/meta-user/recipes-kernel/linux/linux-xlnx/user_2026-09-25-02-21-00.cfg",
+    "destination": "src/petalinux/recipes-kernel/linux/linux-xlnx/user_2026-09-25-02-21-00.cfg",
+    "source_sha256": "7e07517252ea4cf342a92d418e8790a6939efa058653a65dc44395e2c24cc932",
+    "sha256": "7e07517252ea4cf342a92d418e8790a6939efa058653a65dc44395e2c24cc932",
+    "modified_for_export": false
+  },
+  {
+    "source": "tmp/final_inventory/vm/meta-user/recipes-kernel/linux/linux-xlnx/user_2026-09-25-13-36-00.cfg",
+    "destination": "src/petalinux/recipes-kernel/linux/linux-xlnx/user_2026-09-25-13-36-00.cfg",
+    "source_sha256": "a72b4bbc2f30bf6f4046dfb3c083067157d19bd3f034de28bcd9af6ec75de05a",
+    "sha256": "a72b4bbc2f30bf6f4046dfb3c083067157d19bd3f034de28bcd9af6ec75de05a",
+    "modified_for_export": false
+  },
+  {
+    "source": "tmp/final_inventory/vm/meta-user/recipes-bsp/device-tree/device-tree-sdt.inc",
+    "destination": "src/petalinux/recipes-bsp/device-tree/device-tree-sdt.inc",
+    "source_sha256": "e9f04d07811cf673ff74618bfa049561ca7097c8a40b5debb7c0d098f4e689b7",
+    "sha256": "e9f04d07811cf673ff74618bfa049561ca7097c8a40b5debb7c0d098f4e689b7",
+    "modified_for_export": false
+  },
+  {
+    "source": "tmp/final_inventory/vm/meta-user/recipes-bsp/device-tree/device-tree.bbappend",
+    "destination": "src/petalinux/recipes-bsp/device-tree/device-tree.bbappend",
+    "source_sha256": "67a678228c2642f0bb00b2a0dbb113a358baa55e0b96b1bd83cbfed4aca28195",
+    "sha256": "67a678228c2642f0bb00b2a0dbb113a358baa55e0b96b1bd83cbfed4aca28195",
+    "modified_for_export": false
+  },
+  {
+    "source": "tmp/final_inventory/vm/meta-user/recipes-bsp/fsbl/fsbl-firmware_%.bbappend",
+    "destination": "src/petalinux/recipes-bsp/fsbl/fsbl-firmware.bbappend.in",
+    "source_sha256": "9863637c3cc25eb11b70ffff210b592f0bbea8f7c4094d955c4ae9eca091c692",
+    "sha256": "9863637c3cc25eb11b70ffff210b592f0bbea8f7c4094d955c4ae9eca091c692",
+    "modified_for_export": false
+  },
+  {
+    "source": "tmp/final_inventory/vm/meta-user/recipes-bsp/u-boot/u-boot-xlnx_%.bbappend",
+    "destination": "src/petalinux/recipes-bsp/u-boot/u-boot-xlnx.bbappend.in",
+    "source_sha256": "d095f2a8c38d1b5dc08cb646a17364734b458496f6fdcdd40c579a0c064f8d42",
+    "sha256": "d095f2a8c38d1b5dc08cb646a17364734b458496f6fdcdd40c579a0c064f8d42",
+    "modified_for_export": false
+  },
+  {
+    "source": "tmp/final_inventory/vm/meta-user/recipes-bsp/u-boot/files/bsp.cfg",
+    "destination": "src/petalinux/recipes-bsp/u-boot/files/bsp.cfg",
+    "source_sha256": "9d28e916b18c1515dfd22389fda231a997baf54e98b696a1c02294aa15e233a6",
+    "sha256": "9d28e916b18c1515dfd22389fda231a997baf54e98b696a1c02294aa15e233a6",
+    "modified_for_export": false
+  },
+  {
+    "source": "tmp/final_inventory/vm/meta-user/recipes-bsp/u-boot/files/platform-top.h",
+    "destination": "src/petalinux/recipes-bsp/u-boot/files/platform-top.h",
+    "source_sha256": "3f97d9f60aeac56b467607555531935a6a68471cf99923405463a1ed9f2ed1db",
+    "sha256": "3f97d9f60aeac56b467607555531935a6a68471cf99923405463a1ed9f2ed1db",
+    "modified_for_export": false
+  },
+  {
+    "source": "tmp/final_inventory/vm/meta-user/recipes-bsp/fsbl/files/board_usb_phy.h",
+    "destination": "src/petalinux/recipes-bsp/fsbl/files/board_usb_phy.h",
+    "source_sha256": "dbf66f71d73d8dc534c227c1e76bc62450ec8bfa2c656002f5718a21608c7cd8",
+    "sha256": "dbf66f71d73d8dc534c227c1e76bc62450ec8bfa2c656002f5718a21608c7cd8",
+    "modified_for_export": false
+  },
+  {
+    "source": "tmp/final_inventory/vm/meta-user/recipes-bsp/device-tree/files/acoustic-capture.dtsi",
+    "destination": "src/petalinux/recipes-bsp/device-tree/files/acoustic-capture.dtsi",
+    "source_sha256": "8d1a84684dd565769225dd9e4a6a787d53284eb36cc38d45b144fff0608e9fc1",
+    "sha256": "8d1a84684dd565769225dd9e4a6a787d53284eb36cc38d45b144fff0608e9fc1",
+    "modified_for_export": false
+  },
+  {
+    "source": "tmp/final_inventory/vm/meta-user/recipes-bsp/device-tree/files/system-user.dtsi",
+    "destination": "src/petalinux/recipes-bsp/device-tree/files/system-user.dtsi",
+    "source_sha256": "63719becd480394243ecc94d102b380a4e851d0ed9e5e69dfc7bfcf4aadfef27",
+    "sha256": "63719becd480394243ecc94d102b380a4e851d0ed9e5e69dfc7bfcf4aadfef27",
+    "modified_for_export": false
+  },
+  {
+    "source": "tmp/final_inventory/vm/meta-user/recipes-bsp/device-tree/files/uart1.dtsi",
+    "destination": "src/petalinux/recipes-bsp/device-tree/files/uart1.dtsi",
+    "source_sha256": "68071b789897edbac3ff1ebc05ec1ade1b32f64f3b9575a594384e82552b8d05",
+    "sha256": "68071b789897edbac3ff1ebc05ec1ade1b32f64f3b9575a594384e82552b8d05",
+    "modified_for_export": false
+  },
+  {
+    "source": "tmp/final_inventory/vm/meta-user/recipes-bsp/device-tree/files/video-preprocess.dtsi",
+    "destination": "src/petalinux/recipes-bsp/device-tree/files/video-preprocess.dtsi",
+    "source_sha256": "4116e330befdcc6e34ca611fc71646f5a775936750b92e6e7c2fd49df7cd2f7c",
+    "sha256": "4116e330befdcc6e34ca611fc71646f5a775936750b92e6e7c2fd49df7cd2f7c",
+    "modified_for_export": false
+  },
+  {
+    "source": "tmp/final_inventory/vm/meta-user/meta-xilinx-tools/recipes-bsp/uboot-device-tree/uboot-device-tree.bbappend",
+    "destination": "src/petalinux/meta-xilinx-tools/recipes-bsp/uboot-device-tree/uboot-device-tree.bbappend",
+    "source_sha256": "befbcd78c45f1d5752d7d4109bb63e512dff85cbcbc045a80e079bee22d52c2e",
+    "sha256": "befbcd78c45f1d5752d7d4109bb63e512dff85cbcbc045a80e079bee22d52c2e",
+    "modified_for_export": false
+  },
+  {
+    "source": "tmp/final_inventory/vm/meta-user/meta-xilinx-tools/recipes-bsp/uboot-device-tree/files/system-user.dtsi",
+    "destination": "src/petalinux/meta-xilinx-tools/recipes-bsp/uboot-device-tree/files/system-user.dtsi",
+    "source_sha256": "b2f3935b762c42f5cdab24f8f3c2655cde4d2ea95aae7d76ddf2169aedb3c612",
+    "sha256": "b2f3935b762c42f5cdab24f8f3c2655cde4d2ea95aae7d76ddf2169aedb3c612",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/tests/mock_panel.c",
+    "destination": "sim/ps/mock_panel.c",
+    "source_sha256": "022ea2285a9e6d143da42ee9f52b6327df0e61c744b3f7d1926754ace8ae1501",
+    "sha256": "022ea2285a9e6d143da42ee9f52b6327df0e61c744b3f7d1926754ace8ae1501",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/tests/mock_watchdog.c",
+    "destination": "sim/ps/mock_watchdog.c",
+    "source_sha256": "b55c85efa8886d2c79a91922522abc1385026e81487b7d30f305403ab9f23c04",
+    "sha256": "b55c85efa8886d2c79a91922522abc1385026e81487b7d30f305403ab9f23c04",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/tests/test_panel_boot.py",
+    "destination": "sim/ps/test_panel_boot.py",
+    "source_sha256": "eb8b18d300a8553a1707b3ca320f214a347248567d66bc368a0eb266c3f0704f",
+    "sha256": "eb8b18d300a8553a1707b3ca320f214a347248567d66bc368a0eb266c3f0704f",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/tests/test_ui_watchdog.c",
+    "destination": "sim/ps/test_ui_watchdog.c",
+    "source_sha256": "cf141eff915e5a0fba6e5227b8334cd392caacf9552c6e576d7803a5fb7eaa3f",
+    "sha256": "cf141eff915e5a0fba6e5227b8334cd392caacf9552c6e576d7803a5fb7eaa3f",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/tests/test_watchdog_monitor.py",
+    "destination": "sim/ps/test_watchdog_monitor.py",
+    "source_sha256": "23c9a205808952b5d5381dcadd0ee8caf202e4622e4e89346110608d7a348227",
+    "sha256": "23c9a205808952b5d5381dcadd0ee8caf202e4622e4e89346110608d7a348227",
+    "modified_for_export": false
+  },
+  {
+    "source": "diagnostics/20261031/arm_latest_region/test_live.c",
+    "destination": "sim/ps/test_live.c",
+    "source_sha256": "a124a9239d690d965599c21f3ee0bdc114f7dbd285ca00682b6fc395caaf1d62",
+    "sha256": "a124a9239d690d965599c21f3ee0bdc114f7dbd285ca00682b6fc395caaf1d62",
+    "modified_for_export": false
+  },
+  {
+    "source": "diagnostics/20261031/arm_latest_region/test_live_update.c",
+    "destination": "sim/ps/test_live_update.c",
+    "source_sha256": "1539803ad087fed4b66c767c4c5f28cebeb2263a7171dde929754ac553967364",
+    "sha256": "1539803ad087fed4b66c767c4c5f28cebeb2263a7171dde929754ac553967364",
+    "modified_for_export": false
+  },
+  {
+    "source": "diagnostics/20261031/arm_latest_region/test_live.py",
+    "destination": "sim/ps/test_live.py",
+    "source_sha256": "92c4c82b5739dfb345d248dbf5e559218a4574d794fc2417540165f4eb0c012e",
+    "sha256": "92c4c82b5739dfb345d248dbf5e559218a4574d794fc2417540165f4eb0c012e",
+    "modified_for_export": false
+  },
+  {
+    "source": "diagnostics/20261024/arm_ui_v27/test_modes.py",
+    "destination": "sim/ps/test_modes.py",
+    "source_sha256": "b2b7ccd862812febaf483668fcab09d49bc6bd6004f8198bae341697273b151d",
+    "sha256": "16c2bc2ba47a1379fe04a7a90e9709ca4f9194903d25a87fdcd049209b365c50",
+    "modified_for_export": true,
+    "export_note": "Reviewed release-only path/configuration or test harness normalization; frozen runtime is not redeployed."
+  },
+  {
+    "source": "diagnostics/20261024/arm_ui_v27/test_fifo.py",
+    "destination": "sim/ps/test_fifo.py",
+    "source_sha256": "2ecfca34aafea86bbfa918bb855d62d0f8bb9f5c38f1c12b9077e6a052ffd377",
+    "sha256": "2ecfca34aafea86bbfa918bb855d62d0f8bb9f5c38f1c12b9077e6a052ffd377",
+    "modified_for_export": false
+  },
+  {
+    "source": "diagnostics/20261024/arm_ui_v27/test_fifo.c",
+    "destination": "sim/ps/test_fifo.c",
+    "source_sha256": "555e165862e896420f9656538aca45f589196aa5c6a13064e13da2c2c83971ac",
+    "sha256": "555e165862e896420f9656538aca45f589196aa5c6a13064e13da2c2c83971ac",
+    "modified_for_export": false
+  },
+  {
+    "source": "diagnostics/20261024/arm_ui_v27/test_wire.c",
+    "destination": "sim/ps/test_wire.c",
+    "source_sha256": "4b87d5ddacc0ad2cc4381693fc0c3aff2dbd02f6feb705afb013b3dbdfb37395",
+    "sha256": "4b87d5ddacc0ad2cc4381693fc0c3aff2dbd02f6feb705afb013b3dbdfb37395",
+    "modified_for_export": false
+  },
+  {
+    "source": "diagnostics/20261024/arm_ui_v27/test_window.c",
+    "destination": "sim/ps/test_window.c",
+    "source_sha256": "894354021122c4260e00b075b11db93bb830f5e10ad3893178482ab7dd215ea1",
+    "sha256": "894354021122c4260e00b075b11db93bb830f5e10ad3893178482ab7dd215ea1",
+    "modified_for_export": false
+  },
+  {
+    "source": "diagnostics/20261024/arm_ui_v27/test_ui_client.c",
+    "destination": "sim/ps/test_ui_client.c",
+    "source_sha256": "cc92982a784a60a45d06c5016722b1b65afef0f1b47add40bede44760e7a57e2",
+    "sha256": "cc92982a784a60a45d06c5016722b1b65afef0f1b47add40bede44760e7a57e2",
+    "modified_for_export": false
+  },
+  {
+    "source": "diagnostics/20261024/arm_ui_v27/test_auto.py",
+    "destination": "sim/ps/test_auto.py",
+    "source_sha256": "3cab3bc2bbe31140a29f4ac68b7e736117e0b20a91bc3c5fae224adb98e3e8d4",
+    "sha256": "3cab3bc2bbe31140a29f4ac68b7e736117e0b20a91bc3c5fae224adb98e3e8d4",
+    "modified_for_export": false
+  },
+  {
+    "source": "pl_audio_capture/test_fft.c",
+    "destination": "sim/ps/test_fft.c",
+    "source_sha256": "4bca05e142438a9be2ede3b5c92baf5dc603470cde7ee6dd84e80f13aac7c3b5",
+    "sha256": "4bca05e142438a9be2ede3b5c92baf5dc603470cde7ee6dd84e80f13aac7c3b5",
+    "modified_for_export": false
+  },
+  {
+    "source": "pl_audio_capture/tb_acoustic_capture.sv",
+    "destination": "sim/rtl/tb_acoustic_capture.sv",
+    "source_sha256": "390611ed84786debf6b8f95c55070fa2445d791d570902288bf6c82a8bf8e50c",
+    "sha256": "390611ed84786debf6b8f95c55070fa2445d791d570902288bf6c82a8bf8e50c",
+    "modified_for_export": false
+  },
+  {
+    "source": "pl_video_process/tb_video_tone.sv",
+    "destination": "sim/rtl/tb_video_tone.sv",
+    "source_sha256": "725237c5572b616d1a2d3f38daf39f706d1aa0340965dfb9c59946ceaa075db8",
+    "sha256": "725237c5572b616d1a2d3f38daf39f706d1aa0340965dfb9c59946ceaa075db8",
+    "modified_for_export": false
+  },
+  {
+    "source": "diagnostics/20261030/heatmap_hflip/tb_heatmap_hflip.sv",
+    "destination": "sim/rtl/tb_heatmap_hflip.sv",
+    "source_sha256": "bfbb004ac277b585450b74cdbb41f6333aef2027263af911fe9188264335cf9e",
+    "sha256": "bfbb004ac277b585450b74cdbb41f6333aef2027263af911fe9188264335cf9e",
+    "modified_for_export": false
+  },
+  {
+    "source": "diagnostics/20261005/tb_acoustic_hpf_200.sv",
+    "destination": "sim/rtl/tb_acoustic_hpf_200.sv",
+    "source_sha256": "6c2183bbc58b50e88016023488d23bf9244ab9d65f53df967a7006df83989ce8",
+    "sha256": "6c2183bbc58b50e88016023488d23bf9244ab9d65f53df967a7006df83989ce8",
+    "modified_for_export": false
+  },
+  {
+    "source": "diagnostics/20261005/tb_sensor_hpf_chain.sv",
+    "destination": "sim/rtl/tb_sensor_hpf_chain.sv",
+    "source_sha256": "e95049608c2bdce0fd8b8a8f0ad3fb064540dddc7c1ec2072db9ac543d5fe55e",
+    "sha256": "e95049608c2bdce0fd8b8a8f0ad3fb064540dddc7c1ec2072db9ac543d5fe55e",
+    "modified_for_export": false
+  },
+  {
+    "source": "petalinux-video/fsbl-usb-phy/tests/test_usb_phy.c",
+    "destination": "sim/ps/test_usb_phy.c",
+    "source_sha256": "dcdb14b346e2bee1e3d4aadc7ac990e5dbf285ee2aa3f67bca0f4ecd4b96300f",
+    "sha256": "ca6e1dbea4992399e29e76b4c8cc06f02bfef1eb70e9db7e0edf846c9d436040",
+    "modified_for_export": true,
+    "export_note": "Reviewed release-only path/configuration or test harness normalization; frozen runtime is not redeployed."
+  },
+  {
+    "source": "petalinux-video/fsbl-usb-phy/files/board_usb_phy.h",
+    "destination": "src/ps/fsbl/board_usb_phy.h",
+    "source_sha256": "dbf66f71d73d8dc534c227c1e76bc62450ec8bfa2c656002f5718a21608c7cd8",
+    "sha256": "dbf66f71d73d8dc534c227c1e76bc62450ec8bfa2c656002f5718a21608c7cd8",
+    "modified_for_export": false
+  },
+  {
+    "source": "skill/manifest-sha256.json",
+    "destination": "skill/manifest-sha256.json",
+    "source_sha256": "7ad1e0076ad639794508640dbf4a15fac8c35df0c89d084925169e8d8cee7237",
+    "sha256": "364e68108babdcec6960741622e797d98081965ed83d5026473b3dc5999ef467",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "skill/package_uart_skill.py",
+    "destination": "skill/package_uart_skill.py",
+    "source_sha256": "d97ab384f71e2f72ca43ec3d140eb3dd3c669c38c6c90565254462d19d200ff9",
+    "sha256": "d97ab384f71e2f72ca43ec3d140eb3dd3c669c38c6c90565254462d19d200ff9",
+    "modified_for_export": false
+  },
+  {
+    "source": "skill/README.md",
+    "destination": "skill/README.md",
+    "source_sha256": "652819508c00074b35c3fe9bb938d7dbb0c77e36503c67ca1bda222b80c4ad8c",
+    "sha256": "652819508c00074b35c3fe9bb938d7dbb0c77e36503c67ca1bda222b80c4ad8c",
+    "modified_for_export": false
+  },
+  {
+    "source": "skill/linux-uart-receive/SKILL.md",
+    "destination": "skill/linux-uart-receive/SKILL.md",
+    "source_sha256": "cf4708a0e3af707928548f34e97d7229d825262a66ef0e78d802d05f75dfc1ce",
+    "sha256": "340acedc72cba2e2e1cd271a55fa424b0e05101040470992c8491088a5fe2b5c",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "skill/linux-uart-receive/agents/openai.yaml",
+    "destination": "skill/linux-uart-receive/agents/openai.yaml",
+    "source_sha256": "04d89e13a2175347d7ca6dd04937e71f2f817f85c4b741384f939850252216de",
+    "sha256": "65ff7b0f590d0c06b74e68dbf58bcd5e55efbd2419efa3f9a71aba2526a15165",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "skill/linux-uart-receive/fixtures/alternate_protocol.json",
+    "destination": "skill/linux-uart-receive/fixtures/alternate_protocol.json",
+    "source_sha256": "69b98cd0b0447a3a567bfe9f2626f6a38c68f3cf16f97d922863caa39a97ffeb",
+    "sha256": "3f6a7caa91057cafac6b150753bc5f1f882bc69061aeecb064e90a6058746a0f",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "skill/linux-uart-receive/fixtures/fifo_config.json",
+    "destination": "skill/linux-uart-receive/fixtures/fifo_config.json",
+    "source_sha256": "859ed870f1cf121151af7f32ce2a5e786073a17a144a16c6e7bb3d097093d44d",
+    "sha256": "113a26a5261b1f5d3dd393135083476d0cc05d4ada504178f3fde8c44487f247",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "skill/linux-uart-receive/references/case-study.md",
+    "destination": "skill/linux-uart-receive/references/case-study.md",
+    "source_sha256": "1839d839700d58f0d2ede1cd6fa6f305a96823e43e1604f6d8e98d27be129e40",
+    "sha256": "1839d839700d58f0d2ede1cd6fa6f305a96823e43e1604f6d8e98d27be129e40",
+    "modified_for_export": false
+  },
+  {
+    "source": "skill/linux-uart-receive/references/collaboration.md",
+    "destination": "skill/linux-uart-receive/references/collaboration.md",
+    "source_sha256": "210613336d506bb140cb9e46a30aea6f183b059d79b23edd0abb31000cccc366",
+    "sha256": "210613336d506bb140cb9e46a30aea6f183b059d79b23edd0abb31000cccc366",
+    "modified_for_export": false
+  },
+  {
+    "source": "skill/linux-uart-receive/references/workflow.md",
+    "destination": "skill/linux-uart-receive/references/workflow.md",
+    "source_sha256": "e6b2b32a8bd90a12f7ae465fb4fd422f02b4c8fe8755915b1cb21962dafd5be1",
+    "sha256": "e6b2b32a8bd90a12f7ae465fb4fd422f02b4c8fe8755915b1cb21962dafd5be1",
+    "modified_for_export": false
+  },
+  {
+    "source": "skill/linux-uart-receive/scripts/reference_parser_probe.c",
+    "destination": "skill/linux-uart-receive/scripts/reference_parser_probe.c",
+    "source_sha256": "328a93179788d0d698c089176696facd60dc23505bfe307267f5852c6d582d3e",
+    "sha256": "328a93179788d0d698c089176696facd60dc23505bfe307267f5852c6d582d3e",
+    "modified_for_export": false
+  },
+  {
+    "source": "skill/linux-uart-receive/scripts/uart_rx.py",
+    "destination": "skill/linux-uart-receive/scripts/uart_rx.py",
+    "source_sha256": "98827c674924beb6bf5e4acc5a8ca1a9f107f33ce686df5e1f31abbcb362f1f4",
+    "sha256": "98827c674924beb6bf5e4acc5a8ca1a9f107f33ce686df5e1f31abbcb362f1f4",
+    "modified_for_export": false
+  },
+  {
+    "source": "skill/linux-uart-receive/scripts/verify.py",
+    "destination": "skill/linux-uart-receive/scripts/verify.py",
+    "source_sha256": "1f55397f74ebd238c3ea1a6ba3732c2a0ab4aaf014affb645764bf7c0528166d",
+    "sha256": "1f55397f74ebd238c3ea1a6ba3732c2a0ab4aaf014affb645764bf7c0528166d",
+    "modified_for_export": false
+  },
+  {
+    "source": "skill/linux-uart-receive/tests/test_uart_rx.py",
+    "destination": "skill/linux-uart-receive/tests/test_uart_rx.py",
+    "source_sha256": "2e74e74c0a22f817ec4341936c74af2b0e4ca4f0e57b0414fe80cb6aa059737a",
+    "sha256": "2e74e74c0a22f817ec4341936c74af2b0e4ca4f0e57b0414fe80cb6aa059737a",
+    "modified_for_export": false
+  },
+  {
+    "source": "skill/linux-uart-receive/validation/replay_after.json",
+    "destination": "skill/linux-uart-receive/validation/replay_after.json",
+    "source_sha256": "3d7f23e664a1da5a1b486d9d609ed626e8e262735d88d843f47652ff9b8a236c",
+    "sha256": "7535ae44e2e10d5320d00e6fed6fc538b630489d90ae09f82578e0416f533ae3",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "skill/linux-uart-receive/validation/replay_before.json",
+    "destination": "skill/linux-uart-receive/validation/replay_before.json",
+    "source_sha256": "c6ec7e3735b8205359ba99d421d2069213173420b1154affdfff2dd5263e5ea4",
+    "sha256": "8992a335d8b8b27dc2ec3ab88dba73fa57ad541598fb2af96c198a8a70a82a31",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "skill/linux-uart-receive/validation/result.json",
+    "destination": "skill/linux-uart-receive/validation/result.json",
+    "source_sha256": "f2a51cc2529db8c410a62ba6fcc9ec2957b4d93c55c4617775e89594f631f142",
+    "sha256": "cc299831e48a4562c9dd5903dde06b4926984369e7411ea0a02ea4403fbfbd56",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "skill/linux-uart-receive/validation/standalone_rebuild.json",
+    "destination": "skill/linux-uart-receive/validation/standalone_rebuild.json",
+    "source_sha256": "9231a07fc015c3a6729b1b48c86e24e3f667196f34a235739d8ec8b5e5cb8711",
+    "sha256": "40a463ab69642e684d7ff19485537d153b77acea15442afe6295a23fba2c4154",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "skill/linux-uart-receive/validation/test_output.txt",
+    "destination": "skill/linux-uart-receive/validation/test_output.txt",
+    "source_sha256": "acd46018387de11e259c7c52eccedc98c5d3b711dcad0798be3372fe3677f7c9",
+    "sha256": "8025a3008fbf38e71518fda9ef40713e683e8d93e591f10b6ef86e392f4f7ebe",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "skill/linux-uart-receive/validation/workspace_baseline.json",
+    "destination": "skill/linux-uart-receive/validation/workspace_baseline.json",
+    "source_sha256": "e73305156d8cb6f3781265e7b0f7f1003b9b8c1b9fc1362024dc56fce17a4b57",
+    "sha256": "1913bcf06a03eae226c684325d39844960e4f7ec1f7367a1ac3e20411f0c6c5e",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "skill/linux-uart-receive/validation/workspace_preservation.json",
+    "destination": "skill/linux-uart-receive/validation/workspace_preservation.json",
+    "source_sha256": "1da40577bc44430551c0aaf0bcb55a25f15af0576fa86ae6b11afc67eafa4cf1",
+    "sha256": "f6a30d7a9c6da54cfbe191d555110c19d324f236cbade9ba412e5b8d231b87e4",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "skill/linux-uart-receive/references/evidence/board_validation.json",
+    "destination": "skill/linux-uart-receive/references/evidence/board_validation.json",
+    "source_sha256": "74d591636719bc4757ad12b42ffbc4ba1ac3dce199cd02e3f6da6063d3a8744e",
+    "sha256": "74d591636719bc4757ad12b42ffbc4ba1ac3dce199cd02e3f6da6063d3a8744e",
+    "modified_for_export": false
+  },
+  {
+    "source": "skill/linux-uart-receive/references/evidence/protocol_after.h",
+    "destination": "skill/linux-uart-receive/references/evidence/protocol_after.h",
+    "source_sha256": "81cd33b6ee4163d022249c68c87936a0f7617db2e84c0da30b276fc332d734e0",
+    "sha256": "81cd33b6ee4163d022249c68c87936a0f7617db2e84c0da30b276fc332d734e0",
+    "modified_for_export": false
+  },
+  {
+    "source": "skill/linux-uart-receive/references/evidence/protocol_before.h",
+    "destination": "skill/linux-uart-receive/references/evidence/protocol_before.h",
+    "source_sha256": "bf1a8ef05c13848b63dac5789c1803edce0eb4623cb6c558aac77e19c19ca0d0",
+    "sha256": "bf1a8ef05c13848b63dac5789c1803edce0eb4623cb6c558aac77e19c19ca0d0",
+    "modified_for_export": false
+  },
+  {
+    "source": "skill/linux-uart-receive/references/evidence/provenance.json",
+    "destination": "skill/linux-uart-receive/references/evidence/provenance.json",
+    "source_sha256": "6a5fedc58665ca276adb9af205408472f7c6124ed025210f31bdf722f2a27913",
+    "sha256": "6a5fedc58665ca276adb9af205408472f7c6124ed025210f31bdf722f2a27913",
+    "modified_for_export": false
+  },
+  {
+    "source": "diagnostics/20261030/heatmap_hflip/timing.rpt",
+    "destination": "build/reports/timing.rpt",
+    "source_sha256": "6e4a528265b609d060c5f1d0bb81a2eaa6f7df7ad5bcf9a9903cb4877b2f89ac",
+    "sha256": "762bfa94bbb91f5f96d851b50bdc16b6644bfd6978944c2c45f1d8678a0efe50",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "diagnostics/20261030/heatmap_hflip/utilization.rpt",
+    "destination": "build/reports/utilization.rpt",
+    "source_sha256": "644a67f3547a99778e1630ddaf1d28c96e36360a32a77d2030d392a49c003a2c",
+    "sha256": "c6bda47ad25f588993e3720a2bd2a1853d7ee7f8d1b238f9e43ef9879d068887",
+    "modified_for_export": true
+  },
+  {
+    "source": "diagnostics/20261030/heatmap_hflip/route_status.rpt",
+    "destination": "build/reports/route_status.rpt",
+    "source_sha256": "f8663525ad8fdafaf619a68594096259398001cea013f0c35a846bf0343d0bf1",
+    "sha256": "f8663525ad8fdafaf619a68594096259398001cea013f0c35a846bf0343d0bf1",
+    "modified_for_export": false
+  },
+  {
+    "source": "diagnostics/20261030/heatmap_hflip/drc.rpt",
+    "destination": "build/reports/drc.rpt",
+    "source_sha256": "3de08bc09f75e01679306a281b2b21828652d3edc4e816e732c78ff2e2d5386d",
+    "sha256": "6dfe76a1821e89c6089d14bedbe08da01c9816becc4539aa7e7bfa736d201432",
+    "modified_for_export": true
+  },
+  {
+    "source": "diagnostics/20261030/heatmap_hflip/bus_skew.rpt",
+    "destination": "build/reports/bus_skew.rpt",
+    "source_sha256": "d25170d814650abb0df088683aa100fca9d1ede4c9ba79ae1d08a58d14eb6965",
+    "sha256": "6e0093a52bdbe009917d309b1ad85e0413b75710fe5ef9fbf4efa728e72c77b6",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "diagnostics/20261030/heatmap_hflip/xsim-console.log",
+    "destination": "sim/evidence/heatmap_hflip.txt",
+    "source_sha256": "c732b16d5d342cddc5f8b5e3b1b01ec227df6a0c8b7ea5148236b2a7e4e4e078",
+    "sha256": "462bd65fc87a37273b6b556a3442f1896e8a5950d655fe4a73dcd54fe2982f2f",
+    "modified_for_export": true,
+    "line_ending_note": "Exported text normalized to LF for stable Git checkout; original input hash retained in source_sha256."
+  },
+  {
+    "source": "diagnostics/20261031/ui_watchdog/build.log",
+    "destination": "sim/evidence/watchdog_build.txt",
+    "source_sha256": "be2046259c86ee5cc2e62f188b93515004673a30c59e79bc52318996849b11fc",
+    "sha256": "be2046259c86ee5cc2e62f188b93515004673a30c59e79bc52318996849b11fc",
+    "modified_for_export": false
+  },
+  {
+    "source": "diagnostics/20261031/ui_watchdog/monitor-test.log",
+    "destination": "sim/evidence/watchdog_monitor.txt",
+    "source_sha256": "5bd20baafbb8222f7aebb3c3cd741538daa61149f85c43bf4ff2c64d6a67229b",
+    "sha256": "5bd20baafbb8222f7aebb3c3cd741538daa61149f85c43bf4ff2c64d6a67229b",
+    "modified_for_export": false
+  },
+  {
+    "source": "diagnostics/20261031/arm_latest_region/build.log",
+    "destination": "sim/evidence/robot_v7.txt",
+    "source_sha256": "719ed6c991fdef50e8dd7654d395a6e10e95e3391c1fb497cb23e8773167b84e",
+    "sha256": "a1a1454c1169ac0fb6688bd387658be3945ac22dbf40f17c216a90880ce7c5d1",
+    "modified_for_export": true
+  },
+  {
+    "source": "report/project_report_sourcebook.md",
+    "destination": "report/design_facts.md",
+    "source_sha256": "b3d80a0037c5edcfc1aa022a8330d14fcd9c5b3d01abfd7af61519de48cca547",
+    "sha256": "6d665015bef84c0af2e3cd8d21cd229cc7ec1eb93902ee6fc53df186b37d918a",
+    "modified_for_export": true,
+    "export_note": "Reviewed release-only path/configuration or test harness normalization; frozen runtime is not redeployed."
+  },
+  {
+    "source": "diagnostics/20261031/ui_watchdog/result.md",
+    "destination": "board/evidence/ui_watchdog.md",
+    "source_sha256": "decd67d0afc39fb7738c125afff8f09ddf8da9537326c81a608d4e34c6c4f2dc",
+    "sha256": "62f9ab68d630d5dcf5bbab1334f41baa9686185adaa8bc20d88ae850c6fdecd7",
+    "modified_for_export": true
+  },
+  {
+    "source": "diagnostics/20261030/gallery_stripes_after_hflip/result.md",
+    "destination": "board/evidence/display_recovery.md",
+    "source_sha256": "ec9ad01ba031c2ba673d61199fc54158e5f5f7f103683bb76c346cf0f24f18c2",
+    "sha256": "ec9ad01ba031c2ba673d61199fc54158e5f5f7f103683bb76c346cf0f24f18c2",
+    "modified_for_export": false
+  },
+  {
+    "source": "diagnostics/20261031/arm_latest_region/result.md",
+    "destination": "board/evidence/robot_ui_v30.md",
+    "source_sha256": "fa49269ee84cee5215487ad91ef932a813ba8e2e5d391fc753d8a9a9fbdca773",
+    "sha256": "05d8dc417d8cae881bbc1ec24fee3a4c74c228b447a56e4b98b15b0a5b5f4d5b",
+    "modified_for_export": true
+  },
+  {
+    "source": "diagnostics/20261030/snapshot_board/result.md",
+    "destination": "board/evidence/capture_half_clock.md",
+    "source_sha256": "a52a9a87b517a78550243e3d2627141149e1edb7c172443617926db9e7cc7545",
+    "sha256": "a52a9a87b517a78550243e3d2627141149e1edb7c172443617926db9e7cc7545",
+    "modified_for_export": false
+  }
+]

@@ -1,0 +1,86 @@
+{
+  "session_date": "2026-10-31",
+  "generated_utc": "2026-10-31T11:00:36.367623+00:00",
+  "hardware_access": false,
+  "real_serial_or_controller_io": false,
+  "python": "3.14.3",
+  "platform": "Windows-11-10.0.26100-SP0",
+  "historical_board_validation_repeated": false,
+  "evidence_sha256": {
+    "protocol_before.h": "bf1a8ef05c13848b63dac5789c1803edce0eb4623cb6c558aac77e19c19ca0d0",
+    "protocol_after.h": "81cd33b6ee4163d022249c68c87936a0f7617db2e84c0da30b276fc332d734e0",
+    "board_validation.json": "74d591636719bc4757ad12b42ffbc4ba1ac3dce199cd02e3f6da6063d3a8744e"
+  },
+  "compiler": "gcc.EXE (x86_64-win32-seh-rev0, Built by MinGW-W64 project) 8.1.0",
+  "tests_run": 30,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "c_probes_built": true,
+  "status": "pass",
+  "case_replay": {
+    "before": {
+      "frame_count": 0,
+      "rejected": 0,
+      "expired": 1,
+      "buffered_bytes": 0,
+      "clock_regressions": 0
+    },
+    "after": {
+      "frame_count": 1,
+      "rejected": 0,
+      "expired": 0,
+      "buffered_bytes": 0,
+      "clock_regressions": 0
+    },
+    "matched_after": 1,
+    "timing": {
+      "bits_per_character": 10,
+      "character_wire_time_ms": 1.0416666666666667,
+      "fifo_fill_estimate_ms": 58.333333333333336,
+      "frame_wire_time_ms": {
+        "02": 8.333333333333334,
+        "20": 8.333333333333334,
+        "23": 31.250000000000004,
+        "24": 112.50000000000001,
+        "25": 8.333333333333334,
+        "26": 135.41666666666669,
+        "27": 8.333333333333334,
+        "28": 34.375,
+        "29": 13.541666666666668
+      },
+      "delivery_lengths": [
+        56,
+        56,
+        18
+      ],
+      "delivery_gaps_ms": [
+        59,
+        22
+      ],
+      "max_delivery_gap_ms": 59,
+      "host_idle_ms": 200,
+      "delivery_gaps_exceeding_host_idle": 0,
+      "timing_basis": "host delivery timestamps; FIFO fill is an estimate, not proof of wire gaps",
+      "origin": "synthetic payload; 56/56/18 sizes and 59/22 ms delivery gaps follow archived board observations; not a raw UART capture"
+    },
+    "fixture_kind": "synthetic_with_archived_chunk_timing"
+  },
+  "input_sha256": {
+    "agents/openai.yaml": "65ff7b0f590d0c06b74e68dbf58bcd5e55efbd2419efa3f9a71aba2526a15165",
+    "fixtures/alternate_protocol.json": "3f6a7caa91057cafac6b150753bc5f1f882bc69061aeecb064e90a6058746a0f",
+    "fixtures/fifo_config.json": "113a26a5261b1f5d3dd393135083476d0cc05d4ada504178f3fde8c44487f247",
+    "references/case-study.md": "1839d839700d58f0d2ede1cd6fa6f305a96823e43e1604f6d8e98d27be129e40",
+    "references/collaboration.md": "210613336d506bb140cb9e46a30aea6f183b059d79b23edd0abb31000cccc366",
+    "references/evidence/board_validation.json": "74d591636719bc4757ad12b42ffbc4ba1ac3dce199cd02e3f6da6063d3a8744e",
+    "references/evidence/protocol_after.h": "81cd33b6ee4163d022249c68c87936a0f7617db2e84c0da30b276fc332d734e0",
+    "references/evidence/protocol_before.h": "bf1a8ef05c13848b63dac5789c1803edce0eb4623cb6c558aac77e19c19ca0d0",
+    "references/evidence/provenance.json": "6a5fedc58665ca276adb9af205408472f7c6124ed025210f31bdf722f2a27913",
+    "references/workflow.md": "e6b2b32a8bd90a12f7ae465fb4fd422f02b4c8fe8755915b1cb21962dafd5be1",
+    "scripts/reference_parser_probe.c": "328a93179788d0d698c089176696facd60dc23505bfe307267f5852c6d582d3e",
+    "scripts/uart_rx.py": "98827c674924beb6bf5e4acc5a8ca1a9f107f33ce686df5e1f31abbcb362f1f4",
+    "scripts/verify.py": "1f55397f74ebd238c3ea1a6ba3732c2a0ab4aaf014affb645764bf7c0528166d",
+    "SKILL.md": "340acedc72cba2e2e1cd271a55fa424b0e05101040470992c8491088a5fe2b5c",
+    "tests/test_uart_rx.py": "2e74e74c0a22f817ec4341936c74af2b0e4ca4f0e57b0414fe80cb6aa059737a"
+  }
+}

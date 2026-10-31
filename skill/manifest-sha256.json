@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "case_date": "2026-10-24",
+  "package_date": "2026-10-31",
+  "tests_run": 30,
+  "hardware_io_in_this_build": false,
+  "files": {
+    "skill/README.md": "652819508c00074b35c3fe9bb938d7dbb0c77e36503c67ca1bda222b80c4ad8c",
+    "skill/linux-uart-receive/SKILL.md": "340acedc72cba2e2e1cd271a55fa424b0e05101040470992c8491088a5fe2b5c",
+    "skill/linux-uart-receive/agents/openai.yaml": "65ff7b0f590d0c06b74e68dbf58bcd5e55efbd2419efa3f9a71aba2526a15165",
+    "skill/linux-uart-receive/fixtures/alternate_protocol.json": "3f6a7caa91057cafac6b150753bc5f1f882bc69061aeecb064e90a6058746a0f",
+    "skill/linux-uart-receive/fixtures/fifo_config.json": "113a26a5261b1f5d3dd393135083476d0cc05d4ada504178f3fde8c44487f247",
+    "skill/linux-uart-receive/references/case-study.md": "1839d839700d58f0d2ede1cd6fa6f305a96823e43e1604f6d8e98d27be129e40",
+    "skill/linux-uart-receive/references/collaboration.md": "210613336d506bb140cb9e46a30aea6f183b059d79b23edd0abb31000cccc366",
+    "skill/linux-uart-receive/references/evidence/board_validation.json": "74d591636719bc4757ad12b42ffbc4ba1ac3dce199cd02e3f6da6063d3a8744e",
+    "skill/linux-uart-receive/references/evidence/protocol_after.h": "81cd33b6ee4163d022249c68c87936a0f7617db2e84c0da30b276fc332d734e0",
+    "skill/linux-uart-receive/references/evidence/protocol_before.h": "bf1a8ef05c13848b63dac5789c1803edce0eb4623cb6c558aac77e19c19ca0d0",
+    "skill/linux-uart-receive/references/evidence/provenance.json": "6a5fedc58665ca276adb9af205408472f7c6124ed025210f31bdf722f2a27913",
+    "skill/linux-uart-receive/references/workflow.md": "e6b2b32a8bd90a12f7ae465fb4fd422f02b4c8fe8755915b1cb21962dafd5be1",
+    "skill/linux-uart-receive/scripts/reference_parser_probe.c": "328a93179788d0d698c089176696facd60dc23505bfe307267f5852c6d582d3e",
+    "skill/linux-uart-receive/scripts/uart_rx.py": "98827c674924beb6bf5e4acc5a8ca1a9f107f33ce686df5e1f31abbcb362f1f4",
+    "skill/linux-uart-receive/scripts/verify.py": "1f55397f74ebd238c3ea1a6ba3732c2a0ab4aaf014affb645764bf7c0528166d",
+    "skill/linux-uart-receive/tests/test_uart_rx.py": "2e74e74c0a22f817ec4341936c74af2b0e4ca4f0e57b0414fe80cb6aa059737a",
+    "skill/linux-uart-receive/validation/replay_after.json": "7535ae44e2e10d5320d00e6fed6fc538b630489d90ae09f82578e0416f533ae3",
+    "skill/linux-uart-receive/validation/replay_before.json": "8992a335d8b8b27dc2ec3ab88dba73fa57ad541598fb2af96c198a8a70a82a31",
+    "skill/linux-uart-receive/validation/result.json": "cc299831e48a4562c9dd5903dde06b4926984369e7411ea0a02ea4403fbfbd56",
+    "skill/linux-uart-receive/validation/standalone_rebuild.json": "40a463ab69642e684d7ff19485537d153b77acea15442afe6295a23fba2c4154",
+    "skill/linux-uart-receive/validation/test_output.txt": "8025a3008fbf38e71518fda9ef40713e683e8d93e591f10b6ef86e392f4f7ebe",
+    "skill/linux-uart-receive/validation/workspace_baseline.json": "1913bcf06a03eae226c684325d39844960e4f7ec1f7367a1ac3e20411f0c6c5e",
+    "skill/linux-uart-receive/validation/workspace_preservation.json": "f6a30d7a9c6da54cfbe191d555110c19d324f236cbade9ba412e5b8d231b87e4",
+    "skill/package_uart_skill.py": "d97ab384f71e2f72ca43ec3d140eb3dd3c669c38c6c90565254462d19d200ff9"
+  }
+}

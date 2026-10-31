@@ -1,0 +1,30 @@
+{
+  "scope": "six existing production/hardware inputs; pre-existing dirty state preserved",
+  "unchanged": true,
+  "files": {
+    "petalinux-video/video_robot_protocol.h": {
+      "before": "81cd33b6ee4163d022249c68c87936a0f7617db2e84c0da30b276fc332d734e0",
+      "after": "81cd33b6ee4163d022249c68c87936a0f7617db2e84c0da30b276fc332d734e0"
+    },
+    "petalinux-video/video_robot_service.c": {
+      "before": "6061a031726cd945dd20e3c1396ae90a20cdaf094869111ff50ede4399d257c3",
+      "after": "6061a031726cd945dd20e3c1396ae90a20cdaf094869111ff50ede4399d257c3"
+    },
+    "petalinux-video/video_status_panel.c": {
+      "before": "fb758cb613b88ef37f862479e16f45ebba597eb39b55ffa587d9da9155e0819f",
+      "after": "fb758cb613b88ef37f862479e16f45ebba597eb39b55ffa587d9da9155e0819f"
+    },
+    "petalinux-video/video-status-panel": {
+      "before": "baaf7f80511f8e4d8b5490d3c50d3cf5f5719bafed788fc51fbf7c38ac4bce0d",
+      "after": "baaf7f80511f8e4d8b5490d3c50d3cf5f5719bafed788fc51fbf7c38ac4bce0d"
+    },
+    "ov5640_hdmi.xpr": {
+      "before": "3b7cbd4c4b65294fcf72ffe1904293fb2b1e5f56af6a3c59e8aa71ffded29b70",
+      "after": "3b7cbd4c4b65294fcf72ffe1904293fb2b1e5f56af6a3c59e8aa71ffded29b70"
+    },
+    "ov5640_hdmi.srcs/sources_1/bd/system/system.bd": {
+      "before": "9db81982e18b69c70d4d6691aa67bd9e9a4b15406c7ea8357bf2cabc4dfbd25c",
+      "after": "9db81982e18b69c70d4d6691aa67bd9e9a4b15406c7ea8357bf2cabc4dfbd25c"
+    }
+  }
+}

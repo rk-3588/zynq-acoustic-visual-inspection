@@ -1,0 +1,26 @@
+{
+  "status": "pass",
+  "tests_run": 30,
+  "c_probes_built": true,
+  "source_repository_required": false,
+  "extraction_path_contains_spaces": true,
+  "hardware_io": false,
+  "tested_input_sha256": {
+    "agents/openai.yaml": "04d89e13a2175347d7ca6dd04937e71f2f817f85c4b741384f939850252216de",
+    "fixtures/alternate_protocol.json": "69b98cd0b0447a3a567bfe9f2626f6a38c68f3cf16f97d922863caa39a97ffeb",
+    "fixtures/fifo_config.json": "859ed870f1cf121151af7f32ce2a5e786073a17a144a16c6e7bb3d097093d44d",
+    "references/case-study.md": "1839d839700d58f0d2ede1cd6fa6f305a96823e43e1604f6d8e98d27be129e40",
+    "references/collaboration.md": "210613336d506bb140cb9e46a30aea6f183b059d79b23edd0abb31000cccc366",
+    "references/evidence/board_validation.json": "74d591636719bc4757ad12b42ffbc4ba1ac3dce199cd02e3f6da6063d3a8744e",
+    "references/evidence/protocol_after.h": "81cd33b6ee4163d022249c68c87936a0f7617db2e84c0da30b276fc332d734e0",
+    "references/evidence/protocol_before.h": "bf1a8ef05c13848b63dac5789c1803edce0eb4623cb6c558aac77e19c19ca0d0",
+    "references/evidence/provenance.json": "6a5fedc58665ca276adb9af205408472f7c6124ed025210f31bdf722f2a27913",
+    "references/workflow.md": "e6b2b32a8bd90a12f7ae465fb4fd422f02b4c8fe8755915b1cb21962dafd5be1",
+    "scripts/reference_parser_probe.c": "328a93179788d0d698c089176696facd60dc23505bfe307267f5852c6d582d3e",
+    "scripts/uart_rx.py": "98827c674924beb6bf5e4acc5a8ca1a9f107f33ce686df5e1f31abbcb362f1f4",
+    "scripts/verify.py": "1f55397f74ebd238c3ea1a6ba3732c2a0ab4aaf014affb645764bf7c0528166d",
+    "SKILL.md": "cf4708a0e3af707928548f34e97d7229d825262a66ef0e78d802d05f75dfc1ce",
+    "tests/test_uart_rx.py": "2e74e74c0a22f817ec4341936c74af2b0e4ca4f0e57b0414fe80cb6aa059737a"
+  },
+  "archive_contents_checked_against_manifest": true
+}

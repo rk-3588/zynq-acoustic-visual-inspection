@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "origin": "synthetic payload; 56/56/18 sizes and 59/22 ms delivery gaps follow archived board observations; not a raw UART capture",
+  "serial": {
+    "baud": 9600,
+    "data_bits": 8,
+    "parity": "none",
+    "stop_bits": 1,
+    "fifo_trigger_bytes": 56
+  },
+  "protocol": {
+    "type_lengths": {
+      "02": 8,
+      "20": 8,
+      "23": 30,
+      "24": 108,
+      "25": 8,
+      "26": 130,
+      "27": 8,
+      "28": 33,
+      "29": 13
+    },
+    "max_frame_bytes": 130,
+    "host_idle_ms": 200
+  },
+  "request": {
+    "response_type": "26",
+    "task_id": 8,
+    "sent_at_ms": 0,
+    "deadline_ms": 650
+  },
+  "events": [
+    {
+      "at_ms": 60,
+      "data_hex": "aa5526080001ff0fdc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05"
+    },
+    {
+      "at_ms": 119,
+      "data_hex": "dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05dc05"
+    },
+    {
+      "at_ms": 141,
+      "data_hex": "dc05dc05dc05dc05dc05dc05dc05dc050d0a"
+    }
+  ]
+}

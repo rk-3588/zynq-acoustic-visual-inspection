@@ -1,0 +1,42 @@
+{
+  "case_date": "2026-10-24",
+  "packaged_date": "2026-10-31",
+  "sources": {
+    "protocol_before.h": {
+      "source": "diagnostics/20261024/arm_ui_v27/before/video_robot_protocol.h",
+      "sha256": "bf1a8ef05c13848b63dac5789c1803edce0eb4623cb6c558aac77e19c19ca0d0",
+      "kind": "frozen_project_source"
+    },
+    "protocol_after.h": {
+      "source": "petalinux-video/video_robot_protocol.h",
+      "sha256": "81cd33b6ee4163d022249c68c87936a0f7617db2e84c0da30b276fc332d734e0",
+      "kind": "frozen_project_source"
+    },
+    "board_validation.json": {
+      "source": "diagnostics/20261024/arm_ui_v27/board.log",
+      "source_sha256": "bb4864549141e27b2b7703b2c86769b0bc3d35fabcd397b63907ee9ca17d90bb",
+      "sha256": "74d591636719bc4757ad12b42ffbc4ba1ac3dce199cd02e3f6da6063d3a8744e",
+      "kind": "selected_fields_no_login_transcript"
+    },
+    "diagnostics/20261024/arm_ui_v27/result.md": {
+      "source": "diagnostics/20261024/arm_ui_v27/result.md",
+      "sha256": "51d081a296514135f1edf0f4b975ecb5075073371ce365807c4623ad29db8592",
+      "kind": "source_index_only_not_bundled"
+    },
+    "diagnostics/20261024/arm_ui_v27/build.log": {
+      "source": "diagnostics/20261024/arm_ui_v27/build.log",
+      "sha256": "11e3484b76e946319c1fdccb188bd9ccd7aaa72216ef7b032148691bb62c427f",
+      "kind": "source_index_only_not_bundled"
+    },
+    "diagnostics/20261024/arm_ui_v27/build_state.json": {
+      "source": "diagnostics/20261024/arm_ui_v27/build_state.json",
+      "sha256": "3710bacf6de75046a48ced3e24f651dd1902ccb5e04a869a91821b0212c39130",
+      "kind": "source_index_only_not_bundled"
+    },
+    "petalinux-video/uart-rx.md": {
+      "source": "petalinux-video/uart-rx.md",
+      "sha256": "674dc5d90c78d568f6caedae54d712cf500eb89794bb813019bab7cd37b12ad3",
+      "kind": "source_index_only_not_bundled"
+    }
+  }
+}

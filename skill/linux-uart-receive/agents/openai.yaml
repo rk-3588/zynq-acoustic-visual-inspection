@@ -1,0 +1,4 @@
+interface:
+  display_name: "Linux UART Receive Diagnostics"
+  short_description: "Diagnose batched UART reads and replay fragmented frames safely"
+  default_prompt: "Use $linux-uart-receive to diagnose the supplied UART receive logs and source, reproduce the failure offline, and verify a minimal receive-side correction."

@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "origin": "synthetic portability exercise; no second hardware platform was tested",
+  "serial": {
+    "baud": 115200,
+    "data_bits": 8,
+    "parity": "even",
+    "stop_bits": 1,
+    "fifo_trigger_bytes": 16
+  },
+  "protocol": {
+    "type_lengths": {
+      "60": 12,
+      "61": 20
+    },
+    "max_frame_bytes": 20,
+    "host_idle_ms": 25
+  },
+  "request": {
+    "response_type": "60",
+    "task_id": 513,
+    "sent_at_ms": 0,
+    "deadline_ms": 100
+  },
+  "events": [
+    {
+      "at_ms": 5,
+      "data_hex": "aa556001"
+    },
+    {
+      "at_ms": 10,
+      "data_hex": "0201020304050d0a"
+    }
+  ]
+}

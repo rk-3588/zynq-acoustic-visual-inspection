@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "recipe_count": 6,
+  "staged_files": 98,
+  "idempotent": true,
+  "recipe_sources_resolved": true,
+  "ext4_and_packages_enabled": true,
+  "private_accounts_removed": true,
+  "conflicting_file_refused": true,
+  "replace_backed_up_original": true
+}

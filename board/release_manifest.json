@@ -1,0 +1,37 @@
+{
+  "name": "ac16_final_20261031",
+  "freeze_date": "2026-10-31",
+  "part": "xc7z020clg400-2",
+  "tools": "2026.1",
+  "boot_sha256": "afb669a767b0d34bc73041bbc7ad5298cbdf94be8ddc9a4786047caee5a94445",
+  "bit_sha256": "6b95c6940c8e246e77e72fc2e6ff66b2e29e0de435d9ee15304e0bfb3b13bfd0",
+  "camera_initializer_sha256": "60577766db1820e6d69378b5b5a5fa7d526b0dd90c202ac4acb86021b18a1e57",
+  "ui_sha256": "209d9a1fb5e0e6537106afec7170bc02c3be8feceb6e3ae88575a5d4570b91a8",
+  "robot_daemon_sha256": "d6c8ffb9d60904c8aee90989480cd0917e7645e1e5300b8bdedc6d2990d0f5fe",
+  "watchdog_sha256": "1f6502ecd7747eb3e5efd3fcfc942b33ff210969a1ff2bdc07240207c5908259",
+  "watchdog_cooldown_seconds": 10,
+  "fixed_boot_ui_restart": false,
+  "camera_registers": {
+    "3035": "21",
+    "3821": "01",
+    "3820": "46"
+  },
+  "implementation": {
+    "wns_ns": 0.136,
+    "whs_ns": 0.036,
+    "lut": 25603,
+    "ff": 46470,
+    "bram_tiles": 129,
+    "bram_available": 140,
+    "dsp": 133,
+    "dsp_available": 220
+  },
+  "license_for_original_contributions": "MIT",
+  "third_party_permissions": "pending",
+  "publish_ready": false,
+  "notes": [
+    "Raw full chat, credentials, SD rootfs and vendor installation caches excluded.",
+    "Build reports describe the verified frozen bit, not a new full implementation run.",
+    "Public tree still needs permission for inherited unlicensed material."
+  ]
+}

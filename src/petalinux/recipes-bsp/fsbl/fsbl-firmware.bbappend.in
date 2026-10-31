@@ -1,0 +1,48 @@
+# Board-specific USB3320 reset, after ps7_init and before U-Boot/Linux.
+FILESEXTRAPATHS:prepend := "${THISDIR}/files:"
+SRC_URI:append:zynq = " file://board_usb_phy.h"
+
+python do_board_usb_phy_hook() {
+    import pathlib
+    import shutil
+
+    # This project uses the XSCT FSBL recipe. Do not silently patch shared ESW
+    # sources or an unrelated file when the toolchain/build layout changes.
+    if "zynq" not in (d.getVar("OVERRIDES") or "").split(":"):
+        return
+    if d.getVar("XILINX_WITH_ESW") != "xsct":
+        bb.fatal("Board USB PHY hook requires the validated XSCT FSBL layout")
+    app = pathlib.Path(d.getVar("B")) / d.getVar("XSCTH_PROJ")
+    hooks = app / "fsbl_hooks.c"
+    header = pathlib.Path(d.getVar("WORKDIR")) / "board_usb_phy.h"
+    if not hooks.is_file() or not header.is_file():
+        bb.fatal("Board USB PHY hook: generated FSBL source/header missing")
+    text = hooks.read_text()
+    include = '#include "board_usb_phy.h"'
+    if include not in text:
+        anchor = '#include "fsbl_hooks.h"'
+        if text.count(anchor) != 1:
+            bb.fatal("Board USB PHY hook: unexpected FSBL include layout")
+        text = text.replace(anchor, anchor + "\n" + include, 1)
+    start = text.index("u32 FsblHookBeforeHandoff(void)")
+    end = text.index("\n}", start)
+    body = text[start:end]
+    if "BoardUsbPhyReset();" not in body:
+        anchor = "\tStatus = XST_SUCCESS;"
+        if body.count(anchor) != 1:
+            bb.fatal("Board USB PHY hook: unexpected BeforeHandoff body")
+        body = body.replace(anchor, """\tStatus = BoardUsbPhyReset();
+\tif (Status != XST_SUCCESS) {
+\t\t/* USB failure must not prevent camera/Linux boot. */
+\t\txil_printf("[USBPHY] WARNING: reset not verified; continuing boot\\r\\n");
+\t\tStatus = XST_SUCCESS;
+\t}""", 1)
+        text = text[:start] + body + text[end:]
+    hooks.write_text(text)
+    shutil.copyfile(header, app / "board_usb_phy.h")
+    bb.note("Installed MIO8 USB3320 reset in FsblHookBeforeHandoff")
+}
+
+# do_configure is a shell function in xsctbase; keep the Python customization
+# in its own task rather than appending Python text to a shell task.
+addtask board_usb_phy_hook after do_configure before do_compile

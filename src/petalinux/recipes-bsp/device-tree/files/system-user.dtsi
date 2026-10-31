@@ -1,0 +1,68 @@
+/include/ "system-conf.dtsi"
+
+/ {
+};
+
+&usb0 {
+    status = "okay";
+    dr_mode = "host";
+    phy_type = "ulpi";
+};
+
+&amba {
+    acoustic_ctrl@44a20000 {
+        compatible = "generic-uio";
+        reg = <0x44a20000 0x10000>;
+        status = "okay";
+    };
+};
+/ {
+    usb_phy0: phy0 {
+        compatible = "ulpi-phy";
+        #phy-cells = <0>;
+        reg = <0xe0002000 0x1000>;
+        view-port = <0x170>;
+        drv-vbus;
+    };
+};
+
+&usb0 {
+    status = "okay";
+    dr_mode = "host";
+    phy_type = "ulpi";
+    usb-phy = <&usb_phy0>;
+};
+
+/ {
+    reserved-memory {
+        #address-cells = <1>;
+        #size-cells = <1>;
+        ranges;
+        video_fb: video-framebuffer@1000000 {
+            compatible = "shared-dma-pool";
+            no-map;
+            reg = <0x01000000 0x03000000>;
+        };
+    };
+};
+
+
+&{/pl-bus/add_image@40000000} { compatible = "generic-uio"; status = "okay"; };
+&{/pl-bus/color_mapping@40010000} { compatible = "generic-uio"; status = "okay"; };
+&{/pl-bus/dma@43000000} { compatible = "generic-uio"; status = "okay"; };
+&{/pl-bus/v_tc@43c10000} { compatible = "generic-uio"; status = "okay"; };
+&{/pl-bus/dma@44a00000} { compatible = "generic-uio"; status = "okay"; };
+
+/* Single owner: userspace initializes the mixer; do not also bind DRM to it.
+ * UI overlays remain disabled until their DDR buffers are explicitly ready. */
+&v_mix_0 {
+    compatible = "generic-uio";
+    linux,uio-name = "video_mixer@44a30000";
+    status = "okay";
+};
+
+/include/ "acoustic-capture.dtsi"
+
+/include/ "video-preprocess.dtsi"
+
+/include/ "uart1.dtsi"

@@ -1,0 +1,12 @@
+/* UART0 remains the Linux console. UART1 is a separate Arduino link via EMIO.
+ * Do not add UART1 to chosen/stdout-path or start a getty on this port. */
+&uart1 {
+    status = "okay";
+};
+
+/ {
+    aliases {
+        serial0 = &uart0;
+        serial1 = &uart1;
+    };
+};

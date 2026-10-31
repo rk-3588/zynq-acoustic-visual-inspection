@@ -1,0 +1,9 @@
+/* Reuse the node generated from the matching video_preprocess XSA.
+ * Keep its generated reg (0x40040000 / 64K) and clock properties.
+ * No interrupt: userspace polls the frame/config status registers.
+ */
+&video_preprocess_0 {
+    compatible = "generic-uio";
+    linux,uio-name = "video_preprocess@40040000";
+    status = "okay";
+};

@@ -1,0 +1,154 @@
+Vivado 2026.1; 2026-10-31; project creation/BD validation/output generation.
+PASS_FINAL_PROJECT_CREATED_AND_BD_VALIDATED <short_output>
+Full synthesis/place/route was not rerun.
+Warnings below are retained, not represented as zero warnings.
+WARNING: [IP_Flow 19-11772] Failed to register IP shared directory path '<workspace>/publish/work/generated/blk_mem_gen_0/' for IP 'blk_mem_gen_0'.
+WARNING: [IP_Flow 19-11772] Failed to register IP shared directory path '<short_output>/work/generated/blk_mem_gen_0/' for IP 'blk_mem_gen_0'.
+WARNING: [IP_Flow 19-11772] Failed to register IP shared directory path '<workspace>/publish/work/generated/blk_mem_gen_1/' for IP 'blk_mem_gen_1'.
+WARNING: [IP_Flow 19-11772] Failed to register IP shared directory path '<short_output>/work/generated/blk_mem_gen_1/' for IP 'blk_mem_gen_1'.
+WARNING: [IP_Flow 19-11772] Failed to register IP shared directory path '<workspace>/publish/work/generated/blk_mem_gen_2/' for IP 'blk_mem_gen_2'.
+WARNING: [IP_Flow 19-11772] Failed to register IP shared directory path '<short_output>/work/generated/blk_mem_gen_2/' for IP 'blk_mem_gen_2'.
+WARNING: [IP_Flow 19-11772] Failed to register IP shared directory path '<workspace>/publish/work/generated/bram_24x4096/' for IP 'bram_24x4096'.
+WARNING: [IP_Flow 19-11772] Failed to register IP shared directory path '<short_output>/work/generated/bram_24x4096/' for IP 'bram_24x4096'.
+WARNING: [IP_Flow 19-11772] Failed to register IP shared directory path '<workspace>/publish/work/generated/delay_hls/' for IP 'delay_hls'.
+WARNING: [IP_Flow 19-11772] Failed to register IP shared directory path '<short_output>/work/generated/delay_hls/' for IP 'delay_hls'.
+WARNING: [IP_Flow 19-11772] Failed to register IP shared directory path '<workspace>/publish/work/generated/inter_hls/' for IP 'inter_hls'.
+WARNING: [IP_Flow 19-11772] Failed to register IP shared directory path '<short_output>/work/generated/inter_hls/' for IP 'inter_hls'.
+WARNING: [IP_Flow 19-12246] XCI file '<source_root>/src/vivado/ip/vram_64x9216/vram_64x9216.xci' contents have changed since it was last written.
+WARNING: [IP_Flow 19-11772] Failed to register IP shared directory path '<workspace>/publish/work/generated/vram_64x9216/' for IP 'vram_64x9216'.
+WARNING: [IP_Flow 19-11772] Failed to register IP shared directory path '<short_output>/work/generated/vram_64x9216/' for IP 'vram_64x9216'.
+WARNING: [IP_Flow 19-12246] XCI file '<source_root>/src/vivado/ip/vram_add_hls/vram_add_hls.xci' contents have changed since it was last written.
+WARNING: [IP_Flow 19-11772] Failed to register IP shared directory path '<workspace>/publish/work/generated/vram_add_hls/' for IP 'vram_add_hls'.
+WARNING: [IP_Flow 19-11772] Failed to register IP shared directory path '<short_output>/work/generated/vram_add_hls/' for IP 'vram_add_hls'.
+WARNING: [BD 41-2576] File '<source_root>/src/vivado/ip/system_axi_vdma_0_0/system_axi_vdma_0_0.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File '<source_root>/src/vivado/ip/system_clk_wiz_0_0/system_clk_wiz_0_0.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File '<source_root>/src/vivado/ip/system_processing_system7_0_0/system_processing_system7_0_0.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File '<source_root>/src/vivado/ip/system_rst_ps7_0_100M_0/system_rst_ps7_0_100M_0.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File '<source_root>/src/vivado/ip/system_v_axi4s_vid_out_0_0/system_v_axi4s_vid_out_0_0.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File '<source_root>/src/vivado/ip/system_v_tc_0_0/system_v_tc_0_0.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File '<source_root>/src/vivado/ip/system_v_vid_in_axi4s_0_0/system_v_vid_in_axi4s_0_0.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File '<source_root>/src/vivado/ip/system_DVI_Transmitter_0_2/system_DVI_Transmitter_0_2.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File '<source_root>/src/vivado/ip/system_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0/system_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File '<source_root>/src/vivado/ip/system_ps7_0_axi_periph_imp_auto_pc_0/system_ps7_0_axi_periph_imp_auto_pc_0.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File '<source_root>/src/vivado/ip/system_ps7_0_axi_periph_imp_auto_cc_0/system_ps7_0_axi_periph_imp_auto_cc_0.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File '<source_root>/src/vivado/ip/system_ps7_0_axi_periph_imp_auto_cc_1/system_ps7_0_axi_periph_imp_auto_cc_1.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File '<source_root>/src/vivado/ip/system_ps7_0_axi_periph_imp_auto_cc_2/system_ps7_0_axi_periph_imp_auto_cc_2.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File '<source_root>/src/vivado/ip/system_ps7_0_axi_periph_imp_auto_cc_3/system_ps7_0_axi_periph_imp_auto_cc_3.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File '<source_root>/src/vivado/ip/system_ps7_0_axi_periph_imp_auto_cc_4/system_ps7_0_axi_periph_imp_auto_cc_4.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File '<source_root>/src/vivado/ip/system_ps7_0_axi_periph_imp_auto_cc_5/system_ps7_0_axi_periph_imp_auto_cc_5.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File '<source_root>/src/vivado/ip/system_ps7_0_axi_periph_1/system_ps7_0_axi_periph_1.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File '<source_root>/src/vivado/ip/system_axi_mem_intercon_upgraded_ipi_imp_xbar_0/system_axi_mem_intercon_upgraded_ipi_imp_xbar_0.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File '<source_root>/src/vivado/ip/system_axi_mem_intercon_imp_auto_cc_0/system_axi_mem_intercon_imp_auto_cc_0.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File '<source_root>/src/vivado/ip/system_axi_mem_intercon_imp_auto_cc_1/system_axi_mem_intercon_imp_auto_cc_1.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File '<source_root>/src/vivado/ip/system_axi_mem_intercon_1/system_axi_mem_intercon_1.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File '<source_root>/src/vivado/ip/system_rst_ps7_0_150M_0/system_rst_ps7_0_150M_0.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File '<source_root>/src/vivado/ip/system_video_driver_0_0/system_video_driver_0_0.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File '<source_root>/src/vivado/ip/system_util_vector_logic_0_0/system_util_vector_logic_0_0.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File '<source_root>/src/vivado/ip/system_vram_ctrl_0_0/system_vram_ctrl_0_0.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File '<source_root>/src/vivado/ip/system_clk_wiz_0_1/system_clk_wiz_0_1.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File '<source_root>/src/vivado/ip/system_util_vector_logic_0_1/system_util_vector_logic_0_1.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File '<source_root>/src/vivado/ip/system_buffer_ctrl_0_0/system_buffer_ctrl_0_0.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File '<source_root>/src/vivado/ip/system_sensors_0_0/system_sensors_0_0.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File '<source_root>/src/vivado/ip/system_calculate_0_0/system_calculate_0_0.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File '<source_root>/src/vivado/ip/system_v_vid_in_axi4s_0_1/system_v_vid_in_axi4s_0_1.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File '<source_root>/src/vivado/ip/system_axi_vdma_0_1/system_axi_vdma_0_1.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File '<source_root>/src/vivado/ip/system_ov5640_capture_data_0_0/system_ov5640_capture_data_0_0.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File '<source_root>/src/vivado/ip/system_add_image_0_0/system_add_image_0_0.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File '<source_root>/src/vivado/ip/system_color_mapping_0_0/system_color_mapping_0_0.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File '<source_root>/src/vivado/ip/system_xlslice_0_0/system_xlslice_0_0.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File '<source_root>/src/vivado/ip/system_ExtremalSearcher_0_0/system_ExtremalSearcher_0_0.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File '<source_root>/src/vivado/ip/system_axi_gpio_0_0/system_axi_gpio_0_0.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File '<source_root>/src/vivado/ip/system_util_vector_logic_1_0/system_util_vector_logic_1_0.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File '<source_root>/src/vivado/ip/system_acoustic_camera_ctrl_0_0/system_acoustic_camera_ctrl_0_0.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File '<source_root>/src/vivado/ip/system_acoustic_result_adap_0_0/system_acoustic_result_adap_0_0.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File '<source_root>/src/vivado/ip/system_rst_clk_wiz_1_210M_0/system_rst_clk_wiz_1_210M_0.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File '<source_root>/src/vivado/ip/system_pixel_mapping_0_3/system_pixel_mapping_0_3.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File '<source_root>/src/vivado/ip/system_ila_0_0/system_ila_0_0.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File '<source_root>/src/vivado/ip/system_acoustic_sd_debug_pack_0_0/system_acoustic_sd_debug_pack_0_0.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File '<source_root>/src/vivado/ip/system_acoustic_hpf_200_0_0/system_acoustic_hpf_200_0_0.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File '<source_root>/src/vivado/ip/system_v_mix_0_0/system_v_mix_0_0.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File '<source_root>/src/vivado/ip/system_acoustic_capture_0_0/system_acoustic_capture_0_0.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File '<source_root>/src/vivado/ip/system_video_preprocess_0_0/system_video_preprocess_0_0.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File '<source_root>/src/vivado/ip/system_hp0_protocol_converter_0/system_hp0_protocol_converter_0.xci' referenced by design 'system' could not be found.
+WARNING: [filemgmt 56-12] File '<source_root>/src/vivado/ip/blk_mem_gen_2/delay_rom.coe' cannot be added to the project because it already exists in the project, skipping this file
+WARNING: [IP_Flow 19-5661] Bus Interface 'pixel_clk' does not have any bus interfaces associated with it.
+WARNING: [IP_Flow 19-11770] Clock interface 'pixel_clk' has no FREQ_HZ parameter.
+WARNING: [IP_Flow 19-5661] Bus Interface 'Aclk' does not have any bus interfaces associated with it.
+WARNING: [IP_Flow 19-11770] Clock interface 'Aclk' has no FREQ_HZ parameter.
+WARNING: [IP_Flow 19-5661] Bus Interface 'Aclk' does not have any bus interfaces associated with it.
+WARNING: [IP_Flow 19-11770] Clock interface 'Aclk' has no FREQ_HZ parameter.
+WARNING: [IP_Flow 19-5661] Bus Interface 'Aclk' does not have any bus interfaces associated with it.
+WARNING: [IP_Flow 19-11770] Clock interface 'Aclk' has no FREQ_HZ parameter.
+WARNING: [IP_Flow 19-5101] Packaging a component with a SystemVerilog top file is not fully supported. Please refer to UG1118 'Creating and Packaging Custom IP'.
+WARNING: [IP_Flow 19-587] [HDL Parser] HDL port or parameter 'dc_state' has a dependency on the module local parameter or undefined parameter 'SW'.
+WARNING: [IP_Flow 19-587] [HDL Parser] HDL port or parameter 'u0' has a dependency on the module local parameter or undefined parameter 'SW'.
+WARNING: [IP_Flow 19-587] [HDL Parser] HDL port or parameter 'u1' has a dependency on the module local parameter or undefined parameter 'SW'.
+WARNING: [IP_Flow 19-587] [HDL Parser] HDL port or parameter 'u2' has a dependency on the module local parameter or undefined parameter 'SW'.
+WARNING: [IP_Flow 19-587] [HDL Parser] HDL port or parameter 'u3' has a dependency on the module local parameter or undefined parameter 'SW'.
+WARNING: [IP_Flow 19-587] [HDL Parser] HDL port or parameter 'product_hi1' has a dependency on the module local parameter or undefined parameter 'HPW'.
+WARNING: [IP_Flow 19-587] [HDL Parser] HDL port or parameter 'operand_hi' has a dependency on the module local parameter or undefined parameter 'SW'.
+WARNING: [IP_Flow 19-587] [HDL Parser] HDL port or parameter 'combined_hi' has a dependency on the module local parameter or undefined parameter 'HPW'.
+WARNING: [IP_Flow 19-587] [HDL Parser] HDL port or parameter 'product2' has a dependency on the module local parameter or undefined parameter 'PW'.
+WARNING: [IP_Flow 19-587] [HDL Parser] HDL port or parameter 'delta3' has a dependency on the module local parameter or undefined parameter 'SW'.
+WARNING: [IP_Flow 19-587] [HDL Parser] HDL port or parameter 'output_q4' has a dependency on the module local parameter or undefined parameter 'SW'.
+WARNING: [IP_Flow 19-587] [HDL Parser] HDL port or parameter 'rounded5' has a dependency on the module local parameter or undefined parameter 'OW'.
+WARNING: [IP_Flow 19-587] [HDL Parser] HDL port or parameter 'input_q' has a dependency on the module local parameter or undefined parameter 'SW'.
+WARNING: [IP_Flow 19-587] [HDL Parser] HDL port or parameter 'raw_q3' has a dependency on the module local parameter or undefined parameter 'SW'.
+WARNING: [IP_Flow 19-5661] Bus Interface 'Aclk' does not have any bus interfaces associated with it.
+WARNING: [IP_Flow 19-11770] Clock interface 'Aclk' has no FREQ_HZ parameter.
+WARNING: [IP_Flow 19-5661] Bus Interface 'sample_clk' does not have any bus interfaces associated with it.
+WARNING: [IP_Flow 19-587] [HDL Parser] HDL port or parameter 'shadow_roi' has a dependency on the module local parameter or undefined parameter 'RW'.
+WARNING: [IP_Flow 19-587] [HDL Parser] HDL port or parameter 'pending_roi' has a dependency on the module local parameter or undefined parameter 'RW'.
+WARNING: [IP_Flow 19-587] [HDL Parser] HDL port or parameter 'active_roi' has a dependency on the module local parameter or undefined parameter 'RW'.
+WARNING: [IP_Flow 19-587] [HDL Parser] HDL port or parameter 'next_x' has a dependency on the module local parameter or undefined parameter 'XW'.
+WARNING: [IP_Flow 19-587] [HDL Parser] HDL port or parameter 'next_y' has a dependency on the module local parameter or undefined parameter 'YW'.
+WARNING: [IP_Flow 19-587] [HDL Parser] HDL port or parameter 'roi0' has a dependency on the module local parameter or undefined parameter 'RW'.
+WARNING: [IP_Flow 19-587] [HDL Parser] HDL port or parameter 'roi1' has a dependency on the module local parameter or undefined parameter 'RW'.
+WARNING: [IP_Flow 19-587] [HDL Parser] HDL port or parameter 'input_roi' has a dependency on the module local parameter or undefined parameter 'RW'.
+WARNING: [IP_Flow 19-587] [HDL Parser] HDL port or parameter 'input_x' has a dependency on the module local parameter or undefined parameter 'XW'.
+WARNING: [IP_Flow 19-587] [HDL Parser] HDL port or parameter 'input_y' has a dependency on the module local parameter or undefined parameter 'YW'.
+WARNING: [IP_Flow 19-587] [HDL Parser] HDL port or parameter 'input_inside' has a dependency on the module local parameter or undefined parameter 'RW'.
+WARNING: [IP_Flow 19-587] [HDL Parser] HDL port or parameter 'input_inside' has a dependency on the module local parameter or undefined parameter 'XW'.
+WARNING: [IP_Flow 19-587] [HDL Parser] HDL port or parameter 'input_inside' has a dependency on the module local parameter or undefined parameter 'YW'.
+WARNING: [IP_Flow 19-587] [HDL Parser] HDL port or parameter 'input_inside' has a dependency on the module local parameter or undefined parameter 'YW'.
+WARNING: [IP_Flow 19-587] [HDL Parser] HDL port or parameter 'input_bad' has a dependency on the module local parameter or undefined parameter 'HEIGHT_VALUE'.
+WARNING: [IP_Flow 19-587] [HDL Parser] HDL port or parameter 'input_bad' has a dependency on the module local parameter or undefined parameter 'WIDTH_VALUE'.
+WARNING: [IP_Flow 19-587] [HDL Parser] HDL port or parameter 'pub_roi' has a dependency on the module local parameter or undefined parameter 'RW'.
+WARNING: [IP_Flow 19-587] [HDL Parser] HDL port or parameter 'snapshot_roi' has a dependency on the module local parameter or undefined parameter 'RW'.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem_intercon/xbar/s_axi_awid'(4) to pin: '/axi_mem_intercon/s04_couplers/M_AXI_awid'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem_intercon/xbar/s_axi_arlock'(1) to pin: '/axi_mem_intercon/s04_couplers/M_AXI_arlock'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem_intercon/xbar/s_axi_awlock'(1) to pin: '/axi_mem_intercon/s04_couplers/M_AXI_awlock'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem_intercon/xbar/s_axi_arid'(4) to pin: '/axi_mem_intercon/s04_couplers/M_AXI_arid'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_AWID'(6) to pin: '/hp0_protocol_converter/m_axi_awid'(4) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/hp0_protocol_converter/m_axi_bid'(4) to pin: '/processing_system7_0/S_AXI_HP0_BID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/hp0_protocol_converter/m_axi_rid'(4) to pin: '/processing_system7_0/S_AXI_HP0_RID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_ARID'(6) to pin: '/hp0_protocol_converter/m_axi_arid'(4) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_WID'(6) to pin: '/hp0_protocol_converter/m_axi_wid'(4) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/v_mix_0/m_axi_mm_video1_BID'(1) to pin: '/axi_mem_intercon/S04_AXI_bid'(4) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/v_mix_0/m_axi_mm_video1_RID'(1) to pin: '/axi_mem_intercon/S04_AXI_rid'(4) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem_intercon/xbar/s_axi_awid'(4) to pin: '/axi_mem_intercon/s04_couplers/M_AXI_awid'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem_intercon/xbar/s_axi_arlock'(1) to pin: '/axi_mem_intercon/s04_couplers/M_AXI_arlock'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem_intercon/xbar/s_axi_awlock'(1) to pin: '/axi_mem_intercon/s04_couplers/M_AXI_awlock'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem_intercon/xbar/s_axi_arid'(4) to pin: '/axi_mem_intercon/s04_couplers/M_AXI_arid'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_AWID'(6) to pin: '/hp0_protocol_converter/m_axi_awid'(4) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/hp0_protocol_converter/m_axi_bid'(4) to pin: '/processing_system7_0/S_AXI_HP0_BID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/hp0_protocol_converter/m_axi_rid'(4) to pin: '/processing_system7_0/S_AXI_HP0_RID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_ARID'(6) to pin: '/hp0_protocol_converter/m_axi_arid'(4) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_WID'(6) to pin: '/hp0_protocol_converter/m_axi_wid'(4) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/v_mix_0/m_axi_mm_video1_BID'(1) to pin: '/axi_mem_intercon/S04_AXI_bid'(4) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/v_mix_0/m_axi_mm_video1_RID'(1) to pin: '/axi_mem_intercon/S04_AXI_rid'(4) - Only lower order bits will be connected.
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file '<short_output>/ac16_final.gen/sources_1/bd/vivado/ip/system_axi_vdma_0_0/system_axi_vdma_0_0_ooc.xdc'
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file '<short_output>/ac16_final.gen/sources_1/bd/vivado/ip/system_axi_vdma_1_0/system_axi_vdma_1_0_ooc.xdc'
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file '<short_output>/ac16_final.gen/sources_1/bd/vivado/ip/system_ila_0_0/system_ila_0_0_ooc.xdc'
+WARNING: [IP_Flow 19-1971] File named "sim/system_v_mix_0_0.v" already exists in file group "xilinx_verilogsimulationwrapper", cannot add it again.
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file '<short_output>/ac16_final.gen/sources_1/bd/vivado/ip/system_hp0_protocol_converter_0/system_hp0_protocol_converter_0_ooc.xdc'
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file '<short_output>/ac16_final.gen/sources_1/bd/vivado/ip/system_ps7_0_axi_periph_imp_auto_pc_0/system_ps7_0_axi_periph_imp_auto_pc_0_ooc.xdc'
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file '<short_output>/ac16_final.gen/sources_1/bd/vivado/ip/system_ps7_0_axi_periph_imp_auto_cc_0/system_ps7_0_axi_periph_imp_auto_cc_0_ooc.xdc'
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file '<short_output>/ac16_final.gen/sources_1/bd/vivado/ip/system_ps7_0_axi_periph_imp_auto_cc_1/system_ps7_0_axi_periph_imp_auto_cc_1_ooc.xdc'
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file '<short_output>/ac16_final.gen/sources_1/bd/vivado/ip/system_ps7_0_axi_periph_imp_auto_cc_2/system_ps7_0_axi_periph_imp_auto_cc_2_ooc.xdc'
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file '<short_output>/ac16_final.gen/sources_1/bd/vivado/ip/system_ps7_0_axi_periph_imp_auto_cc_3/system_ps7_0_axi_periph_imp_auto_cc_3_ooc.xdc'
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file '<short_output>/ac16_final.gen/sources_1/bd/vivado/ip/system_ps7_0_axi_periph_imp_auto_cc_4/system_ps7_0_axi_periph_imp_auto_cc_4_ooc.xdc'
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file '<short_output>/ac16_final.gen/sources_1/bd/vivado/ip/system_ps7_0_axi_periph_imp_auto_cc_5/system_ps7_0_axi_periph_imp_auto_cc_5_ooc.xdc'
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file '<short_output>/ac16_final.gen/sources_1/bd/vivado/ip/system_axi_mem_intercon_imp_auto_cc_0/system_axi_mem_intercon_imp_auto_cc_0_ooc.xdc'
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file '<short_output>/ac16_final.gen/sources_1/bd/vivado/ip/system_axi_mem_intercon_imp_auto_cc_1/system_axi_mem_intercon_imp_auto_cc_1_ooc.xdc'
+WARNING: [Runs 36-537] File <source_root>/build/check_capture_cdc.tcl is not part of fileset utils_1, but has specified as a Tcl hook script for run(s) impl_1. This file will not be handled as part of the project for archive and other project based functionality.

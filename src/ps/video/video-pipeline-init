@@ -1,0 +1,9 @@
+#!/bin/sh
+case "$1" in
+  start)
+    [ -x /usr/bin/video_pipeline_init ] || exit 0
+    /usr/bin/video_pipeline_init >>/var/log/video-pipeline.log 2>&1
+    ;;
+  stop) ;;
+  restart) "$0" stop; "$0" start ;;
+esac
