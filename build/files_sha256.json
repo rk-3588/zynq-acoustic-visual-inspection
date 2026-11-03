@@ -34,7 +34,7 @@
   "data/delay_rom.coe": "fb312622ea26e86207b7e91c9ee3335398ff8780f89fab4f31d06807cef0bd38",
   "LICENSE": "009983d59beef2221fdc89b691e750105f28eb30d93befe387dabc5210dc7ff8",
   "license_scope.md": "aa3d88281d48bf63577d7940de64c21f312e2a82e7f2b3292a17c1ae7e981a26",
-  "README.md": "a225058d696d44feffcf5166102254186aba3c90310596d1d442e53d1a2eabd1",
+  "README.md": "8fb8ab74a23e90b2ebdd2ef292575c652d89764da74d488f2bc215d4ce141c8f",
   "report/ai_collaboration.md": "87a7b1cfe0f0cd37697705712c07f54c5dea0ff94a67a7c1a1e1d2e7a78c9edc",
   "report/design_report.md": "189ca78b613f339896f8065a21411e031553227cdc5d1a2dd425d99dfcb5313b",
   "report/design_report_v1.docx": "9f3d32d128552fed372ec17537bf32e482970dbe779ad2c901a695d922ab30c3",
@@ -463,5 +463,5 @@
   "src/vivado/ip_catalog/vram_add/misc/logo.png": "4d978370b877dccf3f3bfaf7a8fdb3554e936ee2d2d3356bdaa64c0c4e30c9af",
   "src/vivado/ip_catalog/vram_add/xgui/vram_add_v1_0.tcl": "afd3e4fc7270a93d775a4de109d5ea7cbd830e7c5bc243e420e15ef9e5be4754",
   "src/vivado/system.bd": "effa0fbfe701190cd56f752807d7d4a6fed1edd85efa3a6da20d5a4e8b9c7c73",
-  "third_party.md": "b12b49f6f45cf0b472d797c45a4452303cd6b37db4306743dd109c87d8da98d3"
+  "third_party.md": "e5171a6ded8fd9d4565f1cc007f4c657621d641695ba368d84c790de8dfef8e6"
 }
