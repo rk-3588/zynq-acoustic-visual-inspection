@@ -2,6 +2,8 @@
 
 硬件：XC7Z020-CLG400-2、OV5640、16路ICS-43434双环（25/50 mm）、HDMI触摸屏。机械臂使用独立控制器。本工程不是PYNQ Overlay，使用PetaLinux＋UIO，不能套用PYNQ加载命令。
 
+取得配套预编译系统文件后，可按 [SD最小启动流程](sd_quickstart.md) 直接写卡运行。完整运行镜像待原样机SD卡离线导出、核验后另行提供；当前源码仓库不包含完整SD恢复镜像。下面保留完整启动配置和构建说明。
+
 ## 启动与根文件系统
 
 SD第一分区为FAT，放BOOT.BIN、image.ub、boot.scr、system.dtb；第二分区为可写EXT4根文件系统，内核命令行使用：

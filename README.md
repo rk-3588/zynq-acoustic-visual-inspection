@@ -33,6 +33,8 @@ git clone https://github.com/rk-3588/zynq-acoustic-visual-inspection.git
 cd zynq-acoustic-visual-inspection
 ```
 
+使用配套预编译文件直接启动时，见 [SD 最小启动流程](board/sd_quickstart.md)。完整运行镜像另行提供，须包含最终版应用的 EXT4 根文件系统。以下步骤用于修改源码和重新构建。
+
 ### 1. 构建 FPGA 工程
 
 安装包含 Zynq-7000 器件支持的 Vivado 2026.1，在 Vivado 命令环境中运行：
@@ -119,7 +121,9 @@ report/          设计报告与验证资料
 
 ## 文档
 
-- [设计报告](report/design_report.md)
+- [完整设计报告（Word）](report/design_report_v1.docx)
+- [设计报告技术稿（Markdown）](report/design_report.md)
+- [预编译镜像 SD 最小启动流程](board/sd_quickstart.md)
 - [上板与启动说明](board/README.md)
 - [UIO、DDR 与串口接口](board/interfaces.md)
 - [HLS 源码与测试](src/hls/README.md)

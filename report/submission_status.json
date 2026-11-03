@@ -16,9 +16,10 @@
   "technical_evidence": "build/validation.json",
   "remaining_before_final_submission": [
     "Obtain and retain upstream/board-source redistribution permissions.",
-    "Add team information and final physical prototype photographs.",
+    "Add team information; physical prototype photographs are included in the Word report.",
     "Complete quantitative performance benchmarks where required.",
-    "Typeset the final competition report using the required submission format."
+    "Review the final competition report using the required submission format.",
+    "Export and validate the final SD runtime image after the original sample card is available."
   ],
   "unmeasured_metrics": [
     "standardized physical localization error",
@@ -28,5 +29,11 @@
     "industrial abnormal-sound classification accuracy"
   ],
   "publication_status": "source repository; third-party clearance tracked separately",
-  "repository": "https://github.com/rk-3588/zynq-acoustic-visual-inspection"
+  "repository": "https://github.com/rk-3588/zynq-acoustic-visual-inspection",
+  "design_report": {
+    "word": "report/design_report_v1.docx",
+    "updated": "2026-11-03",
+    "minimal_startup": "board/sd_quickstart.md",
+    "runtime_image_status": "awaiting original SD card export and validation"
+  }
 }

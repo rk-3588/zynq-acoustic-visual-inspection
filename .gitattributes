@@ -10,6 +10,7 @@
 *.bb text eol=lf
 *.in text eol=lf
 *.png binary
+*.docx binary
 *.zip binary
 # Preserve the byte-for-byte archived evidence and its recorded checksums.
 /skill/linux-uart-receive/references/evidence/* -text
