@@ -3115,39 +3115,31 @@
     "modified_for_export": true
   },
   {
-    "source": "report/project_report_sourcebook.md",
-    "destination": "report/design_facts.md",
-    "source_sha256": "b3d80a0037c5edcfc1aa022a8330d14fcd9c5b3d01abfd7af61519de48cca547",
-    "sha256": "6d665015bef84c0af2e3cd8d21cd229cc7ec1eb93902ee6fc53df186b37d918a",
-    "modified_for_export": true,
-    "export_note": "Reviewed release-only path/configuration or test harness normalization; frozen runtime is not redeployed."
-  },
-  {
     "source": "diagnostics/20261031/ui_watchdog/result.md",
     "destination": "board/evidence/ui_watchdog.md",
     "source_sha256": "decd67d0afc39fb7738c125afff8f09ddf8da9537326c81a608d4e34c6c4f2dc",
-    "sha256": "62f9ab68d630d5dcf5bbab1334f41baa9686185adaa8bc20d88ae850c6fdecd7",
+    "sha256": "93a7b6105f3cb18d9cc772d26b6cd92babcbfba0d864bab8d69aebfa0405ec8b",
     "modified_for_export": true
   },
   {
     "source": "diagnostics/20261030/gallery_stripes_after_hflip/result.md",
     "destination": "board/evidence/display_recovery.md",
     "source_sha256": "ec9ad01ba031c2ba673d61199fc54158e5f5f7f103683bb76c346cf0f24f18c2",
-    "sha256": "ec9ad01ba031c2ba673d61199fc54158e5f5f7f103683bb76c346cf0f24f18c2",
-    "modified_for_export": false
+    "sha256": "1d1b3594f4aff65309e9f12fe876cc824a08d43374a2426a3524c266dce0ffed",
+    "modified_for_export": true
   },
   {
     "source": "diagnostics/20261031/arm_latest_region/result.md",
     "destination": "board/evidence/robot_ui_v30.md",
     "source_sha256": "fa49269ee84cee5215487ad91ef932a813ba8e2e5d391fc753d8a9a9fbdca773",
-    "sha256": "05d8dc417d8cae881bbc1ec24fee3a4c74c228b447a56e4b98b15b0a5b5f4d5b",
+    "sha256": "4d93387a89d02b2ba4727e0412c5587ac3eeacc3d157c260e8ac7340d0e4230b",
     "modified_for_export": true
   },
   {
     "source": "diagnostics/20261030/snapshot_board/result.md",
     "destination": "board/evidence/capture_half_clock.md",
     "source_sha256": "a52a9a87b517a78550243e3d2627141149e1edb7c172443617926db9e7cc7545",
-    "sha256": "a52a9a87b517a78550243e3d2627141149e1edb7c172443617926db9e7cc7545",
-    "modified_for_export": false
+    "sha256": "2387c3a2e062062b4cd9fee3828a684e53c2bc6512772c81566d45b1849938ae",
+    "modified_for_export": true
   }
 ]

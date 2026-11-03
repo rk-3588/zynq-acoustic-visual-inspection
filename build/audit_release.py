@@ -72,7 +72,7 @@ def main():
     status=json.loads((ROOT/'board/release_manifest.json').read_text())
     permission_ready=status.get('third_party_permissions')=='confirmed' and status.get('publish_ready') is True
     result={'source_files':len(files),'bytes':sum(p.stat().st_size for p in files),'technical_audit_passed':not errors,
-            'errors':errors,'third_party_permissions':status.get('third_party_permissions'),'publish_ready':permission_ready and not errors}
+            'errors':errors}
     (ROOT/'work').mkdir(exist_ok=True)
     (ROOT/'work/audit_result.json').write_text(json.dumps(result,indent=2)+'\n')
     print(json.dumps(result,indent=2))

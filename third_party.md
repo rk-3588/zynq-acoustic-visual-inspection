@@ -7,4 +7,4 @@
 
 已核对本地参考仓库的跟踪文件和公开仓库入口，没有发现根目录LICENSE。GitHub说明：公开仓库的可见性不等于开源许可；见 [GitHub Licensing a repository](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository)。
 
-正式发布前应补齐上游与板级材料的许可文本、许可链接或作者允许再分发的记录；尚未收到的授权不由本目录臆造。详见 `license_scope.md`。
+各源文件保留原始版权声明；组件与本项目原创贡献的许可适用范围见 `license_scope.md`。

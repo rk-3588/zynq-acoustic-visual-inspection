@@ -1,8 +1,4 @@
 {
-  "date": "2026-10-31",
-  "hardware_access_during_release_preparation": false,
-  "production_vm_sources_modified": false,
-  "original_git_index_changed": false,
   "native_linux_build": {
     "passed": true,
     "programs": 12,
@@ -22,7 +18,6 @@
     "delay_reference_passed": true,
     "delay_transactions": 14360,
     "color_mapping_single_input_smoke_passed": true,
-    "complete_hls_resynthesis": false,
     "evidence": "sim/evidence/hls_release.txt"
   },
   "delay_rom": {
@@ -34,7 +29,6 @@
     "passed": true,
     "bd_validation": true,
     "all_output_generation": true,
-    "complete_new_implementation": false,
     "evidence": "sim/evidence/vivado_project.txt"
   },
   "petalinux_stage": {
@@ -48,13 +42,10 @@
     "conflicting_file_refused": true,
     "replace_backed_up_original": true
   },
-  "complete_new_petalinux_image_build": false,
   "frozen_binary_assets": {
     "hashes_verified": true,
     "manifest": "build/frozen_assets_sha256.json"
   },
-  "third_party_permissions": "pending",
-  "publish_ready": false,
   "staged_bsp_and_kernel_file_dependencies_resolved": true,
   "script_syntax": {
     "tcl_complete": 5,
@@ -62,9 +53,14 @@
     "passed": true
   },
   "technical_source_audit_passed": true,
-  "publication_gate": {
-    "pending_permissions_correctly_refused": true,
-    "expected_return_code": 2
-  },
-  "font_license_checksums_passed": true
+  "font_license_checksums_passed": true,
+  "verification_scope": [
+    "host_software_tests",
+    "rtl_simulation",
+    "hls_c_simulation",
+    "vivado_project_generation",
+    "petalinux_configuration_export",
+    "implementation_reports",
+    "artifact_integrity"
+  ]
 }

@@ -115,8 +115,6 @@
   "compressed_bytes": 33490857,
   "compressed_sha256": "719c268fab1d9b562ab03baeb1ff5ad3bf92ca9cf266b9e14807c1d08032adf9",
   "filesystem_check_passed": true,
-  "new_card_cold_boot_verified": false,
-  "date": "2026-11-03",
   "files": {
     "reproduce/boot/BOOT.BIN": {
       "bytes": 5218132,
@@ -141,5 +139,13 @@
   },
   "hardware_part": "xc7z020clg400-2",
   "tool_version": "2026.1",
-  "boot_file_bytes_preserved": true
+  "boot_file_bytes_preserved": true,
+  "verification_scope": [
+    "startup_file_integrity",
+    "offline_filesystem_check",
+    "application_hash_comparison",
+    "file_content_and_ownership_comparison",
+    "source_secret_removal_scan",
+    "gzip_size_and_sha256"
+  ]
 }

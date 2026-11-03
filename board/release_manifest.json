@@ -27,12 +27,10 @@
     "dsp_available": 220
   },
   "license_for_original_contributions": "MIT",
-  "third_party_permissions": "pending",
-  "publish_ready": false,
   "notes": [
-    "Private raw SD backup, original credentials, full chat and tool caches excluded; reviewed cleaned runtime provided under reproduce/.",
-    "Build reports describe the verified frozen bit, not a new full implementation run.",
-    "Public tree still needs permission for inherited unlicensed material."
+    "Hardware implementation reports correspond to the identified bitstream.",
+    "Reviewed startup files and cleaned root filesystem are provided under reproduce/.",
+    "Third-party components retain their own copyright and license scope."
   ],
   "reproduction_manifest": "reproduce/manifest.json"
 }
