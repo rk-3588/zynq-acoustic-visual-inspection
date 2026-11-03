@@ -19,7 +19,7 @@
     "Add team information; physical prototype photographs are included in the Word report.",
     "Complete quantitative performance benchmarks where required.",
     "Review the final competition report using the required submission format.",
-    "Export and validate the final SD runtime image after the original sample card is available."
+    "Cold-boot the cleaned public reproduction image using another SD card."
   ],
   "unmeasured_metrics": [
     "standardized physical localization error",
@@ -33,7 +33,7 @@
   "design_report": {
     "word": "report/design_report_v1.docx",
     "updated": "2026-11-03",
-    "minimal_startup": "board/sd_quickstart.md",
-    "runtime_image_status": "awaiting original SD card export and validation"
+    "minimal_startup": "reproduce/README.md",
+    "runtime_image_status": "cleaned public runtime exported, offline verified; new-card cold boot pending"
   }
 }

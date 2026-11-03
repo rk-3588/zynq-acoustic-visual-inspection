@@ -1,0 +1,145 @@
+{
+  "source_modified": false,
+  "fresh_filesystem": true,
+  "removed_categories": [
+    "personal homes and shell histories",
+    "SSH host keys and authorized keys",
+    "old login hashes",
+    "capture album and robot task history",
+    "debug backups and logs",
+    "machine identity and network state"
+  ],
+  "new_demo_accounts": [
+    "root",
+    "petalinux"
+  ],
+  "change_demo_password_on_first_login": true,
+  "applications": {
+    "video_status_panel": {
+      "present": true,
+      "bytes": 1213804,
+      "sha256": "209d9a1fb5e0e6537106afec7170bc02c3be8feceb6e3ae88575a5d4570b91a8",
+      "versions": [
+        "20261031-video-status-arm-live-v30",
+        "20261015-video-preprocess-control-v3",
+        "20261013-pl-control-enable-v3",
+        "20261006-pl-control-v2",
+        "20261031-robot-control-v7"
+      ]
+    },
+    "video_pipeline_init": {
+      "present": true,
+      "bytes": 96140,
+      "sha256": "60577766db1820e6d69378b5b5a5fa7d526b0dd90c202ac4acb86021b18a1e57",
+      "versions": [
+        "20261006-video-mixer-primary-v1",
+        "20261030-video-init-half-clock-hflip-v2"
+      ]
+    },
+    "video_ui_watchdog": {
+      "present": true,
+      "bytes": 45028,
+      "sha256": "1f6502ecd7747eb3e5efd3fcfc942b33ff210969a1ff2bdc07240207c5908259",
+      "versions": [
+        "20261031-ui-watchdog-v2",
+        "20261031-ui-watchdog-v2 readonly-uio-check=pass"
+      ]
+    },
+    "robot_control_daemon": {
+      "present": true,
+      "bytes": 133172,
+      "sha256": "d6c8ffb9d60904c8aee90989480cd0917e7645e1e5300b8bdedc6d2990d0f5fe",
+      "versions": [
+        "20261031-robot-control-v7",
+        "20261013-pl-control-enable-v3",
+        "20261006-pl-control-v2"
+      ]
+    },
+    "camera_snapshot": {
+      "present": true,
+      "bytes": 139048,
+      "sha256": "a8bae7cb7b7d938087133564a19a116542502ea8b44edb8d1573a75c67b89a3f",
+      "versions": [
+        "20261026-camera-snapshot-v3",
+        "20261013-pl-control-enable-v3",
+        "20261006-pl-control-v2"
+      ]
+    },
+    "camera_album": {
+      "present": true,
+      "bytes": 97196,
+      "sha256": "8564654b4f03818ef7878a550158b0d992125fadfb1bc75fedc021436321814c",
+      "versions": [
+        "20261030-camera-album-v2"
+      ]
+    },
+    "pl_control_daemon": {
+      "present": true,
+      "bytes": 92848,
+      "sha256": "a1ac42f5504389e6393d67e1ccdb5c4b24de9ace0a907ec6c88dcbd532a791fd",
+      "versions": [
+        "20261013-pl-control-enable-v3",
+        "20261013-display-enable-v7",
+        "20261013-pl-control-enable-v3"
+      ]
+    },
+    "acoustic_display_control": {
+      "present": true,
+      "bytes": 67056,
+      "sha256": "95527f24ecc52b84d416dbf548975d4283d0e78b0b46a200ec00f4d1f54ab87f",
+      "versions": [
+        "20261013-display-enable-v7"
+      ]
+    },
+    "acoustic_frequency": {
+      "present": true,
+      "bytes": 13712,
+      "sha256": "591234e32257b65b7d23b5cd21fd48f1d4bf799d6932a0dfd1bf32bd8aec654e",
+      "versions": [
+        "20261013-acoustic-frequency-v2"
+      ]
+    },
+    "acoustic_frequency_feed": {
+      "present": true,
+      "bytes": 27432,
+      "sha256": "c3c9ebf575a3a49950772eaa01301fdb36bf7faf4c05fb0133292e9d709498a1",
+      "versions": [
+        "20261013-acoustic-frequency-feed-v1"
+      ]
+    }
+  },
+  "all_staged_files_and_ownership_verified": true,
+  "original_secret_bytes_absent": true,
+  "rootfs_bytes": 1073741824,
+  "rootfs_sha256": "92c54e675721344f526f04742b4c32b0222cb4d486860c9fdf7a5340dc588b8f",
+  "compressed_bytes": 33490857,
+  "compressed_sha256": "719c268fab1d9b562ab03baeb1ff5ad3bf92ca9cf266b9e14807c1d08032adf9",
+  "filesystem_check_passed": true,
+  "new_card_cold_boot_verified": false,
+  "date": "2026-11-03",
+  "files": {
+    "reproduce/boot/BOOT.BIN": {
+      "bytes": 5218132,
+      "sha256": "afb669a767b0d34bc73041bbc7ad5298cbdf94be8ddc9a4786047caee5a94445"
+    },
+    "reproduce/boot/image.ub": {
+      "bytes": 5200619,
+      "sha256": "8ffbe5937e18400bb1a04dabd8890034839d6182aeea220c7cf243c0709c7aea"
+    },
+    "reproduce/boot/boot.scr": {
+      "bytes": 3830,
+      "sha256": "4c7ed60cad10872084bf727b2c9ab0eca9eab992635cf3abf67dfe7ed9cc7807"
+    },
+    "reproduce/boot/system.dtb": {
+      "bytes": 24465,
+      "sha256": "b95176eb0473e4f768d618387ffd8d8072125e8315079bb6f5f652f9ce1467e5"
+    },
+    "reproduce/rootfs.ext4.gz": {
+      "bytes": 33490857,
+      "sha256": "719c268fab1d9b562ab03baeb1ff5ad3bf92ca9cf266b9e14807c1d08032adf9"
+    }
+  },
+  "hardware_part": "xc7z020clg400-2",
+  "tool_version": "2026.1",
+  "boot_file_bytes_preserved": true
+}

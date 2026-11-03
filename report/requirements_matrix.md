@@ -11,10 +11,10 @@
 | 3.3.5.1 完整RTL/HLS/PS源码 | `src/`，包括独立IP、总线定义、最终摄像头变体 | 已整理，排除工作缓存 |
 | 3.3.5.1 仿真与功能正确性说明 | `sim/`、ROM独立参考、软件/PTY测试、`report/verification.md` | 有可执行入口及真实结果；完整系统重新实现未重复执行 |
 | 3.3.5.1 综合/实现报告 | `build/reports/`：时序、资源、DRC、布线、bus skew | 冻结bit对应报告已整理 |
-| 3.3.5.1 上板流程、实测/参考比对 | `board/README.md`、只读状态脚本、`board/evidence/`、技能包黄金对照 | 已整理，镜像与源码分开 |
+| 3.3.5.1 上板流程、实测/参考比对 | `board/README.md`、只读状态脚本、`board/evidence/`、技能包黄金对照 | 已整理，启动文件和根文件系统集中在reproduce目录 |
 | 3.3.5.1 可复现构建脚本 | `build/create_project.tcl`、`build_hardware.tcl`、`build_ps.py`、`stage_petalinux.py` | 已提供并按验证记录标注测试范围 |
 | 3.3.5.2 `skill/README.md`、适用/使用/失效条件 | UART接收技能、离线回放、Python/C前后对照、30项测试 | 已有完整包；不声称PYNQ通用Skill加分 |
-| 3.3.5.3 设计原理、分工、优化判断和复现说明 | `report/design_report_v1.docx`、`design_report.md`、`design_facts.md`、`board/sd_quickstart.md` | 已提供含实物图的Word报告及最小启动说明；团队信息、量化指标和最终提交审阅仍待补，完整运行镜像另行提供 |
+| 3.3.5.3 设计原理、分工、优化判断和复现说明 | `report/design_report_v1.docx`、`design_report.md`、`design_facts.md`、`board/sd_quickstart.md` | 已提供含实物图的Word报告及最小启动说明；团队信息、量化指标和最终提交审阅仍待补，清理后的运行文件在reproduce目录，新卡冷启动待验收 |
 | 3.3.5.3 真实提示词、回答与纠错轨迹 | `report/ai_collaboration.md`、技能内 `references/collaboration.md` | 提供可追溯摘录，标注不是完整原始对话 |
 | 3.3.5.4 英文目录/文件名和目录映射 | ASCII路径；普通文件小写，标准README/SKILL/LICENSE入口保留大小写 | 自动审计检查 |
 

@@ -26,3 +26,6 @@ xsim.dir/
 credentials*
 id_rsa*
 id_ed25519*
+# The reviewed reproduction payload is intentionally versioned.
+!/reproduce/boot/BOOT.BIN
+!/reproduce/boot/image.ub

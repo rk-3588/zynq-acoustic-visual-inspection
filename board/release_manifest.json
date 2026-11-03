@@ -30,8 +30,9 @@
   "third_party_permissions": "pending",
   "publish_ready": false,
   "notes": [
-    "Raw full chat, credentials, SD rootfs and vendor installation caches excluded.",
+    "Private raw SD backup, original credentials, full chat and tool caches excluded; reviewed cleaned runtime provided under reproduce/.",
     "Build reports describe the verified frozen bit, not a new full implementation run.",
     "Public tree still needs permission for inherited unlicensed material."
-  ]
+  ],
+  "reproduction_manifest": "reproduce/manifest.json"
 }
