@@ -16,3 +16,4 @@
 /reproduce/boot/* binary
 # Preserve the byte-for-byte archived evidence and its recorded checksums.
 /skill/linux-uart-receive/references/evidence/* -text
+*.pdf binary

@@ -1,6 +1,6 @@
 # 基于Zynq的便携式声源可视化与视觉辅助检测系统
 
-本文介绍系统架构、核心算法与软硬件实现。完整图文说明见 [设计报告](design_report_v1.docx)，直接运行见 [复现说明](../reproduce/README.md)。
+本文介绍系统架构、核心算法与软硬件实现。完整图文说明见 [设计报告（PDF）](design_report.pdf)，直接运行见 [复现说明](../reproduce/README.md)。
 
 ## 1. 背景与目标
 

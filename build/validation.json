@@ -62,5 +62,16 @@
     "petalinux_configuration_export",
     "implementation_reports",
     "artifact_integrity"
-  ]
+  ],
+  "sd_reproduction": {
+    "passed": true,
+    "target": "2 GiB temporary loop disk",
+    "host_bash_blocks": 14,
+    "troubleshooting_bash_blocks": 10,
+    "mbr_and_fat32": true,
+    "boot_files_compared": true,
+    "ext4_written_checked_and_expanded": true,
+    "application_hashes_compared": 10,
+    "startup_links_checked": true
+  }
 }

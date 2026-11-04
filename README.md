@@ -28,7 +28,8 @@ PL并行完成声学成像、图像处理和视频合成；PetaLinux负责测量
 
 - [直接写卡运行：启动文件与复现步骤](reproduce/README.md)
 - [从源码重新构建](reproduce/build_from_source.md)
-- [完整设计报告](report/design_report_v1.docx)
+- [完整设计报告（PDF）](report/design_report.pdf)
+- [报告Word源文件](report/design_report.docx)
 - [硬件连接与接口](board/interfaces.md)
 - [验证记录](report/verification.md)
 

@@ -3141,5 +3141,19 @@
     "source_sha256": "a52a9a87b517a78550243e3d2627141149e1edb7c172443617926db9e7cc7545",
     "sha256": "2387c3a2e062062b4cd9fee3828a684e53c2bc6512772c81566d45b1849938ae",
     "modified_for_export": true
+  },
+  {
+    "source": "author_report/design_report.pdf",
+    "destination": "report/design_report.pdf",
+    "source_sha256": "6b87832fe2398ec98d291ad7548c7803e9c2728600abdd15ac1983e4b44467a9",
+    "sha256": "6b87832fe2398ec98d291ad7548c7803e9c2728600abdd15ac1983e4b44467a9",
+    "modified_for_export": false
+  },
+  {
+    "source": "author_report/design_report.docx",
+    "destination": "report/design_report.docx",
+    "source_sha256": "de629a1ebc82bc99dbe226d88aa5d0fbd7e97ce3ee6c205289b0cb952a67ecaa",
+    "sha256": "de629a1ebc82bc99dbe226d88aa5d0fbd7e97ce3ee6c205289b0cb952a67ecaa",
+    "modified_for_export": false
   }
 ]

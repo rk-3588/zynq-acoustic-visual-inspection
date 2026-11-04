@@ -1,0 +1,15 @@
+{
+  "primary": "report/design_report.pdf",
+  "editable": "report/design_report.docx",
+  "files": {
+    "report/design_report.pdf": {
+      "bytes": 2685628,
+      "sha256": "6b87832fe2398ec98d291ad7548c7803e9c2728600abdd15ac1983e4b44467a9"
+    },
+    "report/design_report.docx": {
+      "bytes": 4486094,
+      "sha256": "de629a1ebc82bc99dbe226d88aa5d0fbd7e97ce3ee6c205289b0cb952a67ecaa"
+    }
+  },
+  "pdf_pages": 36
+}
