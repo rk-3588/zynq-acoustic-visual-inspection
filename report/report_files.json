@@ -3,12 +3,12 @@
   "editable": "report/design_report.docx",
   "files": {
     "report/design_report.pdf": {
-      "bytes": 2685628,
-      "sha256": "6b87832fe2398ec98d291ad7548c7803e9c2728600abdd15ac1983e4b44467a9"
+      "bytes": 2686043,
+      "sha256": "decbe7e4e90e195d036d6b20a06ec47c4b7b35f15caff22e3386fc52933d91e8"
     },
     "report/design_report.docx": {
-      "bytes": 4486094,
-      "sha256": "de629a1ebc82bc99dbe226d88aa5d0fbd7e97ce3ee6c205289b0cb952a67ecaa"
+      "bytes": 4486325,
+      "sha256": "a58acc025460e882bc2089acc3a3b5817c329eee35af09befc1b7a336ed6ccb0"
     }
   },
   "pdf_pages": 36

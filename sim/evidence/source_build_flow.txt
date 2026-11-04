@@ -1,0 +1,16 @@
+Source build guide command checks
+
+PASS_PETALINUX_CREATE_ZYNQ_PROJECT
+PASS_PETALINUX_IMPORT_XSA_SILENTCONFIG
+PASS_PETALINUX_STAGE 98 files, 6 recipes
+PASS_PETALINUX_STAGE_REPEAT
+PASS_PETALINUX_POST_STAGE_SILENTCONFIG
+PASS_ROOTFS_SELECTION 6 application packages enabled
+PASS_DYNAMIC_LAYER meta-xilinx-tools BBFILES_DYNAMIC retained
+PASS_PS_BUILD 12 programs, Linux x86-64 host build
+PASS_GUIDE_SHELL_SYNTAX 20 Bash/sh blocks
+PASS_GUIDE_POWERSHELL_SYNTAX 1 block
+PASS_GUIDE_LOCAL_LINKS 13 file targets
+
+Scope: fresh PetaLinux project creation/configuration, application staging,
+native C compilation, and documentation syntax/link checks.

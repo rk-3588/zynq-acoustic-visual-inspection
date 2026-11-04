@@ -39,9 +39,19 @@ reproduce/
 ### 1.2 硬件连接
 
 - 与项目一致的XC7Z020-CLG400-2开发板，启动模式设为SD／TF；拨码或跳线位置按开发板手册设置。
+
 - OV5640摄像头、双环16路ICS-43434阵列（半径25／50 mm），按 [接口说明](../board/interfaces.md)、`src/constraints/` 和 [设计报告](../report/design_report.pdf) 中的接线图连接。
+
+- 若使用正点原子ZYNQ-7020最小系统板，可依照如下设置连线
+
+  ![摄像头与扩展接口 J7](images/camera_header_j7.png)
+
+  ![麦克风阵列接口 J8](images/microphone_header_j8.png)
+
 - 屏幕同时连接HDMI、供电及USB触摸数据。触摸数据接开发板的USB Host／配置为Host的OTG接口；电脑侧调试串口是另一条连接。
+
 - UART0调试串口接电脑，参数为 **115200、8数据位、无校验、1停止位、无流控**。
+
 - 连接散热装置并使用已验证稳定的供电方式。机械臂可在基本显示和声学检查完成后接入。
 
 ## 2. Linux制卡工具

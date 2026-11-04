@@ -3145,15 +3145,29 @@
   {
     "source": "author_report/design_report.pdf",
     "destination": "report/design_report.pdf",
-    "source_sha256": "6b87832fe2398ec98d291ad7548c7803e9c2728600abdd15ac1983e4b44467a9",
-    "sha256": "6b87832fe2398ec98d291ad7548c7803e9c2728600abdd15ac1983e4b44467a9",
+    "source_sha256": "decbe7e4e90e195d036d6b20a06ec47c4b7b35f15caff22e3386fc52933d91e8",
+    "sha256": "decbe7e4e90e195d036d6b20a06ec47c4b7b35f15caff22e3386fc52933d91e8",
     "modified_for_export": false
   },
   {
     "source": "author_report/design_report.docx",
     "destination": "report/design_report.docx",
-    "source_sha256": "de629a1ebc82bc99dbe226d88aa5d0fbd7e97ce3ee6c205289b0cb952a67ecaa",
-    "sha256": "de629a1ebc82bc99dbe226d88aa5d0fbd7e97ce3ee6c205289b0cb952a67ecaa",
+    "source_sha256": "a58acc025460e882bc2089acc3a3b5817c329eee35af09befc1b7a336ed6ccb0",
+    "sha256": "a58acc025460e882bc2089acc3a3b5817c329eee35af09befc1b7a336ed6ccb0",
+    "modified_for_export": false
+  },
+  {
+    "source": "author_wiring_diagrams/camera_header_j7.png",
+    "destination": "reproduce/images/camera_header_j7.png",
+    "source_sha256": "46644f69a75c2d8c4e3506ee3ba27de17542e370164bf4b473aa71318fe72ef5",
+    "sha256": "46644f69a75c2d8c4e3506ee3ba27de17542e370164bf4b473aa71318fe72ef5",
+    "modified_for_export": false
+  },
+  {
+    "source": "author_wiring_diagrams/microphone_header_j8.png",
+    "destination": "reproduce/images/microphone_header_j8.png",
+    "source_sha256": "04ae37c9d67222e8d13cd031121993798714ab695b678a67b269cbcb6605dc75",
+    "sha256": "04ae37c9d67222e8d13cd031121993798714ab695b678a67b269cbcb6605dc75",
     "modified_for_export": false
   }
 ]

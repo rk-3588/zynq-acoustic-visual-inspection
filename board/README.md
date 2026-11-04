@@ -16,12 +16,7 @@ U-Boot固化 `scriptaddr=0x08000000`。FSBL在交接前执行MIO8 USB PHY复位�
 
 BOOT包含FSBL、PL、U-Boot和内嵌DTB四个载荷。`boot.bif` 中DTB加载到0x00100000；正式打包时提供与当前硬件相匹配的FSBL/U-Boot/DTB和bit。不要省略第四个载荷。
 
-```sh
-petalinux-build
-bootgen -arch zynq -image board/boot.bif -o work/boot.bin -w on
-```
-
-BIF从 `release_assets/` 读取载荷。它们未混入Git源码提交；冻结版本哈希在 `release_manifest.json`。本地另行保存的二进制包用于同一板型恢复，不应在没有核对引脚/电源/设备树时用于其他板卡。
+BIF从 `release_assets/` 读取载荷。它们未混入Git源码提交；冻结版本哈希在 `release_manifest.json`。从源码重建时，按 [构建指南第6节](../reproduce/build_from_source.md#6-用本次产物打包-bootbin) 使用本次生成的FSBL、bit、U-Boot和DTB建立独立BIF并打包，再按第7节整理制卡文件。本地另行保存的二进制包用于同一板型恢复，不应在没有核对引脚/电源/设备树时用于其他板卡。
 
 第二分区只在**首次部署**或明确决定替换完整根文件系统时写入rootfs.ext4；须先正常关机、离线确认目标分区与备份。不要用猜测的 `/dev/sdX` 命令直接写盘。普通用户态更新不需要重写SD分区。
 

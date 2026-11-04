@@ -73,5 +73,20 @@
     "ext4_written_checked_and_expanded": true,
     "application_hashes_compared": 10,
     "startup_links_checked": true
+  },
+  "source_build_guide": {
+    "passed": true,
+    "new_zynq_project": true,
+    "xsa_import_silentconfig": true,
+    "post_stage_silentconfig": true,
+    "recipe_count": 6,
+    "staged_files": 98,
+    "rootfs_packages_enabled": 6,
+    "dynamic_layer_retained": true,
+    "native_programs": 12,
+    "shell_blocks": 20,
+    "powershell_blocks": 1,
+    "local_link_targets": 13,
+    "evidence": "sim/evidence/source_build_flow.txt"
   }
 }
